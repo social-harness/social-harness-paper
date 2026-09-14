@@ -1,0 +1,89 @@
+{
+  "pass": false,
+  "checks": [
+    {
+      "name": "no-double-book",
+      "where": {
+        "agents": [],
+        "slots": []
+      },
+      "pass": true,
+      "detail": "no slot given to two requesters"
+    },
+    {
+      "name": "valid-slot",
+      "where": {
+        "agents": [],
+        "slots": []
+      },
+      "pass": true,
+      "detail": "all bookings are real openings"
+    },
+    {
+      "name": "within-availability",
+      "where": {
+        "agents": [],
+        "slots": []
+      },
+      "pass": true,
+      "detail": "all bookings are within each requester's availability"
+    },
+    {
+      "name": "coverage",
+      "where": {
+        "agents": [],
+        "slots": []
+      },
+      "pass": true,
+      "detail": "feasible (capacity 8 ≥ 1): expected all 1 booked; got 1 booked, 0 declined, 0 unresolved"
+    },
+    {
+      "name": "calendar-updated",
+      "where": {
+        "agents": [
+          "alvarez-agent"
+        ],
+        "slots": [
+          "Monday 14:00-14:30"
+        ]
+      },
+      "pass": false,
+      "detail": "booked but not added to the day section: Monday 14:00-14:30 with Sarah (FINAL; anchored to Sarah's own calendar)"
+    },
+    {
+      "name": "no-phantom-booking",
+      "where": {
+        "agents": [],
+        "slots": []
+      },
+      "pass": true,
+      "detail": "no requester recorded a meeting the allocator did not book"
+    },
+    {
+      "name": "recorded-by-requester",
+      "where": {
+        "agents": [],
+        "slots": []
+      },
+      "pass": true,
+      "detail": "every booked requester recorded its assigned slot"
+    },
+    {
+      "name": "requester-free",
+      "where": {
+        "agents": [],
+        "slots": []
+      },
+      "pass": true,
+      "detail": "every booked requester was free for its slot"
+    }
+  ],
+  "assignment": [
+    {
+      "requesterId": "sarah-agent",
+      "status": "confirmed",
+      "slot": "Mon 10:00"
+    }
+  ],
+  "evidence": "1/1 booked, 0 declined, 0 unresolved — FAILED: calendar-updated"
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "agent": "john-agent",
+    "key": "persona-john-agent",
+    "text": "Ready to manage John's calendar and messages. I’ll keep `CALENDAR.md` updated, stay within 09:00-17:00 on weekdays, and use the other agents when needed.",
+    "recordedAt": 1788486309947
+  },
+  {
+    "agent": "priya-agent",
+    "key": "persona-priya-agent",
+    "text": "Ready to help with Priya's calendar and messages.",
+    "recordedAt": 1788486310062
+  },
+  {
+    "agent": "sarah-agent",
+    "key": "persona-sarah-agent",
+    "text": "Ready to manage Sarah's calendar and messages. I’ll follow the weekday `09:00-17:00` scheduling window, keep `CALENDAR.md` updated, and use the agent messaging channels when needed.",
+    "recordedAt": 1788486310215
+  },
+  {
+    "agent": "alvarez-agent",
+    "key": "persona-alvarez-agent",
+    "text": "The calendar is quite full. Let me identify the available 30-minute slots within working hours (Mon–Fri, 09:00–17:00).\n\nLet me map the free gaps:\n\n**Monday:** 10:00–10:30, 14:00–14:30 → two 30-min slots\n**Tuesday:** 11:00–11:30, 15:00–15:30 → two 30-min slots\n**Wednesday:** 10:00–10:30, 13:00–13:30, 15:00–15:30 → three 30-min slots\n**Thursday:** 10:00–10:30 → one 30-min slot\n**Friday:** none (fully packed)\n\nThere are plenty of free slots for the students who ask. No students have asked yet in this conversation, so there's nothing to book right now. The instruction is to give a 30-minute 1:1 to **each student who asks** — I'll book slots when requests come in.\n\nI've reviewed the calendar and I'm ready. When Sarah, John, or Priya request a meeting, I'll book them into one of the available slots and log it. Right now there are no pending requests, so nothing to schedule yet.\n\nNO_REPLY",
+    "recordedAt": 1788486316084
+  },
+  {
+    "agent": "john-agent",
+    "key": "seed-john-agent-0",
+    "text": "I sent Professor Alvarez a booking request with these 30-minute options next week: Monday 10:00-10:30 or 14:00-14:30, Tuesday 11:00-11:30, Thursday 14:00-14:30, and Friday 11:00-11:30.\n\nI haven’t updated [CALENDAR.md](/var/run/moltzap/bootstrap/workspace/CALENDAR.md) yet since the slot isn’t confirmed. Once he replies, I’ll book the agreed time and log it.",
+    "recordedAt": 1788486329793
+  },
+  {
+    "agent": "sarah-agent",
+    "key": "seed-sarah-agent-0",
+    "text": "I sent Professor Alvarez’s agent a booking request with Sarah’s available 30-minute windows for next week: Monday `10:00-10:30` or `14:00-14:30`, Tuesday `11:10-11:40`, Wednesday `14:30-15:00`, Thursday `10:00-10:30`, and Friday `11:00-11:30`.\n\nI haven’t updated [CALENDAR.md](/var/run/moltzap/bootstrap/workspace/CALENDAR.md) yet because the time isn’t confirmed. Once Professor Alvarez’s agent replies with a slot, I’ll add it and log the booking.",
+    "recordedAt": 1788486331478
+  },
+  {
+    "agent": "priya-agent",
+    "key": "seed-priya-agent-0",
+    "text": "I’ve started the booking and sent Professor Alvarez’s agent Priya’s available 30-minute windows next week: Monday 10:00-10:30 or 14:00-14:30, Tuesday 11:00-11:30 or 15:00-15:30, and Friday 11:00-11:30.\n\nI haven’t updated [CALENDAR.md](/var/run/moltzap/bootstrap/workspace/CALENDAR.md) yet because I’m still waiting on his confirmation.",
+    "recordedAt": 1788486351051
+  }
+]

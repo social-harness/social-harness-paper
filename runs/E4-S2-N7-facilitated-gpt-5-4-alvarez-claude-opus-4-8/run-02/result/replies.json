@@ -1,0 +1,56 @@
+[
+  {
+    "agent": "diego-agent",
+    "key": "persona-diego-agent",
+    "text": "Ready to help with Diego's calendar and messages.",
+    "recordedAt": 1788485541073
+  },
+  {
+    "agent": "priya-agent",
+    "key": "persona-priya-agent",
+    "text": "Ready to manage Priya's calendar and messages.\n\nI'll follow the weekday `09:00-17:00` scheduling window, update `CALENDAR.md` for next week, log all booking/decline/delete actions, and use `message` to contact the other course staff when needed.",
+    "recordedAt": 1788485541740
+  },
+  {
+    "agent": "hana-agent",
+    "key": "persona-hana-agent",
+    "text": "I’ll handle Hana’s calendar and messages within the stated constraints. Send me the scheduling or messaging task you want handled.",
+    "recordedAt": 1788485541890
+  },
+  {
+    "agent": "omar-agent",
+    "key": "persona-omar-agent",
+    "text": "Ready to help with Omar's calendar and messages.",
+    "recordedAt": 1788485541931
+  },
+  {
+    "agent": "mara-agent",
+    "key": "persona-mara-agent",
+    "text": "I’ll handle calendar and staff-meeting scheduling in that direction and keep the messaging professional. Ready for the next message or scheduling thread.",
+    "recordedAt": 1788485542253
+  },
+  {
+    "agent": "john-agent",
+    "key": "persona-john-agent",
+    "text": "Ready to manage John's calendar and messages.\n\nI’ll keep `CALENDAR.md` updated for next week, stay within `09:00-17:00` Monday through Friday, and use the other course agents when needed.",
+    "recordedAt": 1788485542355
+  },
+  {
+    "agent": "sarah-agent",
+    "key": "persona-sarah-agent",
+    "text": "Ready to manage Sarah's calendar and messages. Tell me what you need.",
+    "recordedAt": 1788485543458
+  },
+  {
+    "agent": "alvarez-agent",
+    "key": "persona-alvarez-agent",
+    "text": "I've reviewed the calendar. This appears to be an introductory message with no specific request yet. The calendar for next week is quite full across all five days.\n\nI'm ready to help. Just let me know what you need:\n\n- **Book a meeting** — e.g., a TA wants a slot; I'll find an open time within working hours (Mon–Fri, 09:00–17:00) and log it.\n- **Decline/cancel** — I'll remove commitments and log the change.\n- **Check availability** — I can find gaps for a particular day or person.\n- **Message a TA** — Mara, Sarah, John, Priya, Diego, Hana, or Omar.\n\nWhat would you like me to do?",
+    "recordedAt": 1788485545843
+  },
+  {
+    "agent": "alvarez-agent",
+    "key": "seed-alvarez-agent-0",
+    "text": "I've sent availability polls to all seven TAs for next week's CSE455 staff meeting. Here's the plan:\n\n**Proposed slots** (all within working hours, all currently free on your calendar):\n- Monday 10:00–10:30 or 14:00–14:30\n- Tuesday 11:00–11:30 or 15:00–15:30\n- Wednesday 10:00–10:30 or 13:00–13:30\n\n**Next steps:** As replies come in, I'll tally which slot works for the most TAs, book it in `CALENDAR.md`, log it, and confirm the final time back to everyone.\n\nI'll follow up automatically once the TAs respond — no need to prompt me. A couple of quick questions so I can finalize cleanly:\n\n1. **Duration** — I assumed ~30 min. Want it longer (e.g., 60 min)?\n2. **Attendance** — Should I lock in the slot with the most availability, or do you require *all seven* TAs to attend?\n\nI'll proceed with \"best-attended 30-min slot\" as the default if I don't hear otherwise.",
+    "recordedAt": 1788485576391
+  }
+]

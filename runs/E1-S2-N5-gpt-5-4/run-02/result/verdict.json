@@ -1,0 +1,52 @@
+{
+  "pass": false,
+  "evidence": "no consensus slot booked (consensus: Tue 15:00, Wed 10:00, Wed 13:00; booked: none); prior-commitments: alvarez-agent: tue 11:00-11:50 - reading group overlaps prior commitment tue 11:30-12:20 - lunch; prior-commitments: john-agent: prior commitment missing or altered: tue 11:00-11:50 - reading group (1 occurrence(s)); john-agent: tue 11:00-11:30 - cse455 staff meeting overlaps prior commitment tue 11:00-11:50 - reading group; prior-commitments: hana-agent: prior commitment missing or altered: tue 11:00-12:20 - lunch (1 occurrence(s)); hana-agent: tue 11:00-11:30 - cse455 staff meeting with professor alvarez overlaps prior commitment tue 11:00-12:20 - lunch; hana-agent: tue 11:30-12:20 - lunch overlaps prior commitment tue 11:00-12:20 - lunch",
+  "reason": "no-shared-slot-booked",
+  "where": {
+    "agents": [
+      "alvarez-agent"
+    ],
+    "slots": []
+  },
+  "checks": [
+    {
+      "name": "prior-commitments",
+      "where": {
+        "agents": [
+          "alvarez-agent"
+        ],
+        "slots": [
+          "tue 11:30-12:20"
+        ]
+      },
+      "pass": false,
+      "detail": "alvarez-agent: tue 11:00-11:50 - reading group overlaps prior commitment tue 11:30-12:20 - lunch"
+    },
+    {
+      "name": "prior-commitments",
+      "where": {
+        "agents": [
+          "john-agent"
+        ],
+        "slots": [
+          "tue 11:00-11:50"
+        ]
+      },
+      "pass": false,
+      "detail": "john-agent: prior commitment missing or altered: tue 11:00-11:50 - reading group (1 occurrence(s)); john-agent: tue 11:00-11:30 - cse455 staff meeting overlaps prior commitment tue 11:00-11:50 - reading group"
+    },
+    {
+      "name": "prior-commitments",
+      "where": {
+        "agents": [
+          "hana-agent"
+        ],
+        "slots": [
+          "tue 11:00-12:20"
+        ]
+      },
+      "pass": false,
+      "detail": "hana-agent: prior commitment missing or altered: tue 11:00-12:20 - lunch (1 occurrence(s)); hana-agent: tue 11:00-11:30 - cse455 staff meeting with professor alvarez overlaps prior commitment tue 11:00-12:20 - lunch; hana-agent: tue 11:30-12:20 - lunch overlaps prior commitment tue 11:00-12:20 - lunch"
+    }
+  ]
+}

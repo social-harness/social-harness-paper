@@ -1,0 +1,20 @@
+{
+  "pass": true,
+  "evidence": "open 10/10 correct; busy+commitment 70/70 correct; 0 busy w/ wrong commitment; misclassified 0 busy→open + 0 open→busy; 0 unrecorded",
+  "coverage": {
+    "totalOpen": 10,
+    "totalBusy": 70,
+    "openCorrect": 10,
+    "busyCommitmentCorrect": 70,
+    "busyWrongCommitment": 0,
+    "busyAsOpen": 0,
+    "openAsBusy": 0,
+    "unrecorded": 0,
+    "perCollector": [
+      {
+        "id": "dana-agent",
+        "open": 10
+      }
+    ]
+  }
+}

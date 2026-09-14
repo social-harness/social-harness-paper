@@ -1,0 +1,92 @@
+[
+  {
+    "agent": "john-agent",
+    "key": "persona-john-agent",
+    "text": "Ready to manage John's calendar and messages. I’ll keep scheduling within `Mon-Fri 09:00-17:00`, update `CALENDAR.md`, and use `agent:<name>` for outreach when needed.",
+    "recordedAt": 1788492898913
+  },
+  {
+    "agent": "sarah-agent",
+    "key": "persona-sarah-agent",
+    "text": "Ready to manage Sarah's calendar and messages. I’ll keep `CALENDAR.md` updated within Monday-Friday `09:00-17:00` and use `agent:<name>` messaging when you want me to contact someone.",
+    "recordedAt": 1788492899040
+  },
+  {
+    "agent": "maya-agent",
+    "key": "persona-maya-agent",
+    "text": "Ready to help with Maya's calendar and messages.",
+    "recordedAt": 1788492899073
+  },
+  {
+    "agent": "hana-agent",
+    "key": "persona-hana-agent",
+    "text": "Ready to help with Hana's calendar and messages.",
+    "recordedAt": 1788492899200
+  },
+  {
+    "agent": "diego-agent",
+    "key": "persona-diego-agent",
+    "text": "Ready to manage Diego's calendar and messages.",
+    "recordedAt": 1788492899268
+  },
+  {
+    "agent": "omar-agent",
+    "key": "persona-omar-agent",
+    "text": "Ready to help manage Omar's calendar and messages. I’ll keep scheduling within `Mon-Fri 09:00-17:00`, update `CALENDAR.md`, and use the listed agents when outreach is needed.",
+    "recordedAt": 1788492899479
+  },
+  {
+    "agent": "priya-agent",
+    "key": "persona-priya-agent",
+    "text": "I’ve loaded next week’s calendar and I’m ready to manage Priya’s schedule and messages.\n\nCurrent constraints in mind: meetings must stay within Monday-Friday, 09:00-17:00, and I’ll keep `CALENDAR.md` updated with booking/decline/delete log entries as needed.",
+    "recordedAt": 1788492903935
+  },
+  {
+    "agent": "alvarez-agent",
+    "key": "persona-alvarez-agent",
+    "text": "The calendar is quite packed. Let me map out the available free slots within working hours (Mon–Fri, 09:00–17:00):\n\n**Free gaps:**\n- **Monday:** 10:00–10:30 (30 min) ✓\n- **Tuesday:** 11:00–11:30 (30 min) ✓; 15:00–15:30 (30 min) ✓\n- **Wednesday:** 10:00–10:30 (30 min) ✓; 13:00–13:30 (30 min) ✓; 15:00–15:30 (30 min) ✓\n- **Thursday:** 10:00–10:30 (30 min) ✓\n- **Friday:** none\n\nThat's a limited set of 30-minute openings. However, right now no student has actually asked me for a meeting — my instruction is to give each student who **asks** a 1:1. I haven't received any requests yet.\n\nI'll wait for actual meeting requests from the students before booking anything, since booking proactively could waste scarce slots on students who don't want a meeting. There's nothing to act on until a student reaches out.\n\nNO_REPLY",
+    "recordedAt": 1788492904291
+  },
+  {
+    "agent": "john-agent",
+    "key": "seed-john-agent-0",
+    "text": "I contacted Professor Alvarez to schedule the 30-minute 1:1 and proposed these open times next week: Monday `10:00-10:30`, Monday `14:00-14:30`, Tuesday `15:00-15:30`, and Wednesday `10:00-10:30` UTC.\n\nI haven’t updated [CALENDAR.md](/var/run/moltzap/bootstrap/workspace/CALENDAR.md) yet because the meeting isn’t confirmed yet. Once he replies with a slot, I’ll book it and log the change.",
+    "recordedAt": 1788492916870
+  },
+  {
+    "agent": "sarah-agent",
+    "key": "seed-sarah-agent-0",
+    "text": "I’ve contacted Professor Alvarez with Sarah’s available 30-minute slots next week:\n\n- Monday `10:00-10:30`\n- Monday `14:00-14:30`\n- Tuesday `11:00-11:30`\n- Tuesday `15:00-15:30`\n- Wednesday `10:00-10:30`\n\nI haven’t updated [CALENDAR.md](/var/run/moltzap/bootstrap/workspace/CALENDAR.md) yet since the time isn’t confirmed. Once he replies with a slot, I’ll book it and log the change.",
+    "recordedAt": 1788492918743
+  },
+  {
+    "agent": "diego-agent",
+    "key": "seed-diego-agent-0",
+    "text": "I’ve sent Professor Alvarez’s agent a scheduling request with Diego’s available 30-minute windows next week: Monday 10:00-10:30 or 14:00-14:30, Wednesday 13:00-13:30 or 15:00-15:30, Thursday 10:00-10:30, and Friday 11:10-11:40 UTC.\n\nI’m waiting on confirmation before updating `CALENDAR.md` so I don’t block off the wrong slot.",
+    "recordedAt": 1788492921721
+  },
+  {
+    "agent": "omar-agent",
+    "key": "seed-omar-agent-0",
+    "text": "I sent Professor Alvarez’s agent Omar’s open 30-minute windows for next week and asked for a confirmed slot:\n\n`Mon 10:00-10:30`, `Mon 14:00-14:30`, `Tue 12:00-12:30`, `Wed 10:30-11:00`, `Thu 10:00-10:30`, `Thu 14:00-14:30`, `Fri 11:00-11:30`, `Fri 13:00-13:30` UTC.\n\nI haven’t updated [CALENDAR.md](/var/run/moltzap/bootstrap/workspace/CALENDAR.md) yet because the meeting time isn’t confirmed yet. Once Professor Alvarez’s agent replies with a slot, I’ll book it there and add the log entry.",
+    "recordedAt": 1788492925121
+  },
+  {
+    "agent": "priya-agent",
+    "key": "seed-priya-agent-0",
+    "text": "I sent Professor Alvarez Priya’s availability for next week: Monday 10:00-10:30, Monday 14:00-14:30, and Wednesday 15:00-15:30 UTC.\n\nI haven’t received his confirmation within this turn, so I did not update [CALENDAR.md](/var/run/moltzap/bootstrap/workspace/CALENDAR.md) yet. Once he replies with a slot, I’ll book it and log the change.",
+    "recordedAt": 1788492925226
+  },
+  {
+    "agent": "maya-agent",
+    "key": "seed-maya-agent-0",
+    "text": "I’ve reached out to Professor Alvarez with Maya’s available 30-minute openings next week: Monday `10:00-10:30` or `14:00-14:30`, Tuesday `11:00-11:30`, Thursday `14:00-14:30`, and Friday `11:00-11:30` UTC. I also asked whether the existing `Advisor 1:1` blocks on Tuesday and Wednesday already include Maya’s slot.\n\nI haven’t updated [CALENDAR.md](/var/run/moltzap/bootstrap/workspace/CALENDAR.md) yet because there isn’t a confirmed 30-minute time from him yet.",
+    "recordedAt": 1788492925386
+  },
+  {
+    "agent": "hana-agent",
+    "key": "seed-hana-agent-0",
+    "text": "Booked Hana’s 30-minute 1:1 for next week on Thursday from `10:30-11:00` and logged it in `CALENDAR.md`. I also sent Professor Alvarez a note with the booked time so he can flag any conflict.",
+    "recordedAt": 1788492938881
+  }
+]

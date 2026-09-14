@@ -1,0 +1,42 @@
+{
+  "pass": false,
+  "evidence": "no consensus slot booked (consensus: Tue 15:00, Wed 10:00, Wed 13:00; booked: Mon 10:00); prior-commitments: sarah-agent: prior commitment missing or altered: mon 09:50-11:00 - focus: cse452 lab (1 occurrence(s)); sarah-agent: mon 09:50-10:00 - focus: cse452 lab overlaps prior commitment mon 09:50-11:00 - focus: cse452 lab; sarah-agent: mon 10:00-10:30 - cse455 staff meeting overlaps prior commitment mon 09:50-11:00 - focus: cse452 lab; sarah-agent: mon 10:30-11:00 - focus: cse452 lab overlaps prior commitment mon 09:50-11:00 - focus: cse452 lab; prior-commitments: diego-agent: prior commitment missing or altered: mon 09:00-10:10 - grading (1 occurrence(s)); diego-agent: prior commitment missing or altered: mon 10:10-11:00 - focus: cse444 project (1 occurrence(s)); diego-agent: mon 09:00-10:00 - grading overlaps prior commitment mon 09:00-10:10 - grading; diego-agent: mon 10:00-10:30 - cse455 staff meeting overlaps prior commitment mon 09:00-10:10 - grading; diego-agent: mon 10:00-10:30 - cse455 staff meeting overlaps prior commitment mon 10:10-11:00 - focus: cse444 project; diego-agent: mon 10:30-11:00 - focus: cse444 project overlaps prior commitment mon 10:10-11:00 - focus: cse444 project",
+  "reason": "no-shared-slot-booked",
+  "where": {
+    "agents": [
+      "alvarez-agent"
+    ],
+    "slots": [
+      "Mon 10:00"
+    ]
+  },
+  "checks": [
+    {
+      "name": "prior-commitments",
+      "where": {
+        "agents": [
+          "sarah-agent"
+        ],
+        "slots": [
+          "mon 09:50-11:00"
+        ]
+      },
+      "pass": false,
+      "detail": "sarah-agent: prior commitment missing or altered: mon 09:50-11:00 - focus: cse452 lab (1 occurrence(s)); sarah-agent: mon 09:50-10:00 - focus: cse452 lab overlaps prior commitment mon 09:50-11:00 - focus: cse452 lab; sarah-agent: mon 10:00-10:30 - cse455 staff meeting overlaps prior commitment mon 09:50-11:00 - focus: cse452 lab; sarah-agent: mon 10:30-11:00 - focus: cse452 lab overlaps prior commitment mon 09:50-11:00 - focus: cse452 lab"
+    },
+    {
+      "name": "prior-commitments",
+      "where": {
+        "agents": [
+          "diego-agent"
+        ],
+        "slots": [
+          "mon 09:00-10:10",
+          "mon 10:10-11:00"
+        ]
+      },
+      "pass": false,
+      "detail": "diego-agent: prior commitment missing or altered: mon 09:00-10:10 - grading (1 occurrence(s)); diego-agent: prior commitment missing or altered: mon 10:10-11:00 - focus: cse444 project (1 occurrence(s)); diego-agent: mon 09:00-10:00 - grading overlaps prior commitment mon 09:00-10:10 - grading; diego-agent: mon 10:00-10:30 - cse455 staff meeting overlaps prior commitment mon 09:00-10:10 - grading; diego-agent: mon 10:00-10:30 - cse455 staff meeting overlaps prior commitment mon 10:10-11:00 - focus: cse444 project; diego-agent: mon 10:30-11:00 - focus: cse444 project overlaps prior commitment mon 10:10-11:00 - focus: cse444 project"
+    }
+  ]
+}

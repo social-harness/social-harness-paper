@@ -1,0 +1,111 @@
+{
+  "pass": false,
+  "checks": [
+    {
+      "name": "no-double-book",
+      "where": {
+        "agents": [],
+        "slots": []
+      },
+      "pass": true,
+      "detail": "no slot given to two requesters"
+    },
+    {
+      "name": "valid-slot",
+      "where": {
+        "agents": [],
+        "slots": []
+      },
+      "pass": true,
+      "detail": "all bookings are real openings"
+    },
+    {
+      "name": "within-availability",
+      "where": {
+        "agents": [],
+        "slots": []
+      },
+      "pass": true,
+      "detail": "all bookings are within each requester's availability"
+    },
+    {
+      "name": "coverage",
+      "where": {
+        "agents": [],
+        "slots": []
+      },
+      "pass": true,
+      "detail": "feasible (capacity 8 ≥ 3): expected all 3 booked; got 3 booked, 0 declined, 0 unresolved"
+    },
+    {
+      "name": "calendar-updated",
+      "where": {
+        "agents": [
+          "alvarez-agent"
+        ],
+        "slots": []
+      },
+      "pass": true,
+      "detail": "every live booking also appears under its day"
+    },
+    {
+      "name": "no-phantom-booking",
+      "where": {
+        "agents": [],
+        "slots": []
+      },
+      "pass": true,
+      "detail": "no requester recorded a meeting the allocator did not book"
+    },
+    {
+      "name": "recorded-by-requester",
+      "where": {
+        "agents": [],
+        "slots": []
+      },
+      "pass": true,
+      "detail": "every booked requester recorded its assigned slot"
+    },
+    {
+      "name": "requester-free",
+      "where": {
+        "agents": [],
+        "slots": []
+      },
+      "pass": true,
+      "detail": "every booked requester was free for its slot"
+    },
+    {
+      "name": "prior-commitments",
+      "where": {
+        "agents": [
+          "sarah-agent"
+        ],
+        "slots": [
+          "thu 15:10-17:00"
+        ]
+      },
+      "pass": false,
+      "detail": "sarah-agent: prior commitment missing or altered: thu 15:10-17:00 - advisor 1:1 (1 occurrence(s))"
+    }
+  ],
+  "assignment": [
+    {
+      "requesterId": "sarah-agent",
+      "status": "confirmed",
+      "slot": "Mon 14:00"
+    },
+    {
+      "requesterId": "john-agent",
+      "status": "confirmed",
+      "slot": "Mon 10:00"
+    },
+    {
+      "requesterId": "priya-agent",
+      "status": "confirmed",
+      "slot": "Wed 10:00"
+    }
+  ],
+  "evidence": "3/3 booked, 0 declined, 0 unresolved — booking checks pass; prior-commitments: sarah-agent: prior commitment missing or altered: thu 15:10-17:00 - advisor 1:1 (1 occurrence(s))",
+  "reason": "prior-commitments"
+}

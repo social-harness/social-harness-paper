@@ -1,0 +1,123 @@
+{
+  "pass": false,
+  "checks": [
+    {
+      "name": "no-double-book",
+      "where": {
+        "agents": [],
+        "slots": []
+      },
+      "pass": true,
+      "detail": "no slot given to two requesters"
+    },
+    {
+      "name": "valid-slot",
+      "where": {
+        "agents": [],
+        "slots": []
+      },
+      "pass": true,
+      "detail": "all bookings are real openings"
+    },
+    {
+      "name": "within-availability",
+      "where": {
+        "agents": [],
+        "slots": []
+      },
+      "pass": true,
+      "detail": "all bookings are within each requester's availability"
+    },
+    {
+      "name": "coverage",
+      "where": {
+        "agents": [],
+        "slots": []
+      },
+      "pass": true,
+      "detail": "feasible (capacity 8 ≥ 5): expected all 5 booked; got 5 booked, 0 declined, 0 unresolved"
+    },
+    {
+      "name": "calendar-updated",
+      "where": {
+        "agents": [
+          "alvarez-agent"
+        ],
+        "slots": []
+      },
+      "pass": true,
+      "detail": "every live booking also appears under its day"
+    },
+    {
+      "name": "no-phantom-booking",
+      "where": {
+        "agents": [],
+        "slots": []
+      },
+      "pass": true,
+      "detail": "no requester recorded a meeting the allocator did not book"
+    },
+    {
+      "name": "recorded-by-requester",
+      "where": {
+        "agents": [],
+        "slots": []
+      },
+      "pass": true,
+      "detail": "every booked requester recorded its assigned slot"
+    },
+    {
+      "name": "requester-free",
+      "where": {
+        "agents": [],
+        "slots": []
+      },
+      "pass": true,
+      "detail": "every booked requester was free for its slot"
+    },
+    {
+      "name": "prior-commitments",
+      "where": {
+        "agents": [
+          "diego-agent"
+        ],
+        "slots": [
+          "tue 10:20-11:00",
+          "wed 09:00-10:00",
+          "wed 10:30-11:30"
+        ]
+      },
+      "pass": false,
+      "detail": "diego-agent: prior commitment missing or altered: tue 10:20-11:00 - focus: cse452 lab (1 occurrence(s)); diego-agent: prior commitment missing or altered: wed 09:00-10:00 - study group (1 occurrence(s)); diego-agent: prior commitment missing or altered: wed 10:30-11:30 - seminar (1 occurrence(s)); diego-agent: tue 10:20-10:30 - focus: cse452 lab overlaps prior commitment tue 10:20-11:00 - focus: cse452 lab; diego-agent: tue 10:30-11:00 - faculty meeting overlaps prior commitment tue 10:20-11:00 - focus: cse452 lab; diego-agent: wed 09:00-10:00 - thesis committee overlaps prior commitment wed 09:00-10:00 - study group; diego-agent: wed 10:30-11:30 - grant writing overlaps prior commitment wed 10:30-11:30 - seminar"
+    }
+  ],
+  "assignment": [
+    {
+      "requesterId": "sarah-agent",
+      "status": "confirmed",
+      "slot": "Thu 10:00"
+    },
+    {
+      "requesterId": "john-agent",
+      "status": "confirmed",
+      "slot": "Tue 11:00"
+    },
+    {
+      "requesterId": "priya-agent",
+      "status": "confirmed",
+      "slot": "Mon 14:00"
+    },
+    {
+      "requesterId": "diego-agent",
+      "status": "confirmed",
+      "slot": "Wed 10:00"
+    },
+    {
+      "requesterId": "hana-agent",
+      "status": "confirmed",
+      "slot": "Mon 10:00"
+    }
+  ],
+  "evidence": "5/5 booked, 0 declined, 0 unresolved — booking checks pass; prior-commitments: diego-agent: prior commitment missing or altered: tue 10:20-11:00 - focus: cse452 lab (1 occurrence(s)); diego-agent: prior commitment missing or altered: wed 09:00-10:00 - study group (1 occurrence(s)); diego-agent: prior commitment missing or altered: wed 10:30-11:30 - seminar (1 occurrence(s)); diego-agent: tue 10:20-10:30 - focus: cse452 lab overlaps prior commitment tue 10:20-11:00 - focus: cse452 lab; diego-agent: tue 10:30-11:00 - faculty meeting overlaps prior commitment tue 10:20-11:00 - focus: cse452 lab; diego-agent: wed 09:00-10:00 - thesis committee overlaps prior commitment wed 09:00-10:00 - study group; diego-agent: wed 10:30-11:30 - grant writing overlaps prior commitment wed 10:30-11:30 - seminar",
+  "reason": "prior-commitments"
+}

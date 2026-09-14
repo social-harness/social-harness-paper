@@ -1,0 +1,68 @@
+[
+  {
+    "agent": "hana-agent",
+    "key": "persona-hana-agent",
+    "text": "Ready to manage Hana's calendar and messages.",
+    "recordedAt": 1788488753228
+  },
+  {
+    "agent": "diego-agent",
+    "key": "persona-diego-agent",
+    "text": "Ready to manage Diego's calendar and messages. Send me a scheduling request or a message to relay, and I’ll handle it within the weekday `09:00-17:00` window and keep `CALENDAR.md` updated.",
+    "recordedAt": 1788488753603
+  },
+  {
+    "agent": "sarah-agent",
+    "key": "persona-sarah-agent",
+    "text": "Ready to manage Sarah's calendar and messages.",
+    "recordedAt": 1788488753931
+  },
+  {
+    "agent": "priya-agent",
+    "key": "persona-priya-agent",
+    "text": "Ready to manage Priya's calendar and messages. I’ll keep scheduling within `Mon-Fri 09:00-17:00`, update `CALENDAR.md`, log any booking changes, and use `message` to contact the other agents when needed.",
+    "recordedAt": 1788488754009
+  },
+  {
+    "agent": "john-agent",
+    "key": "persona-john-agent",
+    "text": "Ready to manage John's calendar and messages. What would you like me to do?",
+    "recordedAt": 1788488754484
+  },
+  {
+    "agent": "alvarez-agent",
+    "key": "persona-alvarez-agent",
+    "text": "The calendar is quite packed. Let me find the free slots for a 30-minute meeting.\n\nLet me map out the available gaps:\n\n**Monday:**\n- 10:00-10:30 (30 min gap) ✓\n- 14:00-14:30 (30 min gap) ✓\n\n**Tuesday:**\n- 11:00-11:30 (30 min gap) ✓\n- 15:00-15:30 (30 min gap) ✓\n\n**Wednesday:**\n- 10:00-10:30 (30 min gap) ✓\n- 13:00-13:30 (30 min gap) ✓\n- 15:00-15:30 (30 min gap) ✓\n\n**Thursday:**\n- 10:00-10:30 (30 min gap) ✓\n\n**Friday:**\n- (no gaps, fully packed)\n\nThere are plenty of open slots. No student has actually asked yet — the instruction is to give each student who asks a 30-minute 1:1. Since no request has come in this turn, there's nothing to book right now.\n\nI have enough free slots available should any student request a meeting. I'll wait for actual requests before booking.\n\nNO_REPLY",
+    "recordedAt": 1788488759104
+  },
+  {
+    "agent": "priya-agent",
+    "key": "seed-priya-agent-0",
+    "text": "I’ve sent Professor Alvarez a scheduling request with Priya’s available 30-minute windows next week: `Mon 10:00`, `Mon 14:00`, `Tue 11:00`, `Thu 14:00`, and `Fri 11:00` UTC. I haven’t updated [CALENDAR.md](/var/run/moltzap/bootstrap/workspace/CALENDAR.md) yet because the meeting isn’t confirmed.\n\nOnce Professor Alvarez replies with a slot, I can add it to the calendar and log the booking.",
+    "recordedAt": 1788488774553
+  },
+  {
+    "agent": "hana-agent",
+    "key": "seed-hana-agent-0",
+    "text": "I’ve reached out to `agent:alvarez-agent` with Hana’s available 30-minute windows next week:\n\n- Monday `10:00-10:30`\n- Monday `13:30-14:00`\n- Monday `14:00-14:30`\n- Tuesday `11:00-11:30`\n- Tuesday `15:00-15:30`\n- Wednesday `10:00-10:30`\n\nI’m waiting on Professor Alvarez’s confirmation before updating `CALENDAR.md`, since I shouldn’t book it unilaterally without a matching slot on his side.",
+    "recordedAt": 1788488780027
+  },
+  {
+    "agent": "sarah-agent",
+    "key": "seed-sarah-agent-0",
+    "text": "I sent Professor Alvarez a scheduling message with Sarah’s available 30-minute options next week: Monday `10:00-10:30`, Wednesday `15:00-15:30`, Thursday `10:00-10:30`, and Friday `10:30-11:00` UTC.\n\nI haven’t updated [CALENDAR.md](/var/run/moltzap/bootstrap/workspace/CALENDAR.md) yet because I don’t have a way to receive his confirmation in this turn. Once he confirms a slot, I can book it and log the change.",
+    "recordedAt": 1788488781602
+  },
+  {
+    "agent": "john-agent",
+    "key": "seed-john-agent-0",
+    "text": "I’ve asked Professor Alvarez to book one of John’s open 30-minute windows next week: Monday `10:00-10:30`, Monday `14:00-14:30`, Thursday `10:00-10:30`, Thursday `14:00-14:30`, or Friday `11:00-11:30`.\n\nI haven’t updated [CALENDAR.md](/var/run/moltzap/bootstrap/workspace/CALENDAR.md) yet because this environment lets me send messages but not read the reply in the same turn. Once his confirmation is available, I can add the booking and log it.",
+    "recordedAt": 1788488782749
+  },
+  {
+    "agent": "diego-agent",
+    "key": "seed-diego-agent-0",
+    "text": "I sent Professor Alvarez a booking request with Diego’s open 30-minute options next week: `Mon 10:00-10:30`, `Mon 14:00-14:30`, `Tue 11:00-11:30`, `Tue 15:00-15:30`, `Wed 11:00-11:30`, and `Fri 11:00-11:30` (UTC).\n\nI haven’t received his confirmation in this turn, so I did not update [CALENDAR.md](/var/run/moltzap/bootstrap/workspace/CALENDAR.md). Once he picks a slot, I can add it and log the booking.",
+    "recordedAt": 1788488783413
+  }
+]

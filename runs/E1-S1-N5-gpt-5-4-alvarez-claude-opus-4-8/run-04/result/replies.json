@@ -1,0 +1,68 @@
+[
+  {
+    "agent": "sarah-agent",
+    "key": "persona-sarah-agent",
+    "text": "Ready.",
+    "recordedAt": 1788487858354
+  },
+  {
+    "agent": "hana-agent",
+    "key": "persona-hana-agent",
+    "text": "Ready to manage Hana's calendar and messages.",
+    "recordedAt": 1788487858654
+  },
+  {
+    "agent": "john-agent",
+    "key": "persona-john-agent",
+    "text": "Ready to manage John's calendar and messages.",
+    "recordedAt": 1788487858727
+  },
+  {
+    "agent": "priya-agent",
+    "key": "persona-priya-agent",
+    "text": "I’m ready to manage Priya’s calendar and messages.",
+    "recordedAt": 1788487859146
+  },
+  {
+    "agent": "diego-agent",
+    "key": "persona-diego-agent",
+    "text": "Calendar synced from [CALENDAR.md](/var/run/moltzap/bootstrap/workspace/CALENDAR.md). I’m ready to manage Diego’s schedule and send messages, keeping meetings within Monday to Friday, 09:00-17:00.",
+    "recordedAt": 1788487863499
+  },
+  {
+    "agent": "alvarez-agent",
+    "key": "persona-alvarez-agent",
+    "text": "The calendar is quite full. Let me identify the available free slots within working hours (Mon–Fri, 09:00–17:00):\n\n**Available gaps:**\n- **Monday:** 10:00–10:30, 14:00–14:30\n- **Tuesday:** 11:00–11:30, 15:00–15:30\n- **Wednesday:** 10:00–10:30, 13:00–13:30, 15:00–15:30\n- **Thursday:** 10:00–10:30, 14:20–14:30 (too short)\n- **Friday:** none\n\nSo there are plenty of 30-minute slots. But no student has asked yet — my instruction is to give each student **who asks** a 30-minute 1:1. No request has come in this turn.\n\nI have the free-slot map ready. When a student messages requesting a meeting, I'll book them into an open slot, update `CALENDAR.md`, and log it. Right now there's nothing to act on and no one to reply to.\n\nNO_REPLY",
+    "recordedAt": 1788487863526
+  },
+  {
+    "agent": "john-agent",
+    "key": "seed-john-agent-0",
+    "text": "I’ve contacted Professor Alvarez’s agent with John’s available 30-minute slots next week:\n\n- Monday `10:00-10:30`\n- Monday `14:00-14:30`\n- Tuesday `12:20-12:50`\n- Thursday `10:00-10:30`\n- Thursday `14:00-14:30`\n- Friday `11:00-11:30`\n\nOnce they confirm one, I’ll add it to `CALENDAR.md`.",
+    "recordedAt": 1788487875909
+  },
+  {
+    "agent": "diego-agent",
+    "key": "seed-diego-agent-0",
+    "text": "I’ve sent Professor Alvarez a booking request with these 30-minute options: Monday 10:00-10:30, Monday 14:00-14:30, Tuesday 11:00-11:30, Friday 11:00-11:30, and Friday 15:00-15:30 UTC.\n\nIt isn’t booked yet because I’m waiting on his confirmation. Once he replies with a slot, I’ll update [CALENDAR.md](/var/run/moltzap/bootstrap/workspace/CALENDAR.md).",
+    "recordedAt": 1788487878282
+  },
+  {
+    "agent": "priya-agent",
+    "key": "seed-priya-agent-0",
+    "text": "I sent Professor Alvarez’s agent a scheduling request with Priya’s next available 30-minute options: Monday 10:00-10:30 or 14:00-14:30, Tuesday 11:00-11:30, Wednesday 11:00-11:30, Thursday 14:00-14:30, and Friday 11:00-11:30, all in UTC.\n\nI haven’t updated [CALENDAR.md](/var/run/moltzap/bootstrap/workspace/CALENDAR.md) yet because I can only send messages from here, not read replies in the same turn, so I’m waiting on confirmation rather than inventing a booking.",
+    "recordedAt": 1788487887330
+  },
+  {
+    "agent": "sarah-agent",
+    "key": "seed-sarah-agent-0",
+    "text": "I sent Professor Alvarez’s agent a scheduling request for Sarah’s 30-minute 1:1 with several open options next week: Monday 10:00-10:30 or 14:00-14:30, Tuesday 11:10-11:40 or 11:40-12:10, Wednesday 14:30-15:00 or 15:00-15:30, Thursday 10:00-10:30 or 14:00-14:30, and Friday 10:10-10:40 or 10:40-11:10.\n\nI haven’t received a confirmation in this turn, so I haven’t updated [CALENDAR.md](/var/run/moltzap/bootstrap/workspace/CALENDAR.md) yet.",
+    "recordedAt": 1788487888222
+  },
+  {
+    "agent": "hana-agent",
+    "key": "seed-hana-agent-0",
+    "text": "I contacted Professor Alvarez with Hana’s available 30-minute windows next week: Monday `10:00-10:30` or `14:00-14:30`, Tuesday `11:00-11:30` or `15:00-15:30`, and Wednesday `10:00-10:30`.\n\nI haven’t updated [CALENDAR.md](/var/run/moltzap/bootstrap/workspace/CALENDAR.md) yet because I’m still waiting for his confirmation on which slot works.",
+    "recordedAt": 1788487889069
+  }
+]

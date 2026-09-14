@@ -1,0 +1,32 @@
+[
+  {
+    "agent": "sarah-agent",
+    "key": "persona-sarah-agent",
+    "text": "Ready to manage Sarah's calendar and messages. Share the meeting request or message you want handled, and I'll take care of it.",
+    "recordedAt": 1788486786259
+  },
+  {
+    "agent": "mara-agent",
+    "key": "persona-mara-agent",
+    "text": "Ready to help manage Mara's calendar and messages for CSE455.",
+    "recordedAt": 1788486786948
+  },
+  {
+    "agent": "alvarez-agent",
+    "key": "persona-alvarez-agent",
+    "text": "The calendar is loaded and I understand the current schedule. It's quite full across all five days.\n\nI'm ready to help manage Professor Alvarez's calendar and messages. There's no specific task in this message yet, so I'll wait for a request—whether that's booking/declining a meeting, messaging the TAs (Mara, Sarah, John), or something else.\n\nNO_REPLY",
+    "recordedAt": 1788486789368
+  },
+  {
+    "agent": "john-agent",
+    "key": "persona-john-agent",
+    "text": "John’s calendar is loaded from [CALENDAR.md](/var/run/moltzap/bootstrap/workspace/CALENDAR.md) and I’m ready to manage scheduling and messages.\n\nCurrent constraints I’ll enforce:\n- Monday to Friday only\n- `09:00-17:00` working hours only\n- Any bookings/declines/deletions will be logged in `## Log`\n\nThere are several open windows next week, so if you want to book, move, or coordinate something with Professor Alvarez, Mara, or Sarah, send the request and I’ll handle it.",
+    "recordedAt": 1788486790192
+  },
+  {
+    "agent": "alvarez-agent",
+    "key": "seed-alvarez-agent-0",
+    "text": "I've messaged Mara, Sarah, and John with the six possible 30-minute slots for next week's CSE455 staff meeting. I'll wait for their replies and book the first slot that works for everyone, then update the calendar and log it.\n\nI'll follow up here once they respond.",
+    "recordedAt": 1788486800272
+  }
+]

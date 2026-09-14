@@ -1,0 +1,117 @@
+{
+  "kind": "allocation",
+  "allocatorId": "alvarez-agent",
+  "requesters": [
+    {
+      "id": "sarah-agent",
+      "aliases": [
+        "sarah",
+        "sarah-agent"
+      ],
+      "free": [
+        "Mon 10:00",
+        "Mon 14:00",
+        "Tue 15:00",
+        "Wed 10:00",
+        "Wed 13:00"
+      ]
+    },
+    {
+      "id": "john-agent",
+      "aliases": [
+        "john",
+        "john-agent"
+      ],
+      "free": [
+        "Mon 10:00",
+        "Mon 14:00",
+        "Wed 10:00",
+        "Wed 13:00",
+        "Wed 15:00"
+      ]
+    },
+    {
+      "id": "priya-agent",
+      "aliases": [
+        "priya",
+        "priya-agent"
+      ],
+      "free": [
+        "Mon 10:00",
+        "Mon 14:00",
+        "Wed 13:00",
+        "Wed 15:00",
+        "Thu 10:00"
+      ]
+    },
+    {
+      "id": "diego-agent",
+      "aliases": [
+        "diego",
+        "diego-agent"
+      ],
+      "free": [
+        "Mon 10:00",
+        "Mon 14:00",
+        "Wed 15:00",
+        "Thu 10:00",
+        "Thu 14:00"
+      ]
+    },
+    {
+      "id": "hana-agent",
+      "aliases": [
+        "hana",
+        "hana-agent"
+      ],
+      "free": [
+        "Mon 10:00",
+        "Mon 14:00",
+        "Thu 10:00",
+        "Thu 14:00",
+        "Fri 11:00"
+      ]
+    },
+    {
+      "id": "omar-agent",
+      "aliases": [
+        "omar",
+        "omar-agent"
+      ],
+      "free": [
+        "Mon 10:00",
+        "Mon 14:00",
+        "Tue 11:00",
+        "Thu 14:00",
+        "Fri 11:00"
+      ]
+    },
+    {
+      "id": "maya-agent",
+      "aliases": [
+        "maya",
+        "maya-agent"
+      ],
+      "free": [
+        "Mon 10:00",
+        "Mon 14:00",
+        "Tue 11:00",
+        "Tue 15:00",
+        "Fri 11:00"
+      ]
+    }
+  ],
+  "openSlots": [
+    "Mon 10:00",
+    "Mon 14:00",
+    "Tue 11:00",
+    "Tue 15:00",
+    "Wed 10:00",
+    "Wed 13:00",
+    "Wed 15:00",
+    "Thu 10:00"
+  ],
+  "capacity": 8,
+  "feasible": true,
+  "description": "PASS = every student got a distinct 30-minute slot they were actually free for, with no double-booking and nobody skipped.\n"
+}

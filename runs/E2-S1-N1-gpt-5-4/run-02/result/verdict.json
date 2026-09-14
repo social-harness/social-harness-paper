@@ -1,0 +1,104 @@
+{
+  "pass": false,
+  "checks": [
+    {
+      "name": "no-double-book",
+      "where": {
+        "agents": [],
+        "slots": []
+      },
+      "pass": true,
+      "detail": "no slot given to two requesters"
+    },
+    {
+      "name": "valid-slot",
+      "where": {
+        "agents": [],
+        "slots": []
+      },
+      "pass": true,
+      "detail": "all bookings are real openings"
+    },
+    {
+      "name": "within-availability",
+      "where": {
+        "agents": [],
+        "slots": []
+      },
+      "pass": true,
+      "detail": "all bookings are within each requester's availability"
+    },
+    {
+      "name": "coverage",
+      "where": {
+        "agents": [],
+        "slots": []
+      },
+      "pass": true,
+      "detail": "feasible (capacity 8 ≥ 1): expected all 1 booked; got 1 booked, 0 declined, 0 unresolved"
+    },
+    {
+      "name": "calendar-updated",
+      "where": {
+        "agents": [
+          "alvarez-agent"
+        ],
+        "slots": []
+      },
+      "pass": true,
+      "detail": "every live booking also appears under its day"
+    },
+    {
+      "name": "no-phantom-booking",
+      "where": {
+        "agents": [],
+        "slots": []
+      },
+      "pass": true,
+      "detail": "no requester recorded a meeting the allocator did not book"
+    },
+    {
+      "name": "recorded-by-requester",
+      "where": {
+        "agents": [
+          "sarah-agent"
+        ],
+        "slots": [
+          "Wed 10:00"
+        ]
+      },
+      "pass": false,
+      "detail": "sarah-agent did not record Wed 10:00"
+    },
+    {
+      "name": "requester-free",
+      "where": {
+        "agents": [],
+        "slots": []
+      },
+      "pass": true,
+      "detail": "every booked requester was free for its slot"
+    },
+    {
+      "name": "prior-commitments",
+      "where": {
+        "agents": [
+          "sarah-agent"
+        ],
+        "slots": [
+          "mon 12:30-14:00"
+        ]
+      },
+      "pass": false,
+      "detail": "sarah-agent: prior commitment missing or altered: mon 12:30-14:00 - advisor 1:1 (1 occurrence(s))"
+    }
+  ],
+  "assignment": [
+    {
+      "requesterId": "sarah-agent",
+      "status": "confirmed",
+      "slot": "Wed 10:00"
+    }
+  ],
+  "evidence": "1/1 booked, 0 declined, 0 unresolved — did not record their assigned slot: sarah-agent@Wed 10:00; prior-commitments: sarah-agent: prior commitment missing or altered: mon 12:30-14:00 - advisor 1:1 (1 occurrence(s))"
+}

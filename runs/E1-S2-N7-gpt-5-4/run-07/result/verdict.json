@@ -1,0 +1,42 @@
+{
+  "pass": false,
+  "evidence": "no consensus slot booked (consensus: Tue 15:00, Wed 10:00, Wed 13:00; booked: Tue 11:00); prior-commitments: alvarez-agent: prior commitment missing or altered: tue 10:30-11:00 - faculty meeting (1 occurrence(s)); alvarez-agent: prior commitment missing or altered: tue 11:30-12:20 - lunch (1 occurrence(s)); alvarez-agent: tue 10:50-11:00 - tuesday seminar overlaps prior commitment tue 10:30-11:00 - faculty meeting; alvarez-agent: tue 11:30-12:00 - tuesday seminar overlaps prior commitment tue 11:30-12:20 - lunch; prior-commitments: omar-agent: prior commitment missing or altered: tue 10:50-12:00 - seminar (1 occurrence(s)); omar-agent: tue 10:50-11:00 - seminar overlaps prior commitment tue 10:50-12:00 - seminar; omar-agent: tue 11:00-11:30 - cse455 staff meeting with professor alvarez overlaps prior commitment tue 10:50-12:00 - seminar; omar-agent: tue 11:30-12:00 - seminar overlaps prior commitment tue 10:50-12:00 - seminar",
+  "reason": "no-shared-slot-booked",
+  "where": {
+    "agents": [
+      "alvarez-agent"
+    ],
+    "slots": [
+      "Tue 11:00"
+    ]
+  },
+  "checks": [
+    {
+      "name": "prior-commitments",
+      "where": {
+        "agents": [
+          "alvarez-agent"
+        ],
+        "slots": [
+          "tue 10:30-11:00",
+          "tue 11:30-12:20"
+        ]
+      },
+      "pass": false,
+      "detail": "alvarez-agent: prior commitment missing or altered: tue 10:30-11:00 - faculty meeting (1 occurrence(s)); alvarez-agent: prior commitment missing or altered: tue 11:30-12:20 - lunch (1 occurrence(s)); alvarez-agent: tue 10:50-11:00 - tuesday seminar overlaps prior commitment tue 10:30-11:00 - faculty meeting; alvarez-agent: tue 11:30-12:00 - tuesday seminar overlaps prior commitment tue 11:30-12:20 - lunch"
+    },
+    {
+      "name": "prior-commitments",
+      "where": {
+        "agents": [
+          "omar-agent"
+        ],
+        "slots": [
+          "tue 10:50-12:00"
+        ]
+      },
+      "pass": false,
+      "detail": "omar-agent: prior commitment missing or altered: tue 10:50-12:00 - seminar (1 occurrence(s)); omar-agent: tue 10:50-11:00 - seminar overlaps prior commitment tue 10:50-12:00 - seminar; omar-agent: tue 11:00-11:30 - cse455 staff meeting with professor alvarez overlaps prior commitment tue 10:50-12:00 - seminar; omar-agent: tue 11:30-12:00 - seminar overlaps prior commitment tue 10:50-12:00 - seminar"
+    }
+  ]
+}

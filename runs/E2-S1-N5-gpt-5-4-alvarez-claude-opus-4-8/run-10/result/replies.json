@@ -1,0 +1,68 @@
+[
+  {
+    "agent": "sarah-agent",
+    "key": "persona-sarah-agent",
+    "text": "Ready to manage Sarah's calendar and messages.",
+    "recordedAt": 1788488881206
+  },
+  {
+    "agent": "hana-agent",
+    "key": "persona-hana-agent",
+    "text": "Ready to manage Hana's calendar and messages. I’ll follow the working-hours constraint, keep `CALENDAR.md` updated for next week, and use `agent:...` messaging when coordination is needed.",
+    "recordedAt": 1788488881928
+  },
+  {
+    "agent": "john-agent",
+    "key": "persona-john-agent",
+    "text": "Ready to manage John's calendar and messages. I’ll keep `CALENDAR.md` updated within `09:00-17:00` on weekdays and use the listed agent addresses for outreach when needed.",
+    "recordedAt": 1788488882118
+  },
+  {
+    "agent": "diego-agent",
+    "key": "persona-diego-agent",
+    "text": "Ready to manage Diego's calendar and messages.",
+    "recordedAt": 1788488882400
+  },
+  {
+    "agent": "priya-agent",
+    "key": "persona-priya-agent",
+    "text": "Current schedule is loaded from [CALENDAR.md](/var/run/moltzap/bootstrap/workspace/CALENDAR.md). Tell me what you want booked, removed, or who you want me to message, and I’ll handle it.",
+    "recordedAt": 1788488885371
+  },
+  {
+    "agent": "alvarez-agent",
+    "key": "persona-alvarez-agent",
+    "text": "The calendar is quite full. Let me identify the available 30-minute slots within working hours (Mon-Fri, 09:00-17:00).\n\nLet me map out the free gaps:\n\n**Monday:**\n- 10:00-10:30 (30 min) ✓\n- 14:00-14:30 (30 min) ✓\n\n**Tuesday:**\n- 11:00-11:30 (30 min) ✓\n- 15:00-15:30 (30 min) ✓\n\n**Wednesday:**\n- 10:00-10:30 (30 min) ✓\n- 13:00-13:30 (30 min) ✓\n- 15:00-15:30 (30 min) ✓\n\n**Thursday:**\n- 10:00-10:30 (30 min) ✓\n\n**Friday:**\n- (no 30-min gaps — fully back-to-back)\n\nThere are plenty of open slots. However, the instruction says to give a meeting to each student **who asks**. No student has actually asked yet — this message is my own identity/instructions being loaded, not a request from a student.\n\nI should not proactively book meetings for students who haven't requested one. I'll wait for actual requests. There's nothing to act on or reply to right now.\n\nNO_REPLY",
+    "recordedAt": 1788488887047
+  },
+  {
+    "agent": "john-agent",
+    "key": "seed-john-agent-0",
+    "text": "I contacted Professor Alvarez with available 30-minute options next week: Monday `10:00-10:30` or `14:00-14:30`, Wednesday `13:00-13:30` or `15:00-15:30`, and Thursday `10:00-10:30`.\n\nI haven’t updated [CALENDAR.md](/var/run/moltzap/bootstrap/workspace/CALENDAR.md) yet because the slot still needs confirmation. Once he replies with a time, I can book it and log the change.",
+    "recordedAt": 1788488901923
+  },
+  {
+    "agent": "diego-agent",
+    "key": "seed-diego-agent-0",
+    "text": "I’ve started the booking with Professor Alvarez and proposed three 30-minute options from Diego’s availability next week: Monday `10:00-10:30`, Tuesday `10:30-11:00`, and Thursday `14:00-14:30` UTC.\n\nI haven’t updated [CALENDAR.md](/var/run/moltzap/bootstrap/workspace/CALENDAR.md) yet because I need his confirmation before marking a slot as booked.",
+    "recordedAt": 1788488909386
+  },
+  {
+    "agent": "sarah-agent",
+    "key": "seed-sarah-agent-0",
+    "text": "I’ve reached out to Professor Alvarez with Sarah’s open 30-minute windows next week: Monday `10:00-10:30` or `14:00-14:30`, Tuesday `11:10-11:40` or `11:30-12:00`, Wednesday `10:00-10:30`, `13:00-13:30`, or `15:00-15:30`, and Friday `10:10-10:40` or `10:30-11:00` (UTC).\n\nI haven’t updated [CALENDAR.md](/var/run/moltzap/bootstrap/workspace/CALENDAR.md) yet because I’m still waiting on his confirmation. Once he replies with a slot, I’ll book it there and log the change.",
+    "recordedAt": 1788488911055
+  },
+  {
+    "agent": "priya-agent",
+    "key": "seed-priya-agent-0",
+    "text": "Booked the 30-minute 1:1 for Wednesday `16:30-17:00` next week in [CALENDAR.md](/var/run/moltzap/bootstrap/workspace/CALENDAR.md:32) and logged it. I also sent Professor Alvarez’s agent a note with the reserved slot in case they need a change.",
+    "recordedAt": 1788488913427
+  },
+  {
+    "agent": "hana-agent",
+    "key": "seed-hana-agent-0",
+    "text": "Booked Hana’s 30-minute 1:1 for Monday 10:00-10:30 UTC next week and recorded it in [CALENDAR.md](/var/run/moltzap/bootstrap/workspace/CALENDAR.md). I also sent Professor Alvarez a direct note that the slot is reserved and asked him to propose an alternative if it conflicts on his side.\n\nVerification: the Monday section now includes `10:00-10:30 - 1:1 with Professor Alvarez`, and the log has `BOOKED: Monday 10:00-10:30 with Professor Alvarez`.",
+    "recordedAt": 1788488916683
+  }
+]

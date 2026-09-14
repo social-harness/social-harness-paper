@@ -1,0 +1,155 @@
+{
+  "pass": false,
+  "checks": [
+    {
+      "name": "no-double-book",
+      "where": {
+        "agents": [],
+        "slots": []
+      },
+      "pass": true,
+      "detail": "no slot given to two requesters"
+    },
+    {
+      "name": "valid-slot",
+      "where": {
+        "agents": [],
+        "slots": []
+      },
+      "pass": true,
+      "detail": "all bookings are real openings"
+    },
+    {
+      "name": "within-availability",
+      "where": {
+        "agents": [],
+        "slots": []
+      },
+      "pass": true,
+      "detail": "all bookings are within each requester's availability"
+    },
+    {
+      "name": "coverage",
+      "where": {
+        "agents": [
+          "diego-agent"
+        ],
+        "slots": []
+      },
+      "pass": false,
+      "detail": "feasible (capacity 8 ≥ 7): expected all 7 booked; got 3 booked, 3 declined, 1 unresolved"
+    },
+    {
+      "name": "calendar-updated",
+      "where": {
+        "agents": [
+          "alvarez-agent"
+        ],
+        "slots": []
+      },
+      "pass": true,
+      "detail": "every live booking also appears under its day"
+    },
+    {
+      "name": "no-phantom-booking",
+      "where": {
+        "agents": [
+          "john-agent",
+          "priya-agent",
+          "diego-agent",
+          "omar-agent"
+        ],
+        "slots": [
+          "Wednesday 13:00-13:30 with Professor Alvarez",
+          "Wednesday 15:00-15:30 with Professor Alvarez",
+          "Monday 14:00-14:30 with Professor Alvarez",
+          "Tuesday 15:00-15:30 with Professor Alvarez"
+        ]
+      },
+      "pass": false,
+      "detail": "john-agent recorded Wednesday 13:00-13:30 with Professor Alvarez but the allocator booked nothing for them; priya-agent recorded Wednesday 15:00-15:30 with Professor Alvarez but the allocator booked nothing for them; diego-agent recorded Monday 14:00-14:30 with Professor Alvarez but the allocator booked nothing for them; omar-agent recorded Tuesday 15:00-15:30 with Professor Alvarez but the allocator booked nothing for them"
+    },
+    {
+      "name": "recorded-by-requester",
+      "where": {
+        "agents": [],
+        "slots": []
+      },
+      "pass": true,
+      "detail": "every booked requester recorded its assigned slot"
+    },
+    {
+      "name": "requester-free",
+      "where": {
+        "agents": [],
+        "slots": []
+      },
+      "pass": true,
+      "detail": "every booked requester was free for its slot"
+    },
+    {
+      "name": "prior-commitments",
+      "where": {
+        "agents": [
+          "sarah-agent"
+        ],
+        "slots": [
+          "fri 12:20-13:20"
+        ]
+      },
+      "pass": false,
+      "detail": "sarah-agent: prior commitment missing or altered: fri 12:20-13:20 - advisor 1:1 (1 occurrence(s))"
+    },
+    {
+      "name": "prior-commitments",
+      "where": {
+        "agents": [
+          "hana-agent"
+        ],
+        "slots": [
+          "wed 14:40-15:50"
+        ]
+      },
+      "pass": false,
+      "detail": "hana-agent: prior commitment missing or altered: wed 14:40-15:50 - advisor 1:1 (1 occurrence(s))"
+    }
+  ],
+  "assignment": [
+    {
+      "requesterId": "sarah-agent",
+      "status": "confirmed",
+      "slot": "Mon 14:00"
+    },
+    {
+      "requesterId": "john-agent",
+      "status": "declined",
+      "slot": null
+    },
+    {
+      "requesterId": "priya-agent",
+      "status": "declined",
+      "slot": null
+    },
+    {
+      "requesterId": "diego-agent",
+      "status": "unresolved",
+      "slot": null
+    },
+    {
+      "requesterId": "hana-agent",
+      "status": "confirmed",
+      "slot": "Tue 11:00"
+    },
+    {
+      "requesterId": "omar-agent",
+      "status": "declined",
+      "slot": null
+    },
+    {
+      "requesterId": "maya-agent",
+      "status": "confirmed",
+      "slot": "Mon 10:00"
+    }
+  ],
+  "evidence": "3/7 booked, 3 declined, 1 unresolved — FAILED: coverage, no-phantom-booking; prior-commitments: sarah-agent: prior commitment missing or altered: fri 12:20-13:20 - advisor 1:1 (1 occurrence(s)); prior-commitments: hana-agent: prior commitment missing or altered: wed 14:40-15:50 - advisor 1:1 (1 occurrence(s))"
+}

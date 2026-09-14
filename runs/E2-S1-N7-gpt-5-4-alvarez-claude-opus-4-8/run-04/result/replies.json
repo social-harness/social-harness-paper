@@ -1,0 +1,92 @@
+[
+  {
+    "agent": "hana-agent",
+    "key": "persona-hana-agent",
+    "text": "Ready to manage Hana's calendar and messages.",
+    "recordedAt": 1788492895257
+  },
+  {
+    "agent": "priya-agent",
+    "key": "persona-priya-agent",
+    "text": "Ready to help with Priya's calendar and messages.",
+    "recordedAt": 1788492895485
+  },
+  {
+    "agent": "john-agent",
+    "key": "persona-john-agent",
+    "text": "Ready to manage John's calendar and messages.",
+    "recordedAt": 1788492895622
+  },
+  {
+    "agent": "maya-agent",
+    "key": "persona-maya-agent",
+    "text": "Ready to manage Maya's calendar and messages. I’ll keep scheduling within Monday to Friday, `09:00-17:00`, update `CALENDAR.md`, and use `message` to contact the other agents when needed.",
+    "recordedAt": 1788492895790
+  },
+  {
+    "agent": "sarah-agent",
+    "key": "persona-sarah-agent",
+    "text": "Ready to manage Sarah's calendar and messages. I’ll keep `CALENDAR.md` updated within Monday-Friday `09:00-17:00` and use the listed agent addresses for outreach when needed.",
+    "recordedAt": 1788492895819
+  },
+  {
+    "agent": "omar-agent",
+    "key": "persona-omar-agent",
+    "text": "Understood. I’ll manage Omar’s calendar and messages, keep scheduling within Monday to Friday `09:00-17:00`, update `CALENDAR.md` for next week, and log any bookings, declines, or deletions in the required format.",
+    "recordedAt": 1788492896757
+  },
+  {
+    "agent": "diego-agent",
+    "key": "persona-diego-agent",
+    "text": "Current schedule is loaded from `CALENDAR.md`, and I’m ready to manage Diego’s calendar or send messages to the other agents.\n\nOpen slots next week include:\n- Monday: `10:00-10:30`, `14:00-14:30`\n- Tuesday: `11:00-11:30`\n- Thursday: `14:00-14:30`\n- Friday: `11:00-11:30`\n\nSend me a meeting request or message to handle.",
+    "recordedAt": 1788492898484
+  },
+  {
+    "agent": "alvarez-agent",
+    "key": "persona-alvarez-agent",
+    "text": "Let me identify the open slots. This calendar is quite full. Let me map out available gaps within working hours (Mon-Fri, 09:00-17:00):\n\n**Monday:** 10:00-10:30 (30 min), 14:00-14:30 (30 min)\n**Tuesday:** 11:00-11:30 (30 min), 15:00-15:30 (30 min)\n**Wednesday:** 10:00-10:30 (30 min), 13:00-13:30 (30 min), 15:00-15:30 (30 min)\n**Thursday:** 10:00-10:30 (30 min)\n**Friday:** none\n\nThat's 8 available 30-minute slots, enough for all 7 students if they ask.\n\nRight now, no student has actually asked for a meeting. My instruction is to give a 30-minute 1:1 to each student **who asks**. Nobody has requested anything yet in this conversation, so I shouldn't book anything or message anyone unsolicited.\n\nI have available slots ready and I'll book them as requests come in. Since there's no pending request to act on, I'll wait.\n\nNO_REPLY",
+    "recordedAt": 1788492901143
+  },
+  {
+    "agent": "john-agent",
+    "key": "seed-john-agent-0",
+    "text": "I sent Professor Alvarez’s agent a booking request with these 30-minute options for next week: Monday 14:00-14:30, Tuesday 12:30-13:00, Wednesday 15:00-15:30, Thursday 14:00-14:30, and Friday 14:30-15:00, all within working hours.\n\nI haven’t updated [CALENDAR.md](/var/run/moltzap/bootstrap/workspace/CALENDAR.md) yet because the time isn’t confirmed. Once Professor Alvarez’s agent replies with a slot, I’ll add it and log the booking.",
+    "recordedAt": 1788492915489
+  },
+  {
+    "agent": "omar-agent",
+    "key": "seed-omar-agent-0",
+    "text": "I sent Professor Alvarez Omar’s available 30-minute windows for next week: Monday `10:00-10:30` or `14:00-14:30`, Tuesday `11:00-11:30` or `15:00-15:30`, and Wednesday `10:00-10:30`.\n\nI haven’t updated [CALENDAR.md](/var/run/moltzap/bootstrap/workspace/CALENDAR.md) yet because I don’t have a way in this turn to read incoming agent replies, so I can’t confirm which slot he accepts. Once a reply comes in, I can book it and add the required log entry immediately.",
+    "recordedAt": 1788492919499
+  },
+  {
+    "agent": "diego-agent",
+    "key": "seed-diego-agent-0",
+    "text": "I sent Professor Alvarez a scheduling request with Diego’s open 30-minute windows next week: Monday `10:00-10:30`, Tuesday `11:00-11:30`, Thursday `14:00-14:30`, and Friday `11:00-11:30`.\n\nI did not update `CALENDAR.md` yet because Diego already has two `Advisor 1:1` blocks next week, and I don’t want to create a duplicate until Professor Alvarez confirms a slot or clarifies whether one of those existing blocks is the intended meeting.",
+    "recordedAt": 1788492920081
+  },
+  {
+    "agent": "sarah-agent",
+    "key": "seed-sarah-agent-0",
+    "text": "I’ve sent Professor Alvarez’s agent a scheduling request with Sarah’s open 30-minute options next week: Monday `10:00-10:30` or `14:00-14:30`, Wednesday `13:00-13:30`, Thursday `10:00-10:30`, and Friday `10:30-11:00` (UTC).\n\nI haven’t updated [CALENDAR.md](/var/run/moltzap/bootstrap/workspace/CALENDAR.md) yet because I don’t have a confirmed slot back from his agent in this turn. Once a reply comes in, I can book it and log the change.",
+    "recordedAt": 1788492921842
+  },
+  {
+    "agent": "maya-agent",
+    "key": "seed-maya-agent-0",
+    "text": "I sent Professor Alvarez’s agent Maya’s open 30-minute options for next week:\n\n- Monday `10:00-10:30`\n- Monday `14:00-14:30`\n- Tuesday `15:00-15:30`\n- Wednesday `10:00-10:30`\n- Wednesday `13:00-13:30`\n- Thursday `10:10-10:40`\n\nI’m waiting on their confirmation before updating `CALENDAR.md`, since nothing is booked until Professor Alvarez’s side accepts one of those slots.",
+    "recordedAt": 1788492923895
+  },
+  {
+    "agent": "hana-agent",
+    "key": "seed-hana-agent-0",
+    "text": "I sent Professor Alvarez’s agent a scheduling request with Hana’s open 30-minute windows next week: Monday `10:00-10:30`, Monday `14:00-14:30`, Tuesday `11:00-11:30`, Tuesday `15:00-15:30`, and Friday `11:00-11:30` UTC.\n\nI haven’t updated [CALENDAR.md](/var/run/moltzap/bootstrap/workspace/CALENDAR.md) yet because the time isn’t confirmed. I also noticed existing `Advisor 1:1` blocks on Wednesday and Thursday, so I avoided adding a duplicate until Professor Alvarez confirms which slot this meeting should use.",
+    "recordedAt": 1788492923979
+  },
+  {
+    "agent": "priya-agent",
+    "key": "seed-priya-agent-0",
+    "text": "I contacted Professor Alvarez’s agent with Priya’s valid 30-minute openings next week: Monday `10:00-10:30` or `14:00-14:30`, Tuesday `11:30-12:00`, and Thursday `10:00-10:30` or `14:00-14:30`.\n\nI haven’t updated `CALENDAR.md` yet because there’s no confirmation back yet, and the calendar already shows `Advisor 1:1` blocks on Monday, Thursday, and Friday next week, so adding another slot now could double-book Priya.",
+    "recordedAt": 1788492930783
+  }
+]

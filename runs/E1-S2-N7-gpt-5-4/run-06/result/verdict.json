@@ -1,0 +1,40 @@
+{
+  "pass": false,
+  "evidence": "no consensus slot booked (consensus: Tue 15:00, Wed 10:00, Wed 13:00; booked: none); prior-commitments: diego-agent: prior commitment missing or altered: tue 10:20-11:20 - focus: cse452 lab (1 occurrence(s)); diego-agent: prior commitment missing or altered: tue 11:20-12:50 - lunch (1 occurrence(s)); diego-agent: tue 10:20-11:00 - focus: cse452 lab overlaps prior commitment tue 10:20-11:20 - focus: cse452 lab; diego-agent: tue 11:00-11:30 - cse455 staff meeting overlaps prior commitment tue 10:20-11:20 - focus: cse452 lab; diego-agent: tue 11:00-11:30 - cse455 staff meeting overlaps prior commitment tue 11:20-12:50 - lunch; diego-agent: tue 11:30-12:50 - lunch overlaps prior commitment tue 11:20-12:50 - lunch; prior-commitments: maya-agent: prior commitment missing or altered: tue 10:00-11:30 - focus: cse444 project (1 occurrence(s)); maya-agent: tue 10:00-11:00 - focus: cse444 project overlaps prior commitment tue 10:00-11:30 - focus: cse444 project; maya-agent: tue 11:00-11:30 - cse455 staff meeting overlaps prior commitment tue 10:00-11:30 - focus: cse444 project",
+  "reason": "no-shared-slot-booked",
+  "where": {
+    "agents": [
+      "alvarez-agent"
+    ],
+    "slots": []
+  },
+  "checks": [
+    {
+      "name": "prior-commitments",
+      "where": {
+        "agents": [
+          "diego-agent"
+        ],
+        "slots": [
+          "tue 10:20-11:20",
+          "tue 11:20-12:50"
+        ]
+      },
+      "pass": false,
+      "detail": "diego-agent: prior commitment missing or altered: tue 10:20-11:20 - focus: cse452 lab (1 occurrence(s)); diego-agent: prior commitment missing or altered: tue 11:20-12:50 - lunch (1 occurrence(s)); diego-agent: tue 10:20-11:00 - focus: cse452 lab overlaps prior commitment tue 10:20-11:20 - focus: cse452 lab; diego-agent: tue 11:00-11:30 - cse455 staff meeting overlaps prior commitment tue 10:20-11:20 - focus: cse452 lab; diego-agent: tue 11:00-11:30 - cse455 staff meeting overlaps prior commitment tue 11:20-12:50 - lunch; diego-agent: tue 11:30-12:50 - lunch overlaps prior commitment tue 11:20-12:50 - lunch"
+    },
+    {
+      "name": "prior-commitments",
+      "where": {
+        "agents": [
+          "maya-agent"
+        ],
+        "slots": [
+          "tue 10:00-11:30"
+        ]
+      },
+      "pass": false,
+      "detail": "maya-agent: prior commitment missing or altered: tue 10:00-11:30 - focus: cse444 project (1 occurrence(s)); maya-agent: tue 10:00-11:00 - focus: cse444 project overlaps prior commitment tue 10:00-11:30 - focus: cse444 project; maya-agent: tue 11:00-11:30 - cse455 staff meeting overlaps prior commitment tue 10:00-11:30 - focus: cse444 project"
+    }
+  ]
+}
