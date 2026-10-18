@@ -6,6 +6,7 @@
 - 10:30-11:30 - Study group
 - 11:30-13:00 - Lunch
 - 13:00-14:00 - Seminar
+- 14:00-14:30 - CSE455 staff meeting with Prof. Alvarez
 - 14:30-15:20 - CSE444 lecture
 - 15:20-16:30 - CSE452 lecture
 - 16:30-17:00 - CSE455 office hours
@@ -52,3 +53,4 @@
 - 15:20-17:00 - CSE455 office hours
 
 ## Log
+- BOOKED: Monday 14:00-14:30 with Prof. Alvarez

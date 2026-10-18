@@ -6,6 +6,7 @@
 - 10:30-11:50 - CSE455 office hours
 - 11:50-12:50 - Lunch
 - 12:50-14:00 - CSE455 quiz section
+- 14:00-14:30 - 1:1 with Professor Alvarez
 - 14:30-15:30 - Grading
 - 15:30-16:20 - Focus: CSE444 project
 - 16:20-17:00 - Research group meeting
@@ -14,7 +15,6 @@
 
 - 09:00-10:00 - Grading
 - 10:00-11:00 - Focus: CSE444 project
-- 11:00-11:30 - 1:1 with Professor Alvarez
 - 11:30-12:30 - Lunch
 - 12:30-13:20 - Research group meeting
 - 13:20-14:30 - Reading group
@@ -53,4 +53,4 @@
 - 16:00-17:00 - Research group meeting
 
 ## Log
-- BOOKED: Tuesday 11:00-11:30 with Professor Alvarez
+- BOOKED: Monday 14:00-14:30 with Professor Alvarez

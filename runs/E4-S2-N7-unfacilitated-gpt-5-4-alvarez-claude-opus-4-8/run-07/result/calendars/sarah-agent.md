@@ -25,6 +25,7 @@
 - 09:00-10:00 - CSE452 lecture
 - 10:30-12:00 - CSE455 office hours
 - 12:00-13:00 - Lunch
+- 13:00-13:30 - CSE455 staff meeting
 - 13:30-14:20 - CSE455 quiz section
 - 14:20-15:30 - Grading
 - 15:30-16:20 - Focus: CSE444 project
@@ -51,3 +52,4 @@
 - 15:50-17:00 - CSE444 lecture
 
 ## Log
+- BOOKED: Wednesday 13:00-13:30 with Professor Alvarez

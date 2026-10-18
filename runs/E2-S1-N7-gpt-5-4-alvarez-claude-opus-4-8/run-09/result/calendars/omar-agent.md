@@ -3,7 +3,6 @@
 ## Monday
 
 - 09:00-10:00 - Research group meeting
-- 10:00-10:30 - 1:1 with Professor Alvarez
 - 10:30-12:00 - Reading group
 - 12:00-13:00 - Lunch
 - 13:00-14:00 - Focus: CSE452 lab
@@ -34,6 +33,7 @@
 ## Thursday
 
 - 09:00-10:00 - CSE455 quiz section
+- 10:00-10:30 - 1:1 with Professor Alvarez
 - 10:30-11:30 - Grading
 - 11:30-13:00 - Lunch
 - 13:00-14:00 - Focus: CSE444 project
@@ -52,4 +52,5 @@
 - 15:40-17:00 - Seminar
 
 ## Log
-- BOOKED: Monday 10:00-10:30 with Professor Alvarez
+
+- BOOKED: Thursday 10:00-10:30 with Professor Alvarez

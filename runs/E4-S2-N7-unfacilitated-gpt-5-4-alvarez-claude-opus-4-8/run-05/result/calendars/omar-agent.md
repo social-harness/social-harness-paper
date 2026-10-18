@@ -17,6 +17,7 @@
 - 11:30-12:40 - Lunch
 - 12:40-13:30 - Seminar
 - 13:30-15:00 - CSE444 lecture
+- 15:00-15:30 - CSE455 staff meeting
 - 15:30-16:30 - CSE452 lecture
 - 16:30-17:00 - CSE455 office hours
 
@@ -50,3 +51,4 @@
 - 15:40-17:00 - Seminar
 
 ## Log
+- BOOKED: Tuesday 15:00-15:30 with Professor Alvarez

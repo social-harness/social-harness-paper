@@ -1,11 +1,13 @@
 {
   "pass": false,
-  "evidence": "no consensus slot booked (consensus: Tue 15:00, Wed 10:00, Wed 13:00; booked: none)",
-  "reason": "no-shared-slot-booked",
+  "evidence": "allocator booked a consensus slot (Tue 15:00) but the group did not converge — did not record it: omar-agent",
+  "reason": "group-did-not-converge",
   "where": {
     "agents": [
-      "alvarez-agent"
+      "omar-agent"
     ],
-    "slots": []
+    "slots": [
+      "Tue 15:00"
+    ]
   }
 }

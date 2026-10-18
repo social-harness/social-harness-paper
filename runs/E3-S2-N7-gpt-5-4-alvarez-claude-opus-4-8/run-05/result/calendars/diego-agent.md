@@ -16,6 +16,7 @@
 - 11:20-12:50 - Lunch
 - 12:50-13:50 - Advisor 1:1
 - 13:50-15:00 - Study group
+- 15:00-15:30 - CSE455 staff meeting
 - 15:30-17:00 - Seminar
 
 ## Wednesday
@@ -49,3 +50,4 @@
 - 15:30-17:00 - Advisor 1:1
 
 ## Log
+- BOOKED: Tuesday 15:00-15:30 with Professor Alvarez

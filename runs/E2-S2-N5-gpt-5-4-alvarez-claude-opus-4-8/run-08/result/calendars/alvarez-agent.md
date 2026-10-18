@@ -27,6 +27,7 @@
 - 10:30-11:40 - Grant writing
 - 11:40-12:30 - Lunch
 - 12:30-13:00 - Research meeting
+- 13:00-13:30 - CSE455 staff meeting
 - 13:30-14:30 - Guest lecture prep
 - 14:30-16:00 - Department seminar
 - 16:00-17:00 - PhD student 1:1
@@ -52,3 +53,5 @@
 - 15:20-17:00 - CSE455 office hours
 
 ## Log
+
+- BOOKED: Wednesday 13:00-13:30 with Sarah, John, Priya, Diego, Hana (CSE455 staff meeting)

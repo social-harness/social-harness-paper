@@ -23,6 +23,7 @@
 ## Wednesday
 
 - 09:00-10:00 - Focus: CSE444 project
+- 10:00-10:30 - CSE455 staff meeting
 - 10:30-11:30 - Research group meeting
 - 11:30-13:00 - Lunch
 - 13:30-14:30 - Reading group
@@ -51,3 +52,4 @@
 - 15:40-17:00 - Grading
 
 ## Log
+- BOOKED: Wednesday 10:00-10:30 with Professor Alvarez

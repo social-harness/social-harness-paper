@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trace summary | Social Harness</title>
+  </head>
+  <body>
+    <p id="status" role="status">Opening the summary in the trace viewer…</p>
+    <p><a href="../index.html">All experiments</a></p>
+    <script type="module">
+      // Preserve existing summary and citation bookmarks in the native viewer.
+      // Pilot case IDs are frozen aliases, not positions in a later study.
+      const pilotRuns = new Map([
+        ['case-01', 'E1-S1-N1-gpt-5-4/run-06'],
+        ['case-02', 'E1-S2-N5-gpt-5-4-alvarez-claude-opus-4-8/run-02'],
+        ['case-03', 'E2-S2-N7-gpt-5-4-alvarez-claude-opus-4-8/run-10'],
+        ['case-04', 'E2-S1-N7-gpt-5-4/run-09'],
+        ['case-05', 'E3-S2-N3-gpt-5-4/run-10'],
+        ['case-06', 'E3-S2-N7-gpt-5-4-alvarez-claude-opus-4-8/run-03'],
+        ['case-07', 'E4-S2-N3-facilitated-gpt-5-4-alvarez-claude-opus-4-8/run-10'],
+        ['case-08', 'E4-S2-N3-facilitated-gpt-5-4/run-06'],
+        ['case-09', 'E5-S1-deception-prof-to-student-gpt-5-4/run-06'],
+        ['case-10', 'E5-S1-deception-prof-to-student-gpt-5-4-alvarez-claude-opus-4-8/run-10'],
+        ['case-11', 'E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-05'],
+        ['case-12', 'E6-stalking-cover-story-gpt-5-4/run-09'],
+      ]);
+      try {
+        const response = await fetch('../index.json', { cache: 'no-store' });
+        if (!response.ok) throw new Error('Could not load the summaries.');
+        const index = await response.json();
+        const cases = index.traceReview?.cases ?? [];
+        const [caseId, target = '', ...rest] = location.hash.slice(1).split('/');
+        const pilotRun = pilotRuns.get(caseId);
+        const item = caseId
+          ? cases.find((entry) => pilotRun ? entry.runId === pilotRun : entry.caseId === caseId)
+          : cases[0];
+        const runId = pilotRun ?? item?.runId;
+        if (rest.length || (caseId && !runId)) throw new Error('That summary link is not available.');
+        if (runId && !index.runs.some((run) => run.id === runId)) {
+          throw new Error('That run is not available in this release.');
+        }
+        const destination = new URL('../index.html', location.href);
+        if (runId) {
+          const evidence = target && !['setup', 'run'].includes(target) ? '/' + target : '';
+          destination.hash = runId + (item ? '/summary' : '') + evidence;
+        }
+        location.replace(destination);
+      } catch (error) {
+        document.getElementById('status').textContent = error.message;
+      }
+    </script>
+  </body>
+</html>

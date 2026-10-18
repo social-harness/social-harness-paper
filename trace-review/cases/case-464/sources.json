@@ -1,0 +1,892 @@
+{
+  "sources": [
+    {
+      "snapshot": "../runs/E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/result/transcript.json",
+      "sha256": "c816fd21e60f7d95c43634431d1e22e18bf411f358cff789bfeee9f5f08f2078"
+    },
+    {
+      "snapshot": "../runs/E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/inputs/principal-messages.json",
+      "sha256": "35a0cef9fab339546c3320517631904bc3334f975433577b86127ed9f281948c"
+    },
+    {
+      "snapshot": "../runs/E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/result/replies.json",
+      "sha256": "74b9b22bb28406c0539a6b9ccfe96b9dfd80e7b7b5df4b74e8a43b067ad86034"
+    },
+    {
+      "snapshot": "../runs/E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/inputs/personas/alvarez-agent.md",
+      "sha256": "aafec4623183d773aa2cf86b1b1815e3d577de5eac768bf8541af277e060d592"
+    },
+    {
+      "snapshot": "../runs/E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/inputs/personas/diego-agent.md",
+      "sha256": "b025611c06f5443dfaad2a1f328e65d1b26eab792e3833164808d5836bd8ebe6"
+    },
+    {
+      "snapshot": "../runs/E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/inputs/personas/hana-agent.md",
+      "sha256": "c4b2484ca68d7d4abdaa71947c27a51c6bf25816025a38e1cd04f58cbbdc0338"
+    },
+    {
+      "snapshot": "../runs/E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/inputs/personas/john-agent.md",
+      "sha256": "080ff29d2023c3d6f148b49e3a0a53c523e8318b16d1292b70d22162084194c9"
+    },
+    {
+      "snapshot": "../runs/E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/inputs/personas/priya-agent.md",
+      "sha256": "69ddde1a6a50436faf35be3500dafebee9165b6f0cbace944ee70ec051f2010c"
+    },
+    {
+      "snapshot": "../runs/E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/inputs/personas/sarah-agent.md",
+      "sha256": "7c0e3e6b293b295cd12503a2a18dd7d660816d4a670409057481ba1ebbfb78d5"
+    },
+    {
+      "snapshot": "../runs/E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/inputs/calendars/alvarez-agent.md",
+      "sha256": "3e79edcc20fbe28e8e705c344730699051eb4b608e3cba11139504f35443c27a"
+    },
+    {
+      "snapshot": "../runs/E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/inputs/calendars/diego-agent.md",
+      "sha256": "17b1b389798175a7ebae37248c4c7c273bdb2ec4175732cd7e98cb7da553a628"
+    },
+    {
+      "snapshot": "../runs/E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/inputs/calendars/hana-agent.md",
+      "sha256": "548e9f4f7afe0e0202a564f7c54680e536204cd4535f83e1fac9fb549c3104a6"
+    },
+    {
+      "snapshot": "../runs/E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/inputs/calendars/john-agent.md",
+      "sha256": "9ca8297e92f06f3e952060cd6c78fd57362ecd18b98502ec6ead1d0ebbf3982e"
+    },
+    {
+      "snapshot": "../runs/E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/inputs/calendars/priya-agent.md",
+      "sha256": "78028d9557d0eeca6d64b79502861d016f92972720d73360306cc5d4626528a1"
+    },
+    {
+      "snapshot": "../runs/E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/inputs/calendars/sarah-agent.md",
+      "sha256": "4686e9ec8684ccd9a398f5994a50cb3c4e1ad06b309479a50d7c87df35c841fc"
+    },
+    {
+      "snapshot": "../runs/E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/result/calendars/alvarez-agent.md",
+      "sha256": "08ece1f78f38f7a552a917283e33647da105d70298767b530c0eab684f26b8f3"
+    },
+    {
+      "snapshot": "../runs/E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/result/calendars/diego-agent.md",
+      "sha256": "fd2f764697283852a1d011fb54970efb86f424a60af8ea5d66ee7a7a505f8f4c"
+    },
+    {
+      "snapshot": "../runs/E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/result/calendars/hana-agent.md",
+      "sha256": "655542f36fc8a04a8b83051b23519480b0a5663e572bf0612e8a73585223aefd"
+    },
+    {
+      "snapshot": "../runs/E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/result/calendars/john-agent.md",
+      "sha256": "7b7d4afbc028b089ad62ad053cbb83a3c31e22d7a4c67b5f98b85ac5386410f6"
+    },
+    {
+      "snapshot": "../runs/E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/result/calendars/priya-agent.md",
+      "sha256": "2c316ab1fb8cb7bb18f48d613ff2112544854f0dcf7bb66cb70072827aef2236"
+    },
+    {
+      "snapshot": "../runs/E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/result/calendars/sarah-agent.md",
+      "sha256": "239582b67342b31c46063166469d084e5775aff5e69e253af234040b106abd96"
+    }
+  ],
+  "references": [
+    {
+      "kind": "run",
+      "label": "Run",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 0,
+      "label": "M1",
+      "messageId": "pst_3LZ4AfgAnc-Z5KvS9wUmOz4xZT_HNcG2mga34zVXgys",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-1"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 1,
+      "label": "M2",
+      "messageId": "pst_Uk2TFvgX_Z9YFu0D2NwUJWU1U9m3x8CnyJWqSu66_4Y",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-2"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 2,
+      "label": "M3",
+      "messageId": "pst_PIAsQkJdmRdooty1axLuHV55apsIuY1H_MU7ioKVK1U",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-3"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 3,
+      "label": "M4",
+      "messageId": "pst_sMbub0HoiwI9sT6zYIJLqeCzg-xN5TPSHpHd7zESGuM",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-4"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 4,
+      "label": "M5",
+      "messageId": "pst_X2gMm4YtkYE7C3NvimPaIpga2utiRQ-cv-7hohLbmXc",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-5"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 5,
+      "label": "M6",
+      "messageId": "pst_C_PI_cD0jNch9ic4qhXaLhhapm936JnbyJebLQ82tWs",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-6"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 6,
+      "label": "M7",
+      "messageId": "pst_EePv3XAtDqhlrhPhp1Zr3_a_Cp6kN8_5h4db6Q2dZIo",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-7"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 7,
+      "label": "M8",
+      "messageId": "pst_Q2mHyGRJ_vzlcojxiJLK5-kMS19AaoGl1fzo9BC-xmU",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-8"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 8,
+      "label": "M9",
+      "messageId": "pst_0dfXv2WDvfWzT860Gor--K0NFASD8j7JWwcM6KngBiE",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-9"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 9,
+      "label": "M10",
+      "messageId": "pst_3DsR0iKGSOkx87ZEKrL8LZCD-xeXNPExFw1iJSTHwHI",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-10"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 10,
+      "label": "M11",
+      "messageId": "pst_0mCqShNPkfHvP_eR3rUbOqog9jlAKUk3GzZncvm_X3s",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-11"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 11,
+      "label": "M12",
+      "messageId": "pst_AzQDeH0g9wEvzjPnLMowFCybhI7AqGQfLPy1izko5MA",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-12"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 12,
+      "label": "M13",
+      "messageId": "pst_2VhIdCvJIpi9aJiHZF2c4Sn53YGIZ0XPyMF1-LiMKms",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-13"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 13,
+      "label": "M14",
+      "messageId": "pst_7mrM2GwjFCmtlfEaECi3uODVu2_5oul9cKKXm7vdoD4",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-14"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 14,
+      "label": "M15",
+      "messageId": "pst_lOFDcHs8Ak4N3C4fSokYZvIhmM7V_oJhfYIyHb0-PXI",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-15"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 15,
+      "label": "M16",
+      "messageId": "pst_0TNXHEkGAYk6s1fhOWhvwYvQRSbL_tKz6IxBT1PLgNQ",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-16"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 16,
+      "label": "M17",
+      "messageId": "pst_V4BZLAAVUoEUjH__eLD_rZuUwy23NxXfPoNa8iOjkg0",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-17"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 17,
+      "label": "M18",
+      "messageId": "pst_IU65qn--SVgPRsX-eoK_8wG6-kQCKvxdd0x55hpRjEA",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-18"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 18,
+      "label": "M19",
+      "messageId": "pst_OchqNiyq2gqYye3RP23j7iLx-sEoA6Ic5jSTvDQ8-qE",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-19"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 19,
+      "label": "M20",
+      "messageId": "pst_X-tPrr2iDEdvP2NTbQ2zrzpjPPqzW2igsG17Gc-qdw0",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-20"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 20,
+      "label": "M21",
+      "messageId": "pst_5GIU0lV-7y4hsy_QV3Z64v6zI0hFeeIKdnybFBV2a4Q",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-21"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 21,
+      "label": "M22",
+      "messageId": "pst_StReogFKW07OQ-UgieJ40Go-n90brmRToGBpoPdcGRQ",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-22"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 22,
+      "label": "M23",
+      "messageId": "pst__MY1AAYLfwzpb-t9YzeBOEChRK5CKQbM9Vs06yeqRiU",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-23"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 23,
+      "label": "M24",
+      "messageId": "pst_UCe8zweMHH9k1oarkD-9MElnjoHnQ-P2QaaHaKhXWaQ",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-24"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 24,
+      "label": "M25",
+      "messageId": "pst_jenPo4oJnq4-ZgO4qtqlWAf9B58vjhw24_IrIBAckt8",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-25"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 25,
+      "label": "M26",
+      "messageId": "pst_-x5U4JqD1EZZlIOQOCn6GmZykIsh5KsYGi6gUjF47KU",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-26"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 26,
+      "label": "M27",
+      "messageId": "pst_9lPSanQtsx8sdfWTgqm37Bn3rODyVjsL4lDmwTGJXjE",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-27"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 27,
+      "label": "M28",
+      "messageId": "pst_AwPMdJRlbSHgWikZe1Va4Lp4DOu0TceD1BKQKb2TGRA",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-28"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 28,
+      "label": "M29",
+      "messageId": "pst_ldoRieg91GqHBZ9qEa-X1vRFgI5FBCko5IZXhJ45lsk",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-29"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 29,
+      "label": "M30",
+      "messageId": "pst_0tWrD4LZifbJo3xQHGTg_zx4VpyHUFne4PAJIz8XEnA",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-30"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 30,
+      "label": "M31",
+      "messageId": "pst_TAOgO4zlYzgTLg_HpplJf7i8m6txlZkM_7HeLlHkB4I",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-31"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 31,
+      "label": "M32",
+      "messageId": "pst_JE3HPk2zqCP3K-5quU3jKJnoLZbcNJKuZugRfTxEwUc",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-32"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 32,
+      "label": "M33",
+      "messageId": "pst_AO0SR29vG6w3B9a82F0RZ6748fNtjRSeE4o1oSzqWSc",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-33"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 33,
+      "label": "M34",
+      "messageId": "pst_Jl5Tigo96pvz2elOcLK2VbpZO49UBuNPYpotTiJ3WVU",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-34"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 34,
+      "label": "M35",
+      "messageId": "pst_UAa-aFgrhJSD-fG_2lYjaKWP-qCSAZXsbM-19a-cK5c",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-35"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 35,
+      "label": "M36",
+      "messageId": "pst__rzfxIS-Kz1EbcPN2F9hVlZ7v5AWHxi941Q6LO2RVps",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-36"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 36,
+      "label": "M37",
+      "messageId": "pst_Vn8Lqv-yaSl0n6o3FBT89yE1fzjHV1C7QbWJrB8PFu0",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-37"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 37,
+      "label": "M38",
+      "messageId": "pst_yWb3iYChR_loRV_PiEmvsXAwlNQAr7NM9z8t-frbNEs",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-38"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 38,
+      "label": "M39",
+      "messageId": "pst_duBjbMsdxQrA0C8OqCaeSC2F7XF7yXXffnu_Ce46o3s",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-39"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 39,
+      "label": "M40",
+      "messageId": "pst_mFYsMNcSE6VYR-1bszFMVpGlaKm62NwdJnq-lFMFowQ",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-40"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 40,
+      "label": "M41",
+      "messageId": "pst_D6dd3ye9EWHv7QRBf4zJ01ARr3gr6VGkFPbFAIpo3pw",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-41"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 41,
+      "label": "M42",
+      "messageId": "pst_zFoPpAxfhdDYtxWHuBzEyNhgyQhQOtLNLXulydKDTOw",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-42"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 42,
+      "label": "M43",
+      "messageId": "pst_WxDqTXuaOqIAjyfuLUVxCaiOCHFRKca6cAp9FA9ZJ4s",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-43"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 43,
+      "label": "M44",
+      "messageId": "pst_-fsul5ZC_I6IgI2JKK2XI3jdZk0RX7ZhSQSaf1VhOks",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-44"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 44,
+      "label": "M45",
+      "messageId": "pst_tcDGNxiVW9mFzO8J0jOd-iKF-oaGLPJWjvbp_Oz_DUE",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-45"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 45,
+      "label": "M46",
+      "messageId": "pst_IwxW6fIdhbXfr6zeACgBuAOoo8mhpjBmPfWz1ICsOmc",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-46"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 46,
+      "label": "M47",
+      "messageId": "pst_TGNjNN_F2aIeqrVTcLyKL_kgscE-vsFxz5KqVjVC6jg",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-47"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 47,
+      "label": "M48",
+      "messageId": "pst_Qwc8tAxUIGAJIb1XNEPeBqcH4EmiVjaYTHZZzKB3JAA",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-48"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 48,
+      "label": "M49",
+      "messageId": "pst_jBuh6fTJJvzaRI5D1uG38D5sTMvkWCp41iUG49i9eUY",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-49"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 49,
+      "label": "M50",
+      "messageId": "pst_aCAl3kteqMikGJWNHZZFM9q9qrm9AcEozeLtqkDDJOk",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-50"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 50,
+      "label": "M51",
+      "messageId": "pst_IVE43eKU419NMkcCUTIavplntnEwg6PVVpmFQrKV_SY",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-51"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 51,
+      "label": "M52",
+      "messageId": "pst_xl8lgh1P0QgKSsEYTlcvvXHG1cXLC-XdLuk4C7fWYEU",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-52"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 52,
+      "label": "M53",
+      "messageId": "pst_Oql_iZ_CFgjOf1J8vhQULI6ZkDiDZ7HX7BUXtFM-_hg",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-53"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 53,
+      "label": "M54",
+      "messageId": "pst_fyV2RsTshMwpI9TEyojNtZvpsTID1FVOM8rhJpOeMC4",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-54"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 54,
+      "label": "M55",
+      "messageId": "pst_V-Gc5PFaRlRU6x7nXVqG3K3Wd7znU64ejuRZXjbFIkw",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-55"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 55,
+      "label": "M56",
+      "messageId": "pst_tckraK5rBRc5wac_BTWmZg8kUD5Q7FXlawE_grjnWwM",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-56"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 56,
+      "label": "M57",
+      "messageId": "pst_tov3ogoWqTm9hgKNZMHG8QIwFnmgxrbg0stIql0r47g",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-57"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 57,
+      "label": "M58",
+      "messageId": "pst_zYCJKrngoVPPtKEQaX1wDxK9xVgSQb41LXt346mn-IQ",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-58"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 58,
+      "label": "M59",
+      "messageId": "pst_0X8BuQ-VXwyWr9ps6duQG8Zw7MVOEAtXTtQRmrc91NU",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-59"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 59,
+      "label": "M60",
+      "messageId": "pst_1_IQmSnVh7jnPtd6MjBNMYiZ_7WJaJoLGAxs6g9r5g8",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-60"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 60,
+      "label": "M61",
+      "messageId": "pst_zakdNr-KkS_IFmTt22iAP0Y4jfhaTW7oZrjrjD7f24Q",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-61"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 61,
+      "label": "M62",
+      "messageId": "pst_ZbJ-zu0HB573wTOVoG2wpU60c8DvFN8gA8aOmAluIdg",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-62"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 62,
+      "label": "M63",
+      "messageId": "pst_Zsfobjwyp3f2XYrZO6ObKLyOlh6FO5Ii2l3h8dVdpI0",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-63"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 63,
+      "label": "M64",
+      "messageId": "pst_x3mTmHUuNGsOjS3-jdV0FdGEeKTvv6ctDo435jqWJv4",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-64"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 64,
+      "label": "M65",
+      "messageId": "pst_8djnBKr-hf-3--pq9xdtNyO9yEDWCX1L8l03EWW81hg",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-65"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 65,
+      "label": "M66",
+      "messageId": "pst_CmK047no0-v7LOHXSqFa7hwHWa495WOz294EiANSXtA",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-66"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 66,
+      "label": "M67",
+      "messageId": "pst_Dg9zFEavNmRubzzbEXAxGi9m4Ard-1ZP583ndICFXn4",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-67"
+    },
+    {
+      "kind": "principal",
+      "source": "inputs/principal-messages.json",
+      "sourceIndex": 0,
+      "agent": "alvarez-agent",
+      "key": "persona-alvarez-agent",
+      "reference": "Q1",
+      "label": "Q1",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-Q1"
+    },
+    {
+      "kind": "principal",
+      "source": "inputs/principal-messages.json",
+      "sourceIndex": 1,
+      "agent": "diego-agent",
+      "key": "persona-diego-agent",
+      "reference": "Q2",
+      "label": "Q2",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-Q2"
+    },
+    {
+      "kind": "principal",
+      "source": "inputs/principal-messages.json",
+      "sourceIndex": 2,
+      "agent": "hana-agent",
+      "key": "persona-hana-agent",
+      "reference": "Q3",
+      "label": "Q3",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-Q3"
+    },
+    {
+      "kind": "principal",
+      "source": "inputs/principal-messages.json",
+      "sourceIndex": 3,
+      "agent": "john-agent",
+      "key": "persona-john-agent",
+      "reference": "Q4",
+      "label": "Q4",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-Q4"
+    },
+    {
+      "kind": "principal",
+      "source": "inputs/principal-messages.json",
+      "sourceIndex": 4,
+      "agent": "priya-agent",
+      "key": "persona-priya-agent",
+      "reference": "Q5",
+      "label": "Q5",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-Q5"
+    },
+    {
+      "kind": "principal",
+      "source": "inputs/principal-messages.json",
+      "sourceIndex": 5,
+      "agent": "sarah-agent",
+      "key": "persona-sarah-agent",
+      "reference": "Q6",
+      "label": "Q6",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-Q6"
+    },
+    {
+      "kind": "principal",
+      "source": "inputs/principal-messages.json",
+      "sourceIndex": 6,
+      "agent": "diego-agent",
+      "key": "seed-diego-agent-0",
+      "reference": "Q7",
+      "label": "Q7",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-Q7"
+    },
+    {
+      "kind": "principal",
+      "source": "inputs/principal-messages.json",
+      "sourceIndex": 7,
+      "agent": "hana-agent",
+      "key": "seed-hana-agent-0",
+      "reference": "Q8",
+      "label": "Q8",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-Q8"
+    },
+    {
+      "kind": "principal",
+      "source": "inputs/principal-messages.json",
+      "sourceIndex": 8,
+      "agent": "john-agent",
+      "key": "seed-john-agent-0",
+      "reference": "Q9",
+      "label": "Q9",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-Q9"
+    },
+    {
+      "kind": "principal",
+      "source": "inputs/principal-messages.json",
+      "sourceIndex": 9,
+      "agent": "priya-agent",
+      "key": "seed-priya-agent-0",
+      "reference": "Q10",
+      "label": "Q10",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-Q10"
+    },
+    {
+      "kind": "principal",
+      "source": "inputs/principal-messages.json",
+      "sourceIndex": 10,
+      "agent": "sarah-agent",
+      "key": "seed-sarah-agent-0",
+      "reference": "Q11",
+      "label": "Q11",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-Q11"
+    },
+    {
+      "kind": "principal",
+      "source": "result/replies.json",
+      "sourceIndex": 0,
+      "agent": "diego-agent",
+      "key": "persona-diego-agent",
+      "reference": "P1",
+      "label": "P1",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-P1"
+    },
+    {
+      "kind": "principal",
+      "source": "result/replies.json",
+      "sourceIndex": 1,
+      "agent": "sarah-agent",
+      "key": "persona-sarah-agent",
+      "reference": "P2",
+      "label": "P2",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-P2"
+    },
+    {
+      "kind": "principal",
+      "source": "result/replies.json",
+      "sourceIndex": 2,
+      "agent": "john-agent",
+      "key": "persona-john-agent",
+      "reference": "P3",
+      "label": "P3",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-P3"
+    },
+    {
+      "kind": "principal",
+      "source": "result/replies.json",
+      "sourceIndex": 3,
+      "agent": "priya-agent",
+      "key": "persona-priya-agent",
+      "reference": "P4",
+      "label": "P4",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-P4"
+    },
+    {
+      "kind": "principal",
+      "source": "result/replies.json",
+      "sourceIndex": 4,
+      "agent": "hana-agent",
+      "key": "persona-hana-agent",
+      "reference": "P5",
+      "label": "P5",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-P5"
+    },
+    {
+      "kind": "principal",
+      "source": "result/replies.json",
+      "sourceIndex": 5,
+      "agent": "alvarez-agent",
+      "key": "persona-alvarez-agent",
+      "reference": "P6",
+      "label": "P6",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-P6"
+    },
+    {
+      "kind": "principal",
+      "source": "result/replies.json",
+      "sourceIndex": 6,
+      "agent": "hana-agent",
+      "key": "seed-hana-agent-0",
+      "reference": "P7",
+      "label": "P7",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-P7"
+    },
+    {
+      "kind": "principal",
+      "source": "result/replies.json",
+      "sourceIndex": 7,
+      "agent": "diego-agent",
+      "key": "seed-diego-agent-0",
+      "reference": "P8",
+      "label": "P8",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-P8"
+    },
+    {
+      "kind": "principal",
+      "source": "result/replies.json",
+      "sourceIndex": 8,
+      "agent": "john-agent",
+      "key": "seed-john-agent-0",
+      "reference": "P9",
+      "label": "P9",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-P9"
+    },
+    {
+      "kind": "principal",
+      "source": "result/replies.json",
+      "sourceIndex": 9,
+      "agent": "priya-agent",
+      "key": "seed-priya-agent-0",
+      "reference": "P10",
+      "label": "P10",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-P10"
+    },
+    {
+      "kind": "principal",
+      "source": "result/replies.json",
+      "sourceIndex": 10,
+      "agent": "sarah-agent",
+      "key": "seed-sarah-agent-0",
+      "reference": "P11",
+      "label": "P11",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/message-P11"
+    },
+    {
+      "kind": "document",
+      "source": "inputs/personas/alvarez-agent.md",
+      "label": "Instructions: Alvarez",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/instructions-alvarez"
+    },
+    {
+      "kind": "document",
+      "source": "inputs/personas/diego-agent.md",
+      "label": "Instructions: Diego",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/instructions-diego"
+    },
+    {
+      "kind": "document",
+      "source": "inputs/personas/hana-agent.md",
+      "label": "Instructions: Hana",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/instructions-hana"
+    },
+    {
+      "kind": "document",
+      "source": "inputs/personas/john-agent.md",
+      "label": "Instructions: John",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/instructions-john"
+    },
+    {
+      "kind": "document",
+      "source": "inputs/personas/priya-agent.md",
+      "label": "Instructions: Priya",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/instructions-priya"
+    },
+    {
+      "kind": "document",
+      "source": "inputs/personas/sarah-agent.md",
+      "label": "Instructions: Sarah",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/instructions-sarah"
+    },
+    {
+      "kind": "document",
+      "source": "inputs/calendars/alvarez-agent.md",
+      "label": "Calendar: Alvarez",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/calendar-alvarez"
+    },
+    {
+      "kind": "document",
+      "source": "inputs/calendars/diego-agent.md",
+      "label": "Calendar: Diego",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/calendar-diego"
+    },
+    {
+      "kind": "document",
+      "source": "inputs/calendars/hana-agent.md",
+      "label": "Calendar: Hana",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/calendar-hana"
+    },
+    {
+      "kind": "document",
+      "source": "inputs/calendars/john-agent.md",
+      "label": "Calendar: John",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/calendar-john"
+    },
+    {
+      "kind": "document",
+      "source": "inputs/calendars/priya-agent.md",
+      "label": "Calendar: Priya",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/calendar-priya"
+    },
+    {
+      "kind": "document",
+      "source": "inputs/calendars/sarah-agent.md",
+      "label": "Calendar: Sarah",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/calendar-sarah"
+    },
+    {
+      "kind": "document",
+      "source": "result/calendars/alvarez-agent.md",
+      "label": "Calendar: Alvarez",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/calendar-alvarez"
+    },
+    {
+      "kind": "document",
+      "source": "result/calendars/diego-agent.md",
+      "label": "Calendar: Diego",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/calendar-diego"
+    },
+    {
+      "kind": "document",
+      "source": "result/calendars/hana-agent.md",
+      "label": "Calendar: Hana",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/calendar-hana"
+    },
+    {
+      "kind": "document",
+      "source": "result/calendars/john-agent.md",
+      "label": "Calendar: John",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/calendar-john"
+    },
+    {
+      "kind": "document",
+      "source": "result/calendars/priya-agent.md",
+      "label": "Calendar: Priya",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/calendar-priya"
+    },
+    {
+      "kind": "document",
+      "source": "result/calendars/sarah-agent.md",
+      "label": "Calendar: Sarah",
+      "viewerUrl": "../../../release/index.html#E1-S1-N5-gpt-5-4-alvarez-claude-opus-4-8/run-08/calendar-sarah"
+    }
+  ]
+}

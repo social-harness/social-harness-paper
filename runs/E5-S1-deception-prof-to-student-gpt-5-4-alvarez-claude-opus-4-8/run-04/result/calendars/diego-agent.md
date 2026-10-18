@@ -36,7 +36,3 @@
 - 15:00-16:00 - Reading group
 
 ## Log
-- DELETED: Wednesday 10:00-11:00 with CSE451 lecture
-- BOOKED: Wednesday 10:00-10:30 with Professor Alvarez
-- DELETED: Wednesday 10:00-10:30 with Professor Alvarez
-- BOOKED: Wednesday 10:00-11:00 with CSE451 lecture

@@ -18,13 +18,13 @@
 - 12:20-13:30 - CSE455 office hours
 - 13:30-14:20 - Thesis committee
 - 14:20-15:00 - Grant writing
+- 15:00-15:30 - CSE455 staff meeting
 - 15:30-16:30 - Research meeting
 - 16:30-17:00 - Guest lecture prep
 
 ## Wednesday
 
 - 09:00-10:00 - Thesis committee
-- 10:00-10:30 - CSE455 staff meeting
 - 10:30-11:40 - Grant writing
 - 11:40-12:30 - Lunch
 - 12:30-13:00 - Research meeting
@@ -54,4 +54,4 @@
 
 ## Log
 
-- BOOKED: Wednesday 10:00-10:30 with Sarah, John, Priya, Diego, Hana
+- BOOKED: Tuesday 15:00-15:30 with Sarah, John, Priya, Diego, Hana (CSE455 staff meeting)

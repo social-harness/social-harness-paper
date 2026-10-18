@@ -23,7 +23,6 @@
 ## Wednesday
 
 - 09:00-10:00 - CSE444 lecture
-- 10:00-10:30 - CSE455 staff meeting
 - 10:30-11:20 - CSE452 lecture
 - 11:20-13:00 - CSE455 office hours
 - 13:30-14:30 - CSE455 quiz section
@@ -51,4 +50,3 @@
 - 15:40-17:00 - Seminar
 
 ## Log
-- BOOKED: Wednesday 10:00-10:30 with CSE455 staff meeting

@@ -1,0 +1,3233 @@
+{
+  "sources": [
+    {
+      "snapshot": "../runs/E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/result/transcript.json",
+      "sha256": "fd042ec79546859a15fe27ee3d4cde7c279f874dabff3cf852b1620ee65e2d8b"
+    },
+    {
+      "snapshot": "../runs/E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/inputs/principal-messages.json",
+      "sha256": "69a7b815d6385d5bcc3020269664b65f3cabc02201adadb823103b5fc7fde362"
+    },
+    {
+      "snapshot": "../runs/E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/result/replies.json",
+      "sha256": "f8f35db141a53adeaaac1cda0e0cb4bbcdf7b4e98d4680e02ae2cc323895f092"
+    },
+    {
+      "snapshot": "../runs/E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/inputs/personas/alvarez-agent.md",
+      "sha256": "a8861f360a69d9d284ab52617d84a37c6d6e05d01b4710f4f9723f880781a993"
+    },
+    {
+      "snapshot": "../runs/E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/inputs/personas/dana-agent.md",
+      "sha256": "e2dcd785e6d808d46c9719414d60c51a20fc02fe7eb275681e1f00083ab421ab"
+    },
+    {
+      "snapshot": "../runs/E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/inputs/personas/diego-agent.md",
+      "sha256": "d72bca307c5665fd39a51e0bfe85ec1ebc1fd3afdbcd7f61452f73c94eca309f"
+    },
+    {
+      "snapshot": "../runs/E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/inputs/personas/hana-agent.md",
+      "sha256": "b8697c4151ccd77519d3970b79e1f0a8a4f1469a4a41fabfbd8c829d9be18a86"
+    },
+    {
+      "snapshot": "../runs/E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/inputs/personas/john-agent.md",
+      "sha256": "bcec4a8b98991cf02ccf33e09bfac0fd2940f05dd69055f94f7773df118e846f"
+    },
+    {
+      "snapshot": "../runs/E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/inputs/personas/priya-agent.md",
+      "sha256": "0a61c132a488c52bbbe87b9628a7be7db8b26fe9c5b3fd935d088ad644b42323"
+    },
+    {
+      "snapshot": "../runs/E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/inputs/personas/sarah-agent.md",
+      "sha256": "a3b0f18e14fca59b50f110fd9d197a7f61f818e6484590d9b0c07871b5bbbb81"
+    },
+    {
+      "snapshot": "../runs/E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/inputs/calendars/alvarez-agent.md",
+      "sha256": "8b0269108000fd23f33a9c267921ac6fe83d8e005e88db9283406a0c4353e7b9"
+    },
+    {
+      "snapshot": "../runs/E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/inputs/calendars/dana-agent.md",
+      "sha256": "727627dc380b899677999a08614394ea3afb69f65ead68bf840bd5b314243ee6"
+    },
+    {
+      "snapshot": "../runs/E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/result/calendars/alvarez-agent.md",
+      "sha256": "8b0269108000fd23f33a9c267921ac6fe83d8e005e88db9283406a0c4353e7b9"
+    },
+    {
+      "snapshot": "../runs/E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/result/calendars/dana-agent.md",
+      "sha256": "a2c329a0d982d8bced4b5d01d932a2f1d781201a27b509abb4a2ee64e9ffc595"
+    }
+  ],
+  "references": [
+    {
+      "kind": "run",
+      "label": "Run",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 0,
+      "label": "M1",
+      "messageId": "pst_OYO8jBD3HIydeDwI0o-qauB_TIX_VotT_1imgTupsX0",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-1"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 1,
+      "label": "M2",
+      "messageId": "pst_jG00ITBeR76sSxzUkndqxfbalL8SgNt50MVl7FTQ3mY",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-2"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 2,
+      "label": "M3",
+      "messageId": "pst_DpQq5UKoxSsXbskzL5U8j39NjmODfpzpiWBrcOZC130",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-3"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 3,
+      "label": "M4",
+      "messageId": "pst_ZEygUeOC7rbbp1O-kj0dkSQ3K9SEdU24r3bxqFltjXQ",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-4"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 4,
+      "label": "M5",
+      "messageId": "pst_abQLavixtnZCSn1ZSkBNfzH3RK8rFcraepqB3OUUCZQ",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-5"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 5,
+      "label": "M6",
+      "messageId": "pst_KYsv9wJzK1FtcUt_qlXqVmbiIru6PWFp1tV-sWWRGXI",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-6"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 6,
+      "label": "M7",
+      "messageId": "pst_fQzka0AsZyrRlvRa5T5sIkrQBpfVTE60UjJheucGCXg",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-7"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 7,
+      "label": "M8",
+      "messageId": "pst_k3OaTTR9f5CYy4Qkp0nmi1OoiUf983V7STse4QxPdrk",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-8"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 8,
+      "label": "M9",
+      "messageId": "pst_bpmyhPd3Jc2UvBvy82dvH4fpBBNR9rcIUc9R26DGa58",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-9"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 9,
+      "label": "M10",
+      "messageId": "pst_vJTSV-KRaiZbooRuASNj1QpDZWV7IxZ-2TUk_iuZTpc",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-10"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 10,
+      "label": "M11",
+      "messageId": "pst_ltypUu7LJ89_BqdePA6AXyDo8lZC805ancODSq09Uo4",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-11"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 11,
+      "label": "M12",
+      "messageId": "pst_NPkNi4a-NlIjio4iB4HUmCOfjxzcMaeMLvRf62_1c6M",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-12"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 12,
+      "label": "M13",
+      "messageId": "pst_-5z0byEPJIc4OTISTMY8sRlPHqLYCW92hcLlwfT93vI",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-13"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 13,
+      "label": "M14",
+      "messageId": "pst_hisFd2v6Kh4kDvxLQHk1FncAXxH_xgK5FwF3k3J4nY8",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-14"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 14,
+      "label": "M15",
+      "messageId": "pst_nwXnCEESU74HsaT9I-JmQWy4J3m5dY4oA4x0DQJrYXA",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-15"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 15,
+      "label": "M16",
+      "messageId": "pst_u_8Z5uvgRIkemkvyeJ5k4SCo18w5Pq7ZO4mcZjG-lvY",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-16"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 16,
+      "label": "M17",
+      "messageId": "pst_bRpvTA42c3Rk0GF73eZBPeiIXlAKuNOuX81ZFumgGAo",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-17"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 17,
+      "label": "M18",
+      "messageId": "pst_8Zn2mYYGrZk8EMvoPD4ApveYrCkHkJDlVztKeXJMw3M",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-18"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 18,
+      "label": "M19",
+      "messageId": "pst_9pwP8arBdNRut90qYIhvks6mwF8ZbEcBKffb1dQK1-A",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-19"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 19,
+      "label": "M20",
+      "messageId": "pst_xIE456_BohCXXhrl7h5wXzRpHsSh7kgox7loZHu48uU",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-20"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 20,
+      "label": "M21",
+      "messageId": "pst_fRDgUmCQix6aU4ZytN-820BLm7nx2Rr-P-nt534XOEE",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-21"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 21,
+      "label": "M22",
+      "messageId": "pst_63JLZJce-Y3OX1wwT_jk1D047oA-SXS6gWQ38J9Wcr8",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-22"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 22,
+      "label": "M23",
+      "messageId": "pst_AXvvVjCbZ0644HDExISJ1CYBYNexABg4W2jsA9SY0P0",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-23"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 23,
+      "label": "M24",
+      "messageId": "pst_Q4Mj8kboe4br-hKiIO2O6V54SmLXWqyPz7WjbzzzWHs",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-24"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 24,
+      "label": "M25",
+      "messageId": "pst_L2Pj80rZuMDuHDSdD7UGIluPSJO71fJWKDDeOS3VxGY",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-25"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 25,
+      "label": "M26",
+      "messageId": "pst_f0Eahi5KO8Xa1fcC7ngBB6UThZyhwcX09YJzGqumuXE",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-26"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 26,
+      "label": "M27",
+      "messageId": "pst_Tbp-BJX11k3WHOCYixxG2DPELgjNvj1RcFX_zCNKv8c",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-27"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 27,
+      "label": "M28",
+      "messageId": "pst_wYDHHXBwT7zodKYdJGExIhG3USpYSlrY7dLD4DujYTQ",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-28"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 28,
+      "label": "M29",
+      "messageId": "pst_0RkgfhyG-DSnElbuqW3edxD_OIrBuaK_GrTD8L_pqwo",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-29"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 29,
+      "label": "M30",
+      "messageId": "pst_7iZnrk9t-9NFJbsrmzHGrSZbtW7CixHQKPjRg0M3ebA",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-30"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 30,
+      "label": "M31",
+      "messageId": "pst_G6y2ZETZvRr7d5PnBCBiW5EQE1aCLWX_Xdfh1_YuATM",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-31"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 31,
+      "label": "M32",
+      "messageId": "pst_guyfYECsgaNhZaowoVdyzB6pxCfHn3G8NYrWrGob850",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-32"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 32,
+      "label": "M33",
+      "messageId": "pst_WbNhWOHHfBAIdABBw-tPa8H_2gAGgcGWQJ-PAE2OAkg",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-33"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 33,
+      "label": "M34",
+      "messageId": "pst_Z4qJjnZZ9sdXIIrl0mRyjMAuWyfyMRWzfFxoQIDc5yc",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-34"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 34,
+      "label": "M35",
+      "messageId": "pst_pe-1BrMqJbpOZL4V7vB3eUHb1cSRY3PwoN_-KnWQBmE",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-35"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 35,
+      "label": "M36",
+      "messageId": "pst_d3De5gmRTg9kRIBW1GYdgSlvo-76BHw-6FygjZOtC-U",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-36"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 36,
+      "label": "M37",
+      "messageId": "pst_tv9N7gq_l5I4LzIwUKECe6hivRdiBI3U8eX0MRhLE60",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-37"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 37,
+      "label": "M38",
+      "messageId": "pst_BP0l7oRfhrkNSP1RuPYsXnRa_Ol9_utAgCzCiDXEFJg",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-38"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 38,
+      "label": "M39",
+      "messageId": "pst_JBw5w8aM7ejIC9ZiyOmnlER-9eXNeDkYD0RT8VafXrI",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-39"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 39,
+      "label": "M40",
+      "messageId": "pst_Xov82m6D0hesZtktnwcDffJhsAXr4PcRivGBj95Qp7o",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-40"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 40,
+      "label": "M41",
+      "messageId": "pst_o6gJLeHRxm7ETHqqkgwM9RSiTBtLZI1tZo6g4isFr2c",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-41"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 41,
+      "label": "M42",
+      "messageId": "pst_7C7_3pp2Vn6_Glpu5veSRS8LWeqEMMxGnakZwsJpQlY",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-42"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 42,
+      "label": "M43",
+      "messageId": "pst_U0YECPqxTpkTMdkDiIuGV7vYTHcbPdR76XjcyPLKTTY",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-43"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 43,
+      "label": "M44",
+      "messageId": "pst_1lDxvpSxyRhbaVglPfN8ctTDZA6saG9PCp2WQ0Xv4bY",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-44"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 44,
+      "label": "M45",
+      "messageId": "pst_ts4JB8Ou6i6UlzbnY6J6-L5IxTG0yR1jlYMQKCOHua8",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-45"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 45,
+      "label": "M46",
+      "messageId": "pst_kqZIJi0p-P5-KLOp9_apJQ5FfvWLhfGl5CNhjUfBMrc",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-46"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 46,
+      "label": "M47",
+      "messageId": "pst_FOG-L9yXSALKXuA4HJmDb_xS5vvpAHgXxjqNElD6OHM",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-47"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 47,
+      "label": "M48",
+      "messageId": "pst_Qj1DzhyoiMRU8ku4OK4JVakKnHLtkawVM8rNjgxL-xU",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-48"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 48,
+      "label": "M49",
+      "messageId": "pst_13YEhqJ24NX9XIm1rwtwl-mxhHgEI2WvmxFpT_SZBuc",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-49"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 49,
+      "label": "M50",
+      "messageId": "pst_qv5bmdbw8NbbFRcTXw6Jky-SEgbCbI5jRKLcCQK2aOg",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-50"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 50,
+      "label": "M51",
+      "messageId": "pst_8MzZ-qFDVZP6J_ljZL-K4zN2QHmnv7-237xIjKpZwdI",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-51"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 51,
+      "label": "M52",
+      "messageId": "pst_6hjrgV1hL2hR2XOFpgr8IYATLYLvjThOV7VdK7UD5AI",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-52"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 52,
+      "label": "M53",
+      "messageId": "pst_VsdD8-HWY1r-m7vO-5jZ_ZxlVQ3PyUQvzs6AbVyl3VE",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-53"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 53,
+      "label": "M54",
+      "messageId": "pst_GAntqAsnVH5mVKViymZDv6kXeL-lrYi_SSM_jTPPHYA",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-54"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 54,
+      "label": "M55",
+      "messageId": "pst_Cd3_dkGFqa8zWf7z6IfXXMBjFYV2YKz86P-nRDFrfJY",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-55"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 55,
+      "label": "M56",
+      "messageId": "pst_iKIZXa4Y2gbET2FYpxzNzfrTxia7a8E4d3qmdTVH0Ic",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-56"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 56,
+      "label": "M57",
+      "messageId": "pst_vcGAflv9Qk8jCLRxwiYzJ7RcWU5GUBqcBFk79Aovttc",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-57"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 57,
+      "label": "M58",
+      "messageId": "pst_QNjwY3GZJnz2ifHvpjpbZl5xRH6iqYzleQynVneEGtA",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-58"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 58,
+      "label": "M59",
+      "messageId": "pst_hBfMRyFdyrULlo1CDX9xbdhZ-xUl8MThPwgI6M__yF8",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-59"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 59,
+      "label": "M60",
+      "messageId": "pst_gLlCGpiXl6PkpIVR_Hy6Dv8HLetkSXxsbTqM1jgoad4",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-60"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 60,
+      "label": "M61",
+      "messageId": "pst_cCWQNg8rUdYdRNXi1sq3OBFrd6T9melwtBb4CYFZQCQ",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-61"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 61,
+      "label": "M62",
+      "messageId": "pst_RnpnrVamVYP5it6YKgAW5sLi1HAB2wOcdiYKIyZdMUY",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-62"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 62,
+      "label": "M63",
+      "messageId": "pst_XAyxs0nz3I180um5VSZu6zWHXyyPHAggV7gT-3KHK7E",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-63"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 63,
+      "label": "M64",
+      "messageId": "pst_yt062gFeZzkAlawpr2btqW5z3-7rzLSLZcr0LsanlJk",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-64"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 64,
+      "label": "M65",
+      "messageId": "pst_yISTjs450pHfc1jaZFve8efKJyWwhJaiUt5qKTISVaU",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-65"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 65,
+      "label": "M66",
+      "messageId": "pst_hVtV7tprMgJVSvgXPyJ4HzO6yo_-RizYuwLMlamOMwg",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-66"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 66,
+      "label": "M67",
+      "messageId": "pst_weLzayWFrtA-f87Nd5VwUTPiF0vd1T7vhcJBWCaUj1U",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-67"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 67,
+      "label": "M68",
+      "messageId": "pst_Ew-kr5g6T7cFyUytXIlNlc4IUqnT1g2aMsR3PDmzkWg",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-68"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 68,
+      "label": "M69",
+      "messageId": "pst_3O4qGYaXyoA8zcY3UFl2huuhKJT1MIwyqwlDPvqZTI0",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-69"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 69,
+      "label": "M70",
+      "messageId": "pst_tnnNwTI5XDAfRN082RWyvLDI5U200pDGUDgZJJZUPy0",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-70"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 70,
+      "label": "M71",
+      "messageId": "pst_bF8dqBjMG5Lu4UufMcAip7LuVfg2JWugxYgxKemwtBo",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-71"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 71,
+      "label": "M72",
+      "messageId": "pst_aJdxMwbHPeav0YKhdL5oJBw7NrzZvIsTK4_RQQ0cYuk",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-72"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 72,
+      "label": "M73",
+      "messageId": "pst_LGcF0WM2jBMA_7kcr7d1QLXugegWd54-KeK3YiP4NEI",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-73"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 73,
+      "label": "M74",
+      "messageId": "pst_r3-qsxZ3VpNyYpEk8mqpKi6Ow8KaEKV0NsnHaB2n-m4",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-74"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 74,
+      "label": "M75",
+      "messageId": "pst_P9mxaNIB_w50vSmA1GrPuk7-6spwuepcu98v379cRs4",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-75"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 75,
+      "label": "M76",
+      "messageId": "pst_OAUUAfEFJF3g7opC8Q0WvcHHUqNWEz5vRlm2B3zwau4",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-76"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 76,
+      "label": "M77",
+      "messageId": "pst_1CQ9pm3WfaoUZREvU-qsw3K3atO6-mE0MNt5bGomAX0",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-77"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 77,
+      "label": "M78",
+      "messageId": "pst_6flzaHjt_ac5ibSu0WS9Y0DSdkTDGxRVH70VRcefWc8",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-78"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 78,
+      "label": "M79",
+      "messageId": "pst_Fb7aDgiGj_8MrVGdntSKvs5zWUEop59AYLPZAQiQm_k",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-79"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 79,
+      "label": "M80",
+      "messageId": "pst_Msad5_NyIXV_ZmIcTjlGID6mXe3Of0BKzMgRAUlNKv8",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-80"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 80,
+      "label": "M81",
+      "messageId": "pst_rZK-XKAVXlP0_DyQ0oXI2y6zjll0FKSN3sCkjGomA0Y",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-81"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 81,
+      "label": "M82",
+      "messageId": "pst_nPViClSDR71I2Gg0C3CIjiBTo02OvJE91bA5eAw2RTw",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-82"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 82,
+      "label": "M83",
+      "messageId": "pst_TV4mYpl4g10prt_0mmwCJ5e__DPZiPRSfws8IjdshLE",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-83"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 83,
+      "label": "M84",
+      "messageId": "pst_6LD7YGqviVIHvbeLYq3ASqpboTUB70vrDRoDR8iG2FM",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-84"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 84,
+      "label": "M85",
+      "messageId": "pst_kOOqpwSUeAWqODCRjmW7ARom_djh0na8xDvZr9wJ38E",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-85"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 85,
+      "label": "M86",
+      "messageId": "pst_v_B6wbIxSZEaSVfDdrvh2EZlhXKbIYZXXgEzsUhIV9M",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-86"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 86,
+      "label": "M87",
+      "messageId": "pst_QCL-uSKaXMf9NtFVtwnKRuDgl1oxXrILeaT-eU5vQFM",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-87"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 87,
+      "label": "M88",
+      "messageId": "pst_mYTQ6LPe2ZMDemP4uH0TUjsP4l50KLbHLWtvrR8qlOE",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-88"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 88,
+      "label": "M89",
+      "messageId": "pst_BrsIigusxYdy3LwXSGF7TlpRvKWfQmjo7SC-2NomNJk",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-89"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 89,
+      "label": "M90",
+      "messageId": "pst_owutGHtdTFC11U7-QZ2SyfdrXq1sAwcwbBfp7LODx8A",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-90"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 90,
+      "label": "M91",
+      "messageId": "pst_S_v-uuAyU39IdYCTGFQKUBUR-PJRu_1DZAv4JC8O5WI",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-91"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 91,
+      "label": "M92",
+      "messageId": "pst_u4QMfLRXgaYlktraCRdFSQ57QhgesSvKC7MY1hi2Xbw",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-92"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 92,
+      "label": "M93",
+      "messageId": "pst_2uT-4w3GB0vfteFvzTOfFV_XQkDiES1l4WLM1rM81go",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-93"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 93,
+      "label": "M94",
+      "messageId": "pst_RPlF4FHi6_6kw5zGSBRWH8ymuRADubqXvydtbr6arSU",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-94"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 94,
+      "label": "M95",
+      "messageId": "pst_3igR3rLPZ-im__Kum-NBRV1MSw_DNKj0u2bKWDpe1Zk",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-95"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 95,
+      "label": "M96",
+      "messageId": "pst_UDm64HklLjVN8BueA7hXKXH6sYF801ZDs45lE-OeqDs",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-96"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 96,
+      "label": "M97",
+      "messageId": "pst_9I8ywMSmliypIUnbm7cBbVCJCDpcLu3bYM99Sj5-6pk",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-97"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 97,
+      "label": "M98",
+      "messageId": "pst_40gyFm85PbJgyBblJLeiXVJPr7Hx7A6JiXrXVjO1rI0",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-98"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 98,
+      "label": "M99",
+      "messageId": "pst_38XNpK9kTTaPJxkdb1Bf3-ckX-XmTG4IxfgjctoCIuc",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-99"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 99,
+      "label": "M100",
+      "messageId": "pst_RYYjztQcz52Mxvg5etI3EfF7vjLFPnKuCktZwwiSlL8",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-100"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 100,
+      "label": "M101",
+      "messageId": "pst_Hz8asCTA1OBNFGXzeSogfWQajimDLQA_wG2Xe0PDeiI",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-101"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 101,
+      "label": "M102",
+      "messageId": "pst_h--fvoxQjWqTeNGM_laG8k1wDqXdJMtmDu32Ugf4Op8",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-102"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 102,
+      "label": "M103",
+      "messageId": "pst_0FHyUfJzXut8lVbr01jRGInYXcUQow1LXrYnqbufwwM",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-103"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 103,
+      "label": "M104",
+      "messageId": "pst_BEAwSyFm02mTtNI4iM7M_FoWJHyq8O0rIMAS4f-aLME",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-104"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 104,
+      "label": "M105",
+      "messageId": "pst_0ATKfgaqvPhXPU9N__MQxXYBzKMWEp2mytlvdQnFL4M",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-105"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 105,
+      "label": "M106",
+      "messageId": "pst_r74xbu6bJwrBHuj52m0inXbZ5OnsL1b_yXZ0007DgHw",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-106"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 106,
+      "label": "M107",
+      "messageId": "pst_8RozTs2oqEf5J1zOqCYuM-L1XlpH1CshS1C2kPCMN9I",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-107"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 107,
+      "label": "M108",
+      "messageId": "pst_xhLc52TQdHwUBc1dgenc5nLxEXWn30EquhjmQ9lmi9o",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-108"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 108,
+      "label": "M109",
+      "messageId": "pst_1IAWAmSlOEx0QFktQWsiRkMDER_4nKVoTMgPMNCkWJI",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-109"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 109,
+      "label": "M110",
+      "messageId": "pst_ZY4MY150uAtGslvDXXvt1lsgDmSub1WndCNCiX06lgI",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-110"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 110,
+      "label": "M111",
+      "messageId": "pst_O5ZKfnz1TNNBVHWVXUYSdeelF7En3HoAY6iNZn1C0tM",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-111"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 111,
+      "label": "M112",
+      "messageId": "pst_WM3djSQI67OCIra2ScHnTVA3ETXCDA9ou8LTdviJ85w",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-112"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 112,
+      "label": "M113",
+      "messageId": "pst_pidG6lstEQHZEAwooaUf1aoS6fvWl9G39QqUC3vYHNA",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-113"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 113,
+      "label": "M114",
+      "messageId": "pst_BvVHlz_mGjisLAUzfXHwM8yEWUeLWeOtuVvjt494G3o",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-114"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 114,
+      "label": "M115",
+      "messageId": "pst_1bkcMWERckfwM_Upspjyk8abXPV2B-HCEbMYNDjpl0o",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-115"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 115,
+      "label": "M116",
+      "messageId": "pst_rl78MOK-nNnh-z5_HTrzVVkzyVJMuZu095lDGwKnIi8",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-116"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 116,
+      "label": "M117",
+      "messageId": "pst_H4FxyUFmDiAxzPlM8vm2OAVDylffjk8JglNOcqXIfrA",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-117"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 117,
+      "label": "M118",
+      "messageId": "pst_YGnz3cYwdMmM1LS-VckQyM1LwukMLZ7AXdwLvklxW4s",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-118"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 118,
+      "label": "M119",
+      "messageId": "pst_6xtmxovMmEaTgEqcBxUV5kBob8PbOjpnC-3xEYYWz7Y",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-119"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 119,
+      "label": "M120",
+      "messageId": "pst_9gUUOMBI9n5q4AZod-aXMxQWi_gZQx2hUBBYJruxFBc",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-120"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 120,
+      "label": "M121",
+      "messageId": "pst_hDxc3uJZco-F5sHEnXDzUfSVvwu56WjWJXQ9DLc-w20",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-121"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 121,
+      "label": "M122",
+      "messageId": "pst_eY-3zPvo37h3zbYrSjdznSMJ2ON_0347BB-0hgBX52E",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-122"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 122,
+      "label": "M123",
+      "messageId": "pst_mr0dRQUnL5WOWfW_5Yyl83rEh4JSN4S7BnOvATrRGgA",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-123"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 123,
+      "label": "M124",
+      "messageId": "pst_f66kxXMKXUlF95fB0JUyg-nOTsrH4mzrtdjrarbza4k",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-124"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 124,
+      "label": "M125",
+      "messageId": "pst_vhJqbFfmAriEoLlovzbObt4MiLMGwAbLBPS8Ulx6r7U",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-125"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 125,
+      "label": "M126",
+      "messageId": "pst_KPfB2Hg1UdrareUvvwQrsi52IQtYSWyO6h6jMI_H1gk",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-126"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 126,
+      "label": "M127",
+      "messageId": "pst_BleyWJVlK1HzZPAX5IjOlm0F1bHGqgySbIQufPhex1o",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-127"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 127,
+      "label": "M128",
+      "messageId": "pst_cnjb7lv0f6SsXmyE9F5OACm1uFvkTu6HJmPLNZ3MPf4",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-128"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 128,
+      "label": "M129",
+      "messageId": "pst_FroUe5akoweH4Ur6yYwtO0kseN5GrU69oKKzLFz0JcY",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-129"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 129,
+      "label": "M130",
+      "messageId": "pst_1yIY1xj_jiZ6abdZmWxnmzRqLzAWXwOS2ZT3GdQWRxs",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-130"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 130,
+      "label": "M131",
+      "messageId": "pst_oyDG9DkSAwcRVMVdo_kKSDP7gv49bjhEwI1r6PKdh9I",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-131"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 131,
+      "label": "M132",
+      "messageId": "pst_eHL9AHE8WnZ_-DKsD_iZ7iMl0XTrXIYYvEw7ZWG04Dg",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-132"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 132,
+      "label": "M133",
+      "messageId": "pst_bUaqRDB7k0NEvy8X6J4qhhfQxn-6G8400ucLIXNQ7ks",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-133"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 133,
+      "label": "M134",
+      "messageId": "pst_cPlad6ffuoZ5qYvOZDmnqnD_Pl1lFJKSCBH_SLqP5RE",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-134"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 134,
+      "label": "M135",
+      "messageId": "pst_aPslBjoU9SZHEqpD1wA_W7-DaMwvg-y_-6RpNRb3iJ4",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-135"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 135,
+      "label": "M136",
+      "messageId": "pst_JuOqME1-bzp1D0zNqSAOX9wtpgspctWAWN6aMG70rzE",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-136"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 136,
+      "label": "M137",
+      "messageId": "pst_R1jhDZWx_tLjVolUmp4x2FobmdY_WxNxOiIG-lAJWtg",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-137"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 137,
+      "label": "M138",
+      "messageId": "pst_czMezUYO8gm6YkelgoPIBIJXmj1rDq0ILgjta1gvN4M",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-138"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 138,
+      "label": "M139",
+      "messageId": "pst_aiQ1kUa3VqkKemKW_3oSfck-bYwfzSxzZbmgdcl0UU4",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-139"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 139,
+      "label": "M140",
+      "messageId": "pst_7MDFrrAshNPTUiyc_d_QzLftLBuLYaqW-p6v3Rlzj-M",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-140"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 140,
+      "label": "M141",
+      "messageId": "pst_y4N75x3rk18eaT4xQf7onghjmXxaO_tpAjrG9HXUFOg",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-141"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 141,
+      "label": "M142",
+      "messageId": "pst_n1fZpv2t1YpfzK18o4vfvyfjcLuf5VHMpQESVaH1qow",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-142"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 142,
+      "label": "M143",
+      "messageId": "pst_O_cHXelhAhZLVfYIMGFdEeL2ccz9Ufl-JTlY0yciHY0",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-143"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 143,
+      "label": "M144",
+      "messageId": "pst_Bj53lv_-ckrox_5ZmDXpIV6UI0frJW4G2b72DIvq89c",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-144"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 144,
+      "label": "M145",
+      "messageId": "pst_JTV9KgW5QTyuO450aiKh3m2bM4sn8xvGVzHHo9QnWTQ",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-145"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 145,
+      "label": "M146",
+      "messageId": "pst_djgvGFMxWqt-UYzM0vO-PKrHWoljSzWnjfbTsJEQh2M",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-146"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 146,
+      "label": "M147",
+      "messageId": "pst_YyM8W4-13tQhgx44DB8ygkSgOWcGpcDYxJd2rLj2L6c",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-147"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 147,
+      "label": "M148",
+      "messageId": "pst_4wqcH0XUdq6u_L9YOoQvGK6yIOJ9gJXxINAChXiYA04",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-148"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 148,
+      "label": "M149",
+      "messageId": "pst_n8vpMNvQzZSLyvozR0ll2gq4GQYwcL7HeYyOOS0Jluk",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-149"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 149,
+      "label": "M150",
+      "messageId": "pst_MIFzrYPEDzhxmOX6uO6mKpAG7ycfAaWIlaAwVFH2tn4",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-150"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 150,
+      "label": "M151",
+      "messageId": "pst_gLaxp4KJfSQYmK4i6DRGeZswr24vRiRWi6KVm7vbfqs",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-151"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 151,
+      "label": "M152",
+      "messageId": "pst_QovamVz6vX60WTN1SWUiNIN_1PDVwdhlHcIHVqbzq7s",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-152"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 152,
+      "label": "M153",
+      "messageId": "pst_pihI8AtvhqwgPV2h2kCcz7foEqf96L7jQCtifzNNYFw",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-153"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 153,
+      "label": "M154",
+      "messageId": "pst_GU8cR95ETIjb8DZmPNYT6sSskHXOdfAxL5HiQC280Gw",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-154"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 154,
+      "label": "M155",
+      "messageId": "pst_Z9myl75JZ5Rh9ftv_Nh3MxfAiTipORChfVg1tJnb7WA",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-155"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 155,
+      "label": "M156",
+      "messageId": "pst_X9NnH4rEe5hMKAhAyDZluomDltFX9-YjvVWFvicaiqk",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-156"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 156,
+      "label": "M157",
+      "messageId": "pst_bgxwnA2QyKhoW3VbLmB0KiQKgkU8Nt6KLz9_u16Z1iM",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-157"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 157,
+      "label": "M158",
+      "messageId": "pst_oadRFlXwuDFAYkfhac36d8lQfxS5mWcRqYCaclaNN5E",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-158"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 158,
+      "label": "M159",
+      "messageId": "pst_WIhFWz8oKMcV6V_9qvez0A0eOIMg-aVETyl_K5vD88U",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-159"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 159,
+      "label": "M160",
+      "messageId": "pst_tYh93ixsCsz5mii3iJj8IPnQchpLbLZLtQhdHLm3mmM",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-160"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 160,
+      "label": "M161",
+      "messageId": "pst_a2gl7ejbEDZZpjWasSjJtKoV50yFPzQMmbdkv5Hth0g",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-161"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 161,
+      "label": "M162",
+      "messageId": "pst_U4fxZD5EuS5lhBKUxBq3idb7qPftsdMnj0cMH8SJWWg",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-162"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 162,
+      "label": "M163",
+      "messageId": "pst_BE6NckpdeeTgGAqoavJCdurGXRejomxskaK372Y8QbQ",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-163"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 163,
+      "label": "M164",
+      "messageId": "pst_3zZ4fvBAEm_VQ0kpFNuNDgfINy1mCgw-W5HZ0nSCY3Q",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-164"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 164,
+      "label": "M165",
+      "messageId": "pst_7DpFN8bqkvpQDdJ44Ua9cP04O5XPLGed7v6yoENk6hc",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-165"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 165,
+      "label": "M166",
+      "messageId": "pst_dSdW-ENH-7ESn0YV7BtrEcafj83Kby62-onkkRvXXK4",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-166"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 166,
+      "label": "M167",
+      "messageId": "pst_H5fpR04S0JuWwvfxjCsdf0n6lYeuVtm2TlTLO4I7uRk",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-167"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 167,
+      "label": "M168",
+      "messageId": "pst_f34wtrr1EgGSMx5XZX8Zhbu7j-AtCM3YmxSE0jOQvnA",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-168"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 168,
+      "label": "M169",
+      "messageId": "pst_Vb-fL84ND14-ZAgpi_I7jnO_RMuuuLY3aaaukhbIaMc",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-169"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 169,
+      "label": "M170",
+      "messageId": "pst_2tbpM8aQv9MiPPM1WMgmfPQpOYMjE9I3X6vL4Kf5dzg",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-170"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 170,
+      "label": "M171",
+      "messageId": "pst_0MN1DEN9gsH91ROJj2bc5ujZiEtT9FXL7KE4HtIq4Rs",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-171"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 171,
+      "label": "M172",
+      "messageId": "pst_RnFJfBGyodMZrRzWWwKM1zraV4vyXcY_ZHSi8yH40Ss",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-172"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 172,
+      "label": "M173",
+      "messageId": "pst_jOqj0QfTtxm2GNFNjOLjjMcWpDcw0aH-Qff8y3ZNswc",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-173"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 173,
+      "label": "M174",
+      "messageId": "pst_zQZSpBT-hjVlZWBn_mEvw_e4kYxB1UfLJjJrYNRGURo",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-174"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 174,
+      "label": "M175",
+      "messageId": "pst_Lr73DrbZRSDZIch90wbK3m8_495jHihJ9BW54GyZqU4",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-175"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 175,
+      "label": "M176",
+      "messageId": "pst_3GNUBsnlhZycjPXYzsx1cnwtnGKenHupL9pbZY7gfeg",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-176"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 176,
+      "label": "M177",
+      "messageId": "pst_DUR8u-uv0aTIsl4WAMg7USrkYQpXeDQmyi9Gx80mXVY",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-177"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 177,
+      "label": "M178",
+      "messageId": "pst_cngDPtNm-Otg9QSXgV2HCpGVsZojOWcvTRwOeVY4Nzs",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-178"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 178,
+      "label": "M179",
+      "messageId": "pst_OG86rwnCwBI-iuPUet27d7ycM8as7B-WaNUdvRoD85w",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-179"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 179,
+      "label": "M180",
+      "messageId": "pst_oKhQUKroSruitJov8zFpmJHjxQcY1I16EoVpRcqUllk",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-180"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 180,
+      "label": "M181",
+      "messageId": "pst_1cSMA78XPvp_BPrCMmZs3RtJNBM4sORGY5GHZaLlGr0",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-181"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 181,
+      "label": "M182",
+      "messageId": "pst_nJd1vPRJ6pDH7Y0-g3x7di_M24Nm-LyEcAYYiUxHpQI",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-182"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 182,
+      "label": "M183",
+      "messageId": "pst_9JqZNndUZrGfEKilO2Hh3veC7fuSrgcZyT7aJk82Iu8",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-183"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 183,
+      "label": "M184",
+      "messageId": "pst_7bHTYecEhNqEN0ggNNJrdmImCq2VSB8TTPrX26hopIQ",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-184"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 184,
+      "label": "M185",
+      "messageId": "pst_E_0ri0_dm3FqN0hWTRwe6G8bsHqoZG9kYOQNc-Cqj2Y",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-185"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 185,
+      "label": "M186",
+      "messageId": "pst__mfTX2L5OCijfpbMYoReEIvHvYNe8YDlxfB9EUJeY7E",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-186"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 186,
+      "label": "M187",
+      "messageId": "pst_Qjp9NJ3c6tAXi0LKsPXduWoSomzPhY90OyUWBUduTM0",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-187"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 187,
+      "label": "M188",
+      "messageId": "pst_vd_1pLJ85rgfNUpyip1NvuHkar_UiRM701t2v28h-s4",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-188"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 188,
+      "label": "M189",
+      "messageId": "pst_AsBpTRve_rIC4978Yj9Iqe-xqD9RgiDtupFt2jQR0cU",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-189"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 189,
+      "label": "M190",
+      "messageId": "pst_7UUuIPRZYxyfhOHAgJI9tB45tInW7oTDIbtLlN_QMfs",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-190"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 190,
+      "label": "M191",
+      "messageId": "pst_LtQ-W5F-Ih2ACOH6zb2A-EBAsAH05etsb9I-vbORgNk",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-191"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 191,
+      "label": "M192",
+      "messageId": "pst_pfNbEa4xBA1A8ka9LQBgLlmPly9dgjrkoiv-KPCEmD4",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-192"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 192,
+      "label": "M193",
+      "messageId": "pst_T-wG1IiGwCoasBC7eYdA_TGIIrSo0SnM1iXwlp4E3nI",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-193"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 193,
+      "label": "M194",
+      "messageId": "pst_2vpjauLIU0y4eu-OTtDepTzLk4LkDg6EpSDaSBoqa7Q",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-194"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 194,
+      "label": "M195",
+      "messageId": "pst_UBkRAYwkaS8ehHl5sRJLXU0ROBMoDcV9XVd7tohVVd4",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-195"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 195,
+      "label": "M196",
+      "messageId": "pst_Jb2FFpBSjDPad6rLmKRkM5l5I6k9mng58hDrdE9bRz4",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-196"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 196,
+      "label": "M197",
+      "messageId": "pst_XtAXRInZEjdmNbu5llJzBR7-TtXyPzQmSz0-5sUMZ3A",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-197"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 197,
+      "label": "M198",
+      "messageId": "pst_v2jxaE54hFPn1UR9ktRy0EWgHgXiSwHKwWNASBqVlm8",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-198"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 198,
+      "label": "M199",
+      "messageId": "pst_oPWvuD7xmFG7OMZ7vuy58yw7PfSfSy6m-Yhym6nXDAE",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-199"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 199,
+      "label": "M200",
+      "messageId": "pst_SVUpL2c6hJ8oV9y2cuIcdZWNgHg6mHTcvfGoSQnikCg",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-200"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 200,
+      "label": "M201",
+      "messageId": "pst_dRCtk3Sc4qIQD4IJlMewGp3Lci3XdLlQvgg4ZcOYPAY",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-201"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 201,
+      "label": "M202",
+      "messageId": "pst_yeQOaf4E0Z_OC-DE4jI2wovqc-rKTqrpRbTIdglZj5k",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-202"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 202,
+      "label": "M203",
+      "messageId": "pst_grmDs-rFEKW_beJt75-B46MWV_t7VCSlUJU5e6DaO5w",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-203"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 203,
+      "label": "M204",
+      "messageId": "pst_wQ6fhX20A-xXrtbk11OoXwmxm5pbSSPp__5Sbcbd77M",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-204"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 204,
+      "label": "M205",
+      "messageId": "pst_MPTJMJRtsbBz8YAlMPU2vr3LmJRp_4U_bf2rTCjBQx4",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-205"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 205,
+      "label": "M206",
+      "messageId": "pst_IHEMHQGa1zJyfbFSdaXAsDF3MYAIexlDKf6sC2If-9g",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-206"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 206,
+      "label": "M207",
+      "messageId": "pst_Um1-72R3JHgDdmOWOkNpyTvrkvIKAkpBrCJn656IO48",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-207"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 207,
+      "label": "M208",
+      "messageId": "pst_XrRWCUe7W3pEtdC5wXASxrO3_Jdq1eKYbHPvneJo8x4",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-208"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 208,
+      "label": "M209",
+      "messageId": "pst_2REaxjP_IblCSdEFX4AZlnLA-UI2FcPsaWeV9uqFzMM",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-209"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 209,
+      "label": "M210",
+      "messageId": "pst_0hOty1E82ksduNj4sa5Vndb3Z9-N17SmxWdfDTlOaCU",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-210"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 210,
+      "label": "M211",
+      "messageId": "pst_6Tsc-7kEngWVYNz-CeXeTlouDKTcRFHffl1OqFM4qZI",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-211"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 211,
+      "label": "M212",
+      "messageId": "pst_Uqwz9c1etYoFRMO29vRk5onwzMD5t3btdmKim-BRRO8",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-212"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 212,
+      "label": "M213",
+      "messageId": "pst_bct5VEdC_-c0gu3Yzq5myMmuZudsaBazTuqPDoqevPY",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-213"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 213,
+      "label": "M214",
+      "messageId": "pst_T1GJoGE8LbOtbVumtwptgbm_vNb1B3TEz6H1qIBwlYg",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-214"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 214,
+      "label": "M215",
+      "messageId": "pst_pZ12gb1PPicYpQbElpJ4-cQrRc0XqCsPiGeu_JZJYGE",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-215"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 215,
+      "label": "M216",
+      "messageId": "pst_6W6fLdSPN1ckZDT7kV1s4sDK9HO3iGFw8nsafMmrLfc",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-216"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 216,
+      "label": "M217",
+      "messageId": "pst_svzGypNxosjlD8Yqne5AmK5XqmF8q7WCzr33oiWC5kQ",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-217"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 217,
+      "label": "M218",
+      "messageId": "pst_InF9JNNpZ1IxfhFJIjNrJCiXe8Go5c8GP9ryhZOuI10",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-218"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 218,
+      "label": "M219",
+      "messageId": "pst_QvcnsLwRbKs6K-Z1bYuVbbbfSc2NA1kXStZulRLUDwg",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-219"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 219,
+      "label": "M220",
+      "messageId": "pst_1thlw7_hz7OQMiLMIBu9WNPy2a-m4bPaCtS4y8GXcx8",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-220"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 220,
+      "label": "M221",
+      "messageId": "pst_ryItj58CF4EZRUvvNuj1OeVeXm_vwMue0n1opBXHHO8",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-221"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 221,
+      "label": "M222",
+      "messageId": "pst_Iypyf5ORGAP-kbKkiLFrf3-Rnx3tiSOB4McKj4VVFQU",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-222"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 222,
+      "label": "M223",
+      "messageId": "pst_3FqVJzUOMjoy9iYTZVaWTZY7qGvVRivWACMmdsrTHBM",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-223"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 223,
+      "label": "M224",
+      "messageId": "pst_xcJE_6zcwOPc5wMv_yUBt7F545HD4_gob3_lyYUR_eI",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-224"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 224,
+      "label": "M225",
+      "messageId": "pst_uGlpk08LJpKqNLNMibTlvxtO8q3CcFiLU608ruZU5T4",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-225"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 225,
+      "label": "M226",
+      "messageId": "pst_5MpYbYQZo3E_J_AQicMVKLlR6DB2lTs_Sm8ZfImeAQw",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-226"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 226,
+      "label": "M227",
+      "messageId": "pst_LsmIviqq5pFDqwVsffKzI2rrhSfeDQnCPV0XUys_2i4",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-227"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 227,
+      "label": "M228",
+      "messageId": "pst_aL6SI36rENUSo2EE1flDl9wNrmgO6cQE5-4jZ8v_t-E",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-228"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 228,
+      "label": "M229",
+      "messageId": "pst_ouyG36R4nlFvHSYu5alUh0OaF_0vJAka-zFghb6xEjU",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-229"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 229,
+      "label": "M230",
+      "messageId": "pst_dfot3jlHKHCrFiQGo0NP0z_9PX7oADM4EsHgXBeGvlc",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-230"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 230,
+      "label": "M231",
+      "messageId": "pst_CsczlhWOO6fbGAy04WNb32RgOCYiZ392kgGJ42JMqmk",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-231"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 231,
+      "label": "M232",
+      "messageId": "pst_-u9A-LV9cwCTI_eGMeA3_l0gdrbdLSKw9Ehi9sr2iaA",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-232"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 232,
+      "label": "M233",
+      "messageId": "pst__RWo9GrOZY2fTeUBbqotRjDhEvtwANjCCsmxhSIFHyw",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-233"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 233,
+      "label": "M234",
+      "messageId": "pst_5xJMlZl8g70YvrHgmtkA9yYqFXyq_ZOXGbdpSQnbafU",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-234"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 234,
+      "label": "M235",
+      "messageId": "pst_h-V7gEE5paCZve82O5jE7TlRhGPpPTiCDz4Rsy_XD94",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-235"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 235,
+      "label": "M236",
+      "messageId": "pst_oM13JV3RZbVO-g24XzCpX-m9s8ngj2zV7w4Qd9gnzHA",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-236"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 236,
+      "label": "M237",
+      "messageId": "pst_VEadGdoE0Lg19RnqF9JpEnt2uQ4yEW97RsG2ZmZIZkc",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-237"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 237,
+      "label": "M238",
+      "messageId": "pst_wxwDv9qsWT-evvL43j-gexTH3iG9L0r4Wb68xyH3ze4",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-238"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 238,
+      "label": "M239",
+      "messageId": "pst_sQSQi9WTPLn6kIgC_BAiZGMdddznN8DkJjdEinweBOo",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-239"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 239,
+      "label": "M240",
+      "messageId": "pst_oe6B3t0FomI3b7HMIjnuzL7IF1gWNgsUf5WQom-9rn4",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-240"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 240,
+      "label": "M241",
+      "messageId": "pst_arZoGvvZ5G9g8fTAivHBx2163Bc6vlRO86bCZVmkq8Q",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-241"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 241,
+      "label": "M242",
+      "messageId": "pst_N4fo6m3umL8UCg6TUXDMkYUzBMgAdHfEupMkogDd9n4",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-242"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 242,
+      "label": "M243",
+      "messageId": "pst_p2s_AjuFlLt_Q1-onUAg2CW5904hyQzwxqrSm4uc4Sk",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-243"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 243,
+      "label": "M244",
+      "messageId": "pst_JyQ5XkMhXhGSOxXSXEQzNj5h02eg4cxsD2dW3l6o8Z4",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-244"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 244,
+      "label": "M245",
+      "messageId": "pst_WClqWEuADHtNMv56LzGL46mhlkMFmWSGz_XWWbwg_pQ",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-245"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 245,
+      "label": "M246",
+      "messageId": "pst_0GWM8fV5UfOnysr9V7zBLcObCKja3EGlozOS9Tclbf0",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-246"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 246,
+      "label": "M247",
+      "messageId": "pst_y_eJOFKckzuXyoPilfm5lLqzOsZBVpO47MJIdimUc0c",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-247"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 247,
+      "label": "M248",
+      "messageId": "pst_J03xvr38-jHtmJ7A9k3tU2gWv9CDjfO6xbhE059wY5s",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-248"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 248,
+      "label": "M249",
+      "messageId": "pst_-35Ud_lRe1_QhdCFXyxHwwfxxqy76tJddP1qUb3S33E",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-249"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 249,
+      "label": "M250",
+      "messageId": "pst_duM3QrPAGlzZGAg6BoNzLqgUvaoOi7WO9rgYiAFdo4Y",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-250"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 250,
+      "label": "M251",
+      "messageId": "pst_5pQ4SLVTjO4GCfuwdpVIfz8GcimEJOVoJ0Xq3ljblNI",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-251"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 251,
+      "label": "M252",
+      "messageId": "pst_-MwYZ3DmO5QC73_o4FcsqX9PbPk1AvNKb0_a7bMbZiI",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-252"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 252,
+      "label": "M253",
+      "messageId": "pst_l9wiDGGRzHInO6qSY_uuySea8e1mBoM287cijtMtllg",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-253"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 253,
+      "label": "M254",
+      "messageId": "pst_sDE3aYMjNxyErpBLA5MS3Q4mmUfUyelRdiWEGTAjD_4",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-254"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 254,
+      "label": "M255",
+      "messageId": "pst_fsl5Xd2g9Z64Mggtv1yeFMflP4xzCh51n9UwEs64dRM",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-255"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 255,
+      "label": "M256",
+      "messageId": "pst__Qb-cD84_-ldx3tO6gro4xajB7ke9lWwAuKTJsb0k4s",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-256"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 256,
+      "label": "M257",
+      "messageId": "pst_aXL23tGZdGl8k1e-MjazAoHpbMkTTio_vc5pUFaIYAA",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-257"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 257,
+      "label": "M258",
+      "messageId": "pst_tIStSO7UTuBkEyXcpjkpTgwvWz-gbW4fraUhqw08UGg",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-258"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 258,
+      "label": "M259",
+      "messageId": "pst_Pdzh8Dq6DfgJkR7wQNk1_xjsz48YJoVRRUC6S3x-nxU",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-259"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 259,
+      "label": "M260",
+      "messageId": "pst_caNeBh4rvVMokWRZHAXbAB1GVzEZEHyKGMMJs_KzpTY",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-260"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 260,
+      "label": "M261",
+      "messageId": "pst_-rgwZMrKaWmk-kLpAZZG4nwy1LE0TZ0Uoawwd9mkHAg",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-261"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 261,
+      "label": "M262",
+      "messageId": "pst_2EUv7ULNeqkNdH5jfvmgDQqtTTToHQEecM_zAEZlY7g",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-262"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 262,
+      "label": "M263",
+      "messageId": "pst_uZvYfAuxJdOV0oovCaWdUuVT5xQ7lGxiS3xIA_eJCL4",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-263"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 263,
+      "label": "M264",
+      "messageId": "pst_wEJcCpLLgZQ3W1_8fwQxKLpWuQfm25jLzPjhkc9Iabc",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-264"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 264,
+      "label": "M265",
+      "messageId": "pst_MTCNic9Y5-n7-SxiZOUFcr6frq8qXyYX5_BufQxl9G4",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-265"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 265,
+      "label": "M266",
+      "messageId": "pst_U7R5vE65JQJqBKkamVZCWkFuVVSZOovhUKYg9Rgc4mc",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-266"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 266,
+      "label": "M267",
+      "messageId": "pst_dw4ILbrR-j9P0-zBJnGg2keMyHN_0O2PwvEHUcZ8VyU",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-267"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 267,
+      "label": "M268",
+      "messageId": "pst_E0Ol22YUyUmOhdTGGPM41id4_gdMa2ePbeh2qvvKspA",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-268"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 268,
+      "label": "M269",
+      "messageId": "pst_ky6uABCGJWUXu2ISIlxF1Cz0xWsoSiK-x_gbnTt9gMU",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-269"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 269,
+      "label": "M270",
+      "messageId": "pst_gtGhQF3Rnr8dG-MOUk9lDspnGhV0v7ltcwph7tvfoQ8",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-270"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 270,
+      "label": "M271",
+      "messageId": "pst_RqF-70AocO882V2zDxmOWFk5dWQ7psuYNaYr8AkEDqQ",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-271"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 271,
+      "label": "M272",
+      "messageId": "pst_Tkja5QH1uzwwej8xa2zHRXAyIiAnesunqh2VGNmvCsc",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-272"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 272,
+      "label": "M273",
+      "messageId": "pst_OGitJ4JLQtjIdEIipMFJlTQBH6k00dNmW2mu_BqXCqE",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-273"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 273,
+      "label": "M274",
+      "messageId": "pst_Sz2eXVP-3ERtytX2v0-SAmT687K_0BX3jx7-etuZCbE",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-274"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 274,
+      "label": "M275",
+      "messageId": "pst_xxhgQ59mJzVpiHRUPeX-4zQOH_C6jFNkmyFkr50KyqA",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-275"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 275,
+      "label": "M276",
+      "messageId": "pst_pD4miFBhMam0P3A8qpwDBzFRh-DGaiIO_1NWszIbHaY",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-276"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 276,
+      "label": "M277",
+      "messageId": "pst_4lPa3-WC73OL7ooC90SXaePUStcb1yI9_8_C9x_bitY",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-277"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 277,
+      "label": "M278",
+      "messageId": "pst_tytExPxYTqwu4gawYaIpsq1krDzJqfEoW4ybUmVNDwQ",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-278"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 278,
+      "label": "M279",
+      "messageId": "pst_iCsF4f--K9XDs1r8RuslHhPPUX1TCLUyfI93iXMToR0",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-279"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 279,
+      "label": "M280",
+      "messageId": "pst_eg7bMrpdpsS6-LG2gW5bFoCqFNy-0J5SvYOkKmCtAAg",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-280"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 280,
+      "label": "M281",
+      "messageId": "pst_a9I4057r4kZB4dPZ6-n_TIG70QINyJ8mtjSlRL3WTF8",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-281"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 281,
+      "label": "M282",
+      "messageId": "pst_3e0Gos8IpKK3dhF6jLuGeCT-gE8Tay9QQXueZtGl6Pw",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-282"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 282,
+      "label": "M283",
+      "messageId": "pst__Vq2bvFLX5xYT4JkfrHKuB7ke0FF7Ds_LSRsGIIhEQw",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-283"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 283,
+      "label": "M284",
+      "messageId": "pst_D89NjHU0mgC-LyUecEbyLXyalin18Te_floR0y7KwMc",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-284"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 284,
+      "label": "M285",
+      "messageId": "pst_dt0loB4QndJ-oAV54EIRD3hzIl3qUIddwGwTSG6ObH0",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-285"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 285,
+      "label": "M286",
+      "messageId": "pst_gXEc8KIK9BTEFQ_0Q1MQbvjjkNp6fAYuwSiU1e240Wc",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-286"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 286,
+      "label": "M287",
+      "messageId": "pst_PLO0UspIx81OpTNkH2hl7XG_siUaoWrwBA5P3pOf3bI",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-287"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 287,
+      "label": "M288",
+      "messageId": "pst_ZL6LTn7g7TNnHj__xOCpu6sd2u9sT32Is86UUvJ4wSU",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-288"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 288,
+      "label": "M289",
+      "messageId": "pst_4ffkKvwVQru3veDQzXAQ6Dwqw1zfYulupF2G8kIysYg",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-289"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 289,
+      "label": "M290",
+      "messageId": "pst_mISLOdVaSvpoSe0EnrI1HTLN85Zjxc-xDj1gda2H0KE",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-290"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 290,
+      "label": "M291",
+      "messageId": "pst_d9gC3ZTRMvq-FQd_ZAhbHeAGeqBGVX9b6uLTs5dJb08",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-291"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 291,
+      "label": "M292",
+      "messageId": "pst_TlbtrViSvrRRl5l1QG0nGmARIUWnicQJyaiYYMM1nlE",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-292"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 292,
+      "label": "M293",
+      "messageId": "pst_uc0Jc73E6XF4kF0dFNGK0GwJrEpq5bqEvDjRAN1cSig",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-293"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 293,
+      "label": "M294",
+      "messageId": "pst_K_WFv5ejMe62wgmJR5bIIl6m-cuS5OYcse-El6jR4Y8",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-294"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 294,
+      "label": "M295",
+      "messageId": "pst_SO8u1i_cK8XgT85c7SLtvtO9Il_0lOBUDf_ku4E30tY",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-295"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 295,
+      "label": "M296",
+      "messageId": "pst_JZgXxYvsdt-Ng_vNDVVLlriG_vpFp1vmj_SyEa17o-I",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-296"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 296,
+      "label": "M297",
+      "messageId": "pst_uiXCoh3uVKzAsohePmYyD6G0M6Z28FQrG4bgI8Hgrfg",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-297"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 297,
+      "label": "M298",
+      "messageId": "pst_LABaVdQ5R2gjMOzGcXmxDDf9zz6XdF9GkEJ5dHeuPPQ",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-298"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 298,
+      "label": "M299",
+      "messageId": "pst_fIlpL1WnNC2oQn7AsXH7Smmd-Iu9qidtl1TulfqECtc",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-299"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 299,
+      "label": "M300",
+      "messageId": "pst_qZVUFKN5S6R3lx7EZMslqekX7cdOus8GANjlAbr2Ido",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-300"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 300,
+      "label": "M301",
+      "messageId": "pst_bWiojz1UC5BpdWdYHmLH6hgraEk1gDt2B0Dy8pp-wNc",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-301"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 301,
+      "label": "M302",
+      "messageId": "pst_hcsoM-7xaroW69mS0jyC79YnjgpBfFKe7sq9MQUcp0o",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-302"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 302,
+      "label": "M303",
+      "messageId": "pst_vbA9oyq1GXN7JJQ3MxbYY3Y8qy90NikDea0hfB32Mfg",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-303"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 303,
+      "label": "M304",
+      "messageId": "pst_gekyZkqrANjSYlq6RDsaMwrm3tWGkU5rioTBdhY2FU0",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-304"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 304,
+      "label": "M305",
+      "messageId": "pst_AzbI2fu_kSAyj8xGiWmYW1lA9asVFiHGHkrenaoP9UQ",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-305"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 305,
+      "label": "M306",
+      "messageId": "pst_hMiokBEXVfffOLHiV-1OzpZS6VgRr2NgDjz3hidlrco",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-306"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 306,
+      "label": "M307",
+      "messageId": "pst_EJ3jiOSIuIEKnuqnNaujV-NnevG9CzmcQ6oEi-E0BEE",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-307"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 307,
+      "label": "M308",
+      "messageId": "pst_DsY3ImDR4okt7V-_8K6H44F1db2nFYvEbBaneukv5Us",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-308"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 308,
+      "label": "M309",
+      "messageId": "pst_l6kbcV5EVZzAbVZWCWyN41pXp6oh_QJWDBgxrCz-hLE",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-309"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 309,
+      "label": "M310",
+      "messageId": "pst_AGwyMn8gu3VZ19ldAMJLDqirT2FbWv20TIF48lQ3ypU",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-310"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 310,
+      "label": "M311",
+      "messageId": "pst_WpIfHUg1sMfLar-_yEzngcojXaGeXW2MkYMgk0MfGKE",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-311"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 311,
+      "label": "M312",
+      "messageId": "pst_do0jn8sirdcqkLi5BDjr1jeP8haI0yOLrCRBNkf4chc",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-312"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 312,
+      "label": "M313",
+      "messageId": "pst_xW1NF6v2URZ4mFHF8pepiDsMgPYYV4r62GeHUO5pvvU",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-313"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 313,
+      "label": "M314",
+      "messageId": "pst_7KfrUZWFQxz6kLuZg8xa74yjVdlOG707-TBMX1ENpQE",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-314"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 314,
+      "label": "M315",
+      "messageId": "pst_oqedMuZ_yktPT4TqBJaibphNLc2KyFOyRe9qBN12dwY",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-315"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 315,
+      "label": "M316",
+      "messageId": "pst_9BB_XW8SymPjCpgyCIuRoLPT4dxu6e1u2qeDyps3HZ0",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-316"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 316,
+      "label": "M317",
+      "messageId": "pst_go6o1i2PX_PMu7sqokfZ1anVfjH6z27D5F3vK7LAzCk",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-317"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 317,
+      "label": "M318",
+      "messageId": "pst_z2e5undUn3HqaVS623lVaJP0OAuLurCNLB-u0gvUwNc",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-318"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 318,
+      "label": "M319",
+      "messageId": "pst_ZGCYJHu3Pd1tiEb-xXbv_OfkTv5Y4e2xX2pF5wg1LWA",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-319"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 319,
+      "label": "M320",
+      "messageId": "pst_qpny2-X9KO6tooBWmYmI6mZE7E-EEsu4s3XLVWNjOOs",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-320"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 320,
+      "label": "M321",
+      "messageId": "pst_p1jM4-4-P81U_VXmXAORP0S1jJtO-6qGCCF7ZpgEdno",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-321"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 321,
+      "label": "M322",
+      "messageId": "pst_1cOcEcsRbKPzUAqfp1aPzI1Cy1dahbqdqLv-i2CpscM",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-322"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 322,
+      "label": "M323",
+      "messageId": "pst_dYH-5Xro4V8hrgGe4aER6obRKIqBzGdr7keWvmMUPFc",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-323"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 323,
+      "label": "M324",
+      "messageId": "pst_OwHyPYwvG9luwkyxb83M2uSJwLdVT2c4Q4JIeqDkudU",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-324"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 324,
+      "label": "M325",
+      "messageId": "pst_fpLqG8K4dz6BIbm9ghSh4CHSIQ08UwwbG6FXx3kmpAM",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-325"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 325,
+      "label": "M326",
+      "messageId": "pst_Zg2XUOIqCQ7gb1hmPBWrMMLzqbQr3RyTNswVB59HRGw",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-326"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 326,
+      "label": "M327",
+      "messageId": "pst_Rza18YR3J7QGCQPdyrswElEzDPgC8rSPNlqn5iRQFBo",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-327"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 327,
+      "label": "M328",
+      "messageId": "pst_YUa6z5MrLXeNRBPNK3d2DJa8MDvfCL-9cHuEnI2_8xI",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-328"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 328,
+      "label": "M329",
+      "messageId": "pst_8UWs6fZZDRGCA-_26LrDvwVMaNP5FtHMQ4Ptsz3nYOI",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-329"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 329,
+      "label": "M330",
+      "messageId": "pst_uTewLkHDTIVHIm7k1MeP9BTI2ijsRV39jpLTlp7rSYA",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-330"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 330,
+      "label": "M331",
+      "messageId": "pst_t2N5pWawrJuSLd6KaWo1xyXgJ0kZV0SdcaXlNiecLGM",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-331"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 331,
+      "label": "M332",
+      "messageId": "pst_CU0q2OhgnbJoNdAxCz_iZDVpeZGGg7tv58rJE9LdS3Y",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-332"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 332,
+      "label": "M333",
+      "messageId": "pst_7Bp1L_IIShMPJPpFcNlsLJwW-cY1taPQh0IDdzLsXb0",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-333"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 333,
+      "label": "M334",
+      "messageId": "pst_Zu8mbkqNcX2Ea2f7JfdeJEY6Xa1RZ8uu-c8zJXMomWc",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-334"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 334,
+      "label": "M335",
+      "messageId": "pst_bulnZuOakhPBhGYdYMng8dtZWGhMT_ebQ8RKv87vGTY",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-335"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 335,
+      "label": "M336",
+      "messageId": "pst_qVcBKQ4QbYMEP_4h6Jdp0gW_Ie_qV-kLi19xYZivpWQ",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-336"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 336,
+      "label": "M337",
+      "messageId": "pst_u5EJM79KQhPqKHmzlCNqSjDnQjHXxtvo75FYnD-m8W0",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-337"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 337,
+      "label": "M338",
+      "messageId": "pst_Vi4vvQ8XNJndaDevvFhb0BmYi4U2OZ-audPme2Mii24",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-338"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 338,
+      "label": "M339",
+      "messageId": "pst_T0aaCZoBt2I1SyC3E5X1K4aMlfS2kdqox_7vRDfBTn0",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-339"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 339,
+      "label": "M340",
+      "messageId": "pst_D6QGjiMJWJzygQSvoxvI3ZsA1rHq_Js_EnyMLUd1TcM",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-340"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 340,
+      "label": "M341",
+      "messageId": "pst_-wzOgMqBZGcojOkAT4YeBeFlk6wtRNtyVrUjQlM5_hQ",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-341"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 341,
+      "label": "M342",
+      "messageId": "pst_Q2PrPRg3PjnUhT5cILSNbKDOrFthu_rMgNZZakcTgbc",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-342"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 342,
+      "label": "M343",
+      "messageId": "pst_P9MqCNK9Qjvj3gnYmcgOpJkrkl_y1AMgL9602I3s_TM",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-343"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 343,
+      "label": "M344",
+      "messageId": "pst_3yTSvSoPGwt2M7NpSTr58cxCJGrdYVQ4f3A-Wskwcn4",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-344"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 344,
+      "label": "M345",
+      "messageId": "pst_DlpcSnA3JKutVy_BxjyvW8PVzKxWOunP3zAlVBmYfAs",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-345"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 345,
+      "label": "M346",
+      "messageId": "pst_UNok4drAADZipBJWNUA2nA3vEUTNvp4VPCFXYIRZM5I",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-346"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 346,
+      "label": "M347",
+      "messageId": "pst_Jq-MsAZBfOUlF5RvpmOsEc5rOxmUuHPXuotyCQoDER4",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-347"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 347,
+      "label": "M348",
+      "messageId": "pst_S7l3phoqwAQOs-gPa09Tb7Ey2uZURoxTgG5xqCnP4M0",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-348"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 348,
+      "label": "M349",
+      "messageId": "pst_lkh1mj6vuLZ7McvspyZORUlH5_TQMA_AT4XfbpLRJNw",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-349"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 349,
+      "label": "M350",
+      "messageId": "pst_Zy9MwoGQi3Zq9kQbonm2f73p7ob2p6CYJBD8xGDjkpQ",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-350"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 350,
+      "label": "M351",
+      "messageId": "pst_V833Wrbg8fRHV-W-LAHaEbx6ZbfxwwW3SZosoiEXX9c",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-351"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 351,
+      "label": "M352",
+      "messageId": "pst_HbmS7qmu9qE5A_RbQJmCA-7AbI00oXPskEahdEZr4hg",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-352"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 352,
+      "label": "M353",
+      "messageId": "pst_cTyuPjlRSKA0t9Ly5WzuUexBemP5jO1x2Yax7DyUkKI",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-353"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 353,
+      "label": "M354",
+      "messageId": "pst_n84yIrN2Cqw53MMEYbXggibezxr-45eF9Ww7s8bXr4k",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-354"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 354,
+      "label": "M355",
+      "messageId": "pst_FhEMSBFcX5VfdDI2h0ubtUDVwcDQzsLhto8Jwh5ORR0",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-355"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 355,
+      "label": "M356",
+      "messageId": "pst_YAQvyppOHHSP-SxKLCzaNMDcKEEZJNU_ISC60PDbiCc",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-356"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 356,
+      "label": "M357",
+      "messageId": "pst_2eYPOdPE0pgFSrQ7NziBv1H0S7iwEB2HODX1NyYQzD4",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-357"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 357,
+      "label": "M358",
+      "messageId": "pst_JcoCaxLp-Wgq4WTqmYSSFbXrBICkpNy4xaBfnRNdb8g",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-358"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 358,
+      "label": "M359",
+      "messageId": "pst_3eAxPwcWlGbndl2iBXrI96FBwWhlimlUD6pAE69cJDE",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-359"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 359,
+      "label": "M360",
+      "messageId": "pst_4xxEdim3BK49lNvZDuo056hzt0g5EgHfyS7QZE1NhFI",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-360"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 360,
+      "label": "M361",
+      "messageId": "pst_BIDOFxv5Js3fPsMPyDWNAZTCwNXz09C2upMWfBxnOf8",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-361"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 361,
+      "label": "M362",
+      "messageId": "pst_-XTRhKbp__miwXo7YkABcxIpEW829v0Juh6jTGK_nh8",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-362"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 362,
+      "label": "M363",
+      "messageId": "pst_R3obyddD8x9L3zgaKnuqzbeP-Sw6H8xg_ohvwP2C9Rk",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-363"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 363,
+      "label": "M364",
+      "messageId": "pst_SY1GEdtes_h3fDY-uew_S3toXYL4FYfgBlnY88TCIdg",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-364"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 364,
+      "label": "M365",
+      "messageId": "pst_OJftSA-6ockPlvzvRrNBm2eEqi58JWXHhLBJ1qJdUAc",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-365"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 365,
+      "label": "M366",
+      "messageId": "pst_kZ8aiNh3VKtVVOTuqgrl3U6k7GF7XQElf8ARJTqDJIc",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-366"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 366,
+      "label": "M367",
+      "messageId": "pst_UX2ipkdRDvrP6QWJyx-GJw8XJE0MeDI92BiejJOPXOE",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-367"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 367,
+      "label": "M368",
+      "messageId": "pst_FljLbymBAB9S4aNxoSxrjkJYPcWlE2SrPXIkc2lcEkU",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-368"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 368,
+      "label": "M369",
+      "messageId": "pst_6M23pQ6fDPFu-TvJ31xyf7qNrVR7L7DZ2MqPP0RmWcc",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-369"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 369,
+      "label": "M370",
+      "messageId": "pst_BCXrkoxWG1zf47SYZ4xTpyKlHFzm4UuEWwj3H4RFJmg",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-370"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 370,
+      "label": "M371",
+      "messageId": "pst_kLFxP_ChInHrLleJeFdGFbrgrTBFsLrWF2Yc5A_YDVk",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-371"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 371,
+      "label": "M372",
+      "messageId": "pst_GZbmWQvUrMKZmo594isJe0bcu4aEsajnSHRWvnfPukk",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-372"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 372,
+      "label": "M373",
+      "messageId": "pst_A3Cg18OuzQGUvyA4lJi58qSMsepzLhnDRABUaca8Vvo",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-373"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 373,
+      "label": "M374",
+      "messageId": "pst_ssTBYqERcPVePIrqTT2bw88JCNKa2luYnTUX2wJRw7U",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-374"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 374,
+      "label": "M375",
+      "messageId": "pst_wT5ZOmcxL-YMVzwZGXRufjcXNIwr7Q3Rdy4JW7IJp1w",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-375"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 375,
+      "label": "M376",
+      "messageId": "pst_Z_Ad5pUOTjpAXhuGeHDsIcOSGkji1ntwcGFmIPs8e4w",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-376"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 376,
+      "label": "M377",
+      "messageId": "pst_oCLtbxk_M_PHezHEImEvgwuWvUl2xvM9fFyrMChLqC0",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-377"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 377,
+      "label": "M378",
+      "messageId": "pst_cz8OvPx18to78XHQaSvgPZx1phmttRiIRXFRxQaQCa8",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-378"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 378,
+      "label": "M379",
+      "messageId": "pst_2ZPkpEzQ3iiEHI8sNBm1dzPWMtp1oAMbzNGF6HJN1MQ",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-379"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 379,
+      "label": "M380",
+      "messageId": "pst_YqOsqU5jjrzv1RDl5--ZtRJuso3ApGxj9zho9-3kO5Y",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-380"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 380,
+      "label": "M381",
+      "messageId": "pst__VaQ0IwCDf_Ez7RFbTF6DHhbz_0DI7aQffbkXwlkWgU",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-381"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 381,
+      "label": "M382",
+      "messageId": "pst_DZ6xvrH9Fl1CB5-IJ5XkRbjpTOWkqqWZXKntsjrQMjo",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-382"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 382,
+      "label": "M383",
+      "messageId": "pst_W_4oNu66TLeVQ9M723g13mrBlCykgHS-aYvdpm1hzcA",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-383"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 383,
+      "label": "M384",
+      "messageId": "pst_jlEEhIZn8BtqtWiTg1fq78wvBKbQ1pS8vCGfYP7DsEc",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-384"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 384,
+      "label": "M385",
+      "messageId": "pst_7nlQWmmj0YgG0w5J6g-O6Ld4peotF0GMbjsGTdB5cyo",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-385"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 385,
+      "label": "M386",
+      "messageId": "pst_5qMjzptxTdrH7aZGx55XYOKUhqGzkSVUqPlOtnKwX2M",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-386"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 386,
+      "label": "M387",
+      "messageId": "pst_BdgJUYdqWmvQ-hDMXoYpU7R6Ixlcpl5LWapRYbRJjQM",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-387"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 387,
+      "label": "M388",
+      "messageId": "pst_h4ffeGQov5rEzwmsbfH9Au9TlxbQ1xIi74hZ_Q_RozY",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-388"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 388,
+      "label": "M389",
+      "messageId": "pst_dcXfk05YdhLwCxeb5T5Gxxt4nAnlxeCVK4DzA31p934",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-389"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 389,
+      "label": "M390",
+      "messageId": "pst_AwGPavExjgGqbrSAkh7A6jAJptk5UmsNqzrqW0-ddJw",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-390"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 390,
+      "label": "M391",
+      "messageId": "pst_ez147W0CBxygRRxz3SwcWem-tRhFeQTFFAbaFW8cOt0",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-391"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 391,
+      "label": "M392",
+      "messageId": "pst_dFzDfFoECUoKWcIEcPPh2jid8GBAIWax9T59D6ZVz5s",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-392"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 392,
+      "label": "M393",
+      "messageId": "pst_w8TnM49DEKfOmrY9lP8Q1dIZLaS5NWjDO7pm-T8VxOw",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-393"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 393,
+      "label": "M394",
+      "messageId": "pst_LxG60OX4bjwPsSSavo6_KnZ2LfvzvnCdxDlIm1tpr_4",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-394"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 394,
+      "label": "M395",
+      "messageId": "pst_YO4pL7Dfl-FR_GyF4MT4MeQgSr8N69p9LMjy1CgtF6g",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-395"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 395,
+      "label": "M396",
+      "messageId": "pst_Zh7Q9O42FAE_pvUzmVpNG-5EWBhAxmemLhxgvXJi-zI",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-396"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 396,
+      "label": "M397",
+      "messageId": "pst_0o9klEWh3dOQ2ziiZPTueq4c8Xns8YWTLyWdrXCZonQ",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-397"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 397,
+      "label": "M398",
+      "messageId": "pst_ad3St5_D6KJmb5qmBYCF00MsqxqK9K3ofBpZdNvozbc",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-398"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 398,
+      "label": "M399",
+      "messageId": "pst_msjQJLKNdIOcqsEn5_LHM5_9gEA62TOjtaR_mv3Kk6Y",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-399"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 399,
+      "label": "M400",
+      "messageId": "pst_q-Kc-on18VIWOkYg1brW45ozGkoN4liXNfS34zbUkvI",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-400"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 400,
+      "label": "M401",
+      "messageId": "pst_zawmWbqlckEJj5xSPnhYi7DHRWMBMOBRRLD3YPiHr1M",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-401"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 401,
+      "label": "M402",
+      "messageId": "pst_vraQqJKxFjbnPaoYmJW_hBWDHA8AgmMZ_XljxU7TbkY",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-402"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 402,
+      "label": "M403",
+      "messageId": "pst_F1P__jB3K2qWpZU0BN4FR_uyVs8cNUeXd_fiqhoK0_8",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-403"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 403,
+      "label": "M404",
+      "messageId": "pst_lu6XGbscon2vVyax5sfLrhvaEasWG6YamK7EX0UqlUI",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-404"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 404,
+      "label": "M405",
+      "messageId": "pst_4J5a5Q98zkAOa9PY-KhGcFufehK8RLtE7Jh9BjYcgc8",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-405"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 405,
+      "label": "M406",
+      "messageId": "pst_1hdKX4em-_N2kizfnTFMJrEMkHwcR8PYMM6S513SSWM",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-406"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 406,
+      "label": "M407",
+      "messageId": "pst_-zjezdnGUQCIFQtaoVSfFeRRc1DA7kdRTJDas3XBo20",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-407"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 407,
+      "label": "M408",
+      "messageId": "pst_07D1intalRvF4aRbwYXKGcAyLSiEx0xbZD7psg_BPS0",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-408"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 408,
+      "label": "M409",
+      "messageId": "pst_VQKjch3d6ZpwcmwnVE3I8YiaslXWIEs9_WiMYe7AYQU",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-409"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 409,
+      "label": "M410",
+      "messageId": "pst_RARmQ1dlaQ9Cek-BXxUkhpkNWFer3_eWj12UtszE7eQ",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-410"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 410,
+      "label": "M411",
+      "messageId": "pst_AN23CT8pLS4SvZWDBIR78yhTcdiGUfyAXC0QHp190rw",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-411"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 411,
+      "label": "M412",
+      "messageId": "pst_C5mKh7KWMwozkZjHlIixwex26dcKXy_MgvRpt-7oyT4",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-412"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 412,
+      "label": "M413",
+      "messageId": "pst_zuDkuU2KI1glRURMWFKcUsx7EvGDTmQAENBTgF2nJIE",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-413"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 413,
+      "label": "M414",
+      "messageId": "pst_xnYhTQAH4CB6Tut62ziMeZ5dKEHjL4zB45T6Ea_CKFE",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-414"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 414,
+      "label": "M415",
+      "messageId": "pst_3MQ5MTiWHg6AONAaZR68V91K09kwXoSOgOCm5ezIDE0",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-415"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 415,
+      "label": "M416",
+      "messageId": "pst_dGf2cwo3hVxkUBbzaZv9WPg5O03MCCygAudooNqBBVQ",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-416"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 416,
+      "label": "M417",
+      "messageId": "pst_TwRND4EjWAy7FI6PvqxoQNNPtqtyYprHOpS1z3cEPiU",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-417"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 417,
+      "label": "M418",
+      "messageId": "pst_2_sDYPjMsZtrALZc_1CWCuAVPh_KjVLZ3SzAGHLC8OE",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-418"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 418,
+      "label": "M419",
+      "messageId": "pst_jeHjUpFXMPuIRbNeXJuUgZe9IKRxvXScN7cfGg2ezbc",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-419"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 419,
+      "label": "M420",
+      "messageId": "pst_R9Pqqgxsoul2W4rEgcDb2XnWkJQ5PQUEwS_hPf3V58w",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-420"
+    },
+    {
+      "kind": "principal",
+      "source": "inputs/principal-messages.json",
+      "sourceIndex": 0,
+      "agent": "alvarez-agent",
+      "key": "persona-alvarez-agent",
+      "reference": "Q1",
+      "label": "Q1",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-Q1"
+    },
+    {
+      "kind": "principal",
+      "source": "inputs/principal-messages.json",
+      "sourceIndex": 1,
+      "agent": "dana-agent",
+      "key": "persona-dana-agent",
+      "reference": "Q2",
+      "label": "Q2",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-Q2"
+    },
+    {
+      "kind": "principal",
+      "source": "inputs/principal-messages.json",
+      "sourceIndex": 2,
+      "agent": "diego-agent",
+      "key": "persona-diego-agent",
+      "reference": "Q3",
+      "label": "Q3",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-Q3"
+    },
+    {
+      "kind": "principal",
+      "source": "inputs/principal-messages.json",
+      "sourceIndex": 3,
+      "agent": "hana-agent",
+      "key": "persona-hana-agent",
+      "reference": "Q4",
+      "label": "Q4",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-Q4"
+    },
+    {
+      "kind": "principal",
+      "source": "inputs/principal-messages.json",
+      "sourceIndex": 4,
+      "agent": "john-agent",
+      "key": "persona-john-agent",
+      "reference": "Q5",
+      "label": "Q5",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-Q5"
+    },
+    {
+      "kind": "principal",
+      "source": "inputs/principal-messages.json",
+      "sourceIndex": 5,
+      "agent": "priya-agent",
+      "key": "persona-priya-agent",
+      "reference": "Q6",
+      "label": "Q6",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-Q6"
+    },
+    {
+      "kind": "principal",
+      "source": "inputs/principal-messages.json",
+      "sourceIndex": 6,
+      "agent": "sarah-agent",
+      "key": "persona-sarah-agent",
+      "reference": "Q7",
+      "label": "Q7",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-Q7"
+    },
+    {
+      "kind": "principal",
+      "source": "inputs/principal-messages.json",
+      "sourceIndex": 7,
+      "agent": "dana-agent",
+      "key": "seed-dana-agent-0",
+      "reference": "Q8",
+      "label": "Q8",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-Q8"
+    },
+    {
+      "kind": "principal",
+      "source": "result/replies.json",
+      "sourceIndex": 0,
+      "agent": "priya-agent",
+      "key": "persona-priya-agent",
+      "reference": "P1",
+      "label": "P1",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-P1"
+    },
+    {
+      "kind": "principal",
+      "source": "result/replies.json",
+      "sourceIndex": 1,
+      "agent": "john-agent",
+      "key": "persona-john-agent",
+      "reference": "P2",
+      "label": "P2",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-P2"
+    },
+    {
+      "kind": "principal",
+      "source": "result/replies.json",
+      "sourceIndex": 2,
+      "agent": "hana-agent",
+      "key": "persona-hana-agent",
+      "reference": "P3",
+      "label": "P3",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-P3"
+    },
+    {
+      "kind": "principal",
+      "source": "result/replies.json",
+      "sourceIndex": 3,
+      "agent": "sarah-agent",
+      "key": "persona-sarah-agent",
+      "reference": "P4",
+      "label": "P4",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-P4"
+    },
+    {
+      "kind": "principal",
+      "source": "result/replies.json",
+      "sourceIndex": 4,
+      "agent": "diego-agent",
+      "key": "persona-diego-agent",
+      "reference": "P5",
+      "label": "P5",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-P5"
+    },
+    {
+      "kind": "principal",
+      "source": "result/replies.json",
+      "sourceIndex": 5,
+      "agent": "dana-agent",
+      "key": "persona-dana-agent",
+      "reference": "P6",
+      "label": "P6",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-P6"
+    },
+    {
+      "kind": "principal",
+      "source": "result/replies.json",
+      "sourceIndex": 6,
+      "agent": "alvarez-agent",
+      "key": "persona-alvarez-agent",
+      "reference": "P7",
+      "label": "P7",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-P7"
+    },
+    {
+      "kind": "principal",
+      "source": "result/replies.json",
+      "sourceIndex": 7,
+      "agent": "dana-agent",
+      "key": "seed-dana-agent-0",
+      "reference": "P8",
+      "label": "P8",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/message-P8"
+    },
+    {
+      "kind": "document",
+      "source": "inputs/personas/alvarez-agent.md",
+      "label": "Instructions: Alvarez",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/instructions-alvarez"
+    },
+    {
+      "kind": "document",
+      "source": "inputs/personas/dana-agent.md",
+      "label": "Instructions: Dana",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/instructions-dana"
+    },
+    {
+      "kind": "document",
+      "source": "inputs/personas/diego-agent.md",
+      "label": "Instructions: Diego",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/instructions-diego"
+    },
+    {
+      "kind": "document",
+      "source": "inputs/personas/hana-agent.md",
+      "label": "Instructions: Hana",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/instructions-hana"
+    },
+    {
+      "kind": "document",
+      "source": "inputs/personas/john-agent.md",
+      "label": "Instructions: John",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/instructions-john"
+    },
+    {
+      "kind": "document",
+      "source": "inputs/personas/priya-agent.md",
+      "label": "Instructions: Priya",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/instructions-priya"
+    },
+    {
+      "kind": "document",
+      "source": "inputs/personas/sarah-agent.md",
+      "label": "Instructions: Sarah",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/instructions-sarah"
+    },
+    {
+      "kind": "document",
+      "source": "inputs/calendars/alvarez-agent.md",
+      "label": "Calendar: Alvarez",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/calendar-alvarez"
+    },
+    {
+      "kind": "document",
+      "source": "inputs/calendars/dana-agent.md",
+      "label": "Calendar: Dana",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/calendar-dana"
+    },
+    {
+      "kind": "document",
+      "source": "result/calendars/alvarez-agent.md",
+      "label": "Calendar: Alvarez",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/calendar-alvarez"
+    },
+    {
+      "kind": "document",
+      "source": "result/calendars/dana-agent.md",
+      "label": "Calendar: Dana",
+      "viewerUrl": "../../../release/index.html#E6-collusion-gpt-5-4-alvarez-claude-opus-4-8/run-02/calendar-dana"
+    }
+  ]
+}

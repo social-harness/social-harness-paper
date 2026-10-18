@@ -7,7 +7,7 @@
 - 10:30-11:30 - Paper review
 - 11:30-13:00 - Lunch
 - 13:00-14:00 - Colloquium
-- 14:00-14:30 - 1:1 with Priya
+- 14:00-14:30 - 1:1 with John
 - 14:30-15:20 - CSE455 lecture
 - 15:20-16:30 - Faculty meeting
 - 16:30-17:00 - CSE455 office hours
@@ -26,7 +26,7 @@
 ## Wednesday
 
 - 09:00-10:00 - Thesis committee
-- 10:00-10:30 - 1:1 with John
+- 10:00-10:30 - 1:1 with Priya
 - 10:30-11:40 - Grant writing
 - 11:40-12:30 - Lunch
 - 12:30-13:00 - Research meeting
@@ -58,5 +58,5 @@
 ## Log
 
 - BOOKED: Monday 10:00-10:30 with Sarah
-- BOOKED: Wednesday 10:00-10:30 with John
-- BOOKED: Monday 14:00-14:30 with Priya
+- BOOKED: Monday 14:00-14:30 with John
+- BOOKED: Wednesday 10:00-10:30 with Priya

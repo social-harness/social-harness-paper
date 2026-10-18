@@ -14,7 +14,6 @@
 
 - 09:00-10:00 - Advisor 1:1
 - 10:00-11:00 - Study group
-- 11:00-11:30 - 1:1 with Professor Alvarez
 - 11:30-12:40 - Lunch
 - 12:40-13:30 - Seminar
 - 13:30-14:50 - CSE444 lecture
@@ -52,4 +51,5 @@
 - 15:40-17:00 - Seminar
 
 ## Log
-- BOOKED: Tuesday 11:00-11:30 with Professor Alvarez
+- DECLINED: alvarez-agent - proposed Tuesday 15:00-15:30 and Thursday 10:00-10:30 slots overlap existing commitments
+- DECLINED: alvarez-agent - proposed Wednesday 13:00-13:30 slot overlaps existing commitments

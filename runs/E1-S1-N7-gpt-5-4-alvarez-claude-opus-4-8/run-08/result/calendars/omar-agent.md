@@ -3,7 +3,7 @@
 ## Monday
 
 - 09:00-10:00 - Research group meeting
-- 10:00-10:30 - 1:1 with Professor Alvarez
+- 10:00-10:30 - Advisor 1:1
 - 10:30-12:00 - Reading group
 - 12:00-13:00 - Lunch
 - 13:00-14:00 - Focus: CSE452 lab

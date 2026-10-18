@@ -51,5 +51,4 @@
 - 15:50-17:00 - CSE444 lecture
 
 ## Log
-
 - BOOKED: Tuesday 15:00-15:30 with Professor Alvarez

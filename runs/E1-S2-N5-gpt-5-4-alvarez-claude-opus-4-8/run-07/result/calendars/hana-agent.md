@@ -51,3 +51,6 @@
 - 15:40-17:00 - Grading
 
 ## Log
+
+- BOOKED: Tuesday 15:00-15:30 with Professor Alvarez
+- DELETED: Tuesday 15:00-15:30 with Professor Alvarez

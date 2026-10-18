@@ -25,6 +25,7 @@
 - 09:00-10:00 - CSE444 lecture
 - 10:30-11:20 - CSE452 lecture
 - 11:20-13:00 - CSE455 office hours
+- 13:00-13:30 - CSE455 staff meeting
 - 13:30-14:30 - CSE455 quiz section
 - 14:30-16:00 - Grading
 - 16:00-17:00 - Focus: CSE444 project
@@ -50,3 +51,4 @@
 - 15:40-17:00 - Seminar
 
 ## Log
+- BOOKED: Wednesday 13:00-13:30 with CSE455 staff meeting

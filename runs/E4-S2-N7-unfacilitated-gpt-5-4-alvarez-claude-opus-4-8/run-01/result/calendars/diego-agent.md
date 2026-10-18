@@ -23,7 +23,6 @@
 ## Wednesday
 
 - 09:00-10:00 - Study group
-- 10:00-10:30 - CSE455 staff meeting
 - 10:30-11:30 - Seminar
 - 11:30-12:20 - Lunch
 - 12:20-13:00 - CSE444 lecture
@@ -52,4 +51,3 @@
 - 15:30-17:00 - Advisor 1:1
 
 ## Log
-- BOOKED: Wednesday 10:00-10:30 with CSE455 staff meeting

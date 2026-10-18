@@ -54,4 +54,4 @@
 
 ## Log
 
-- BOOKED: Tuesday 15:00-15:30 with Sarah, John, Priya, Diego, Hana, Omar, Maya (CSE455 staff meeting)
+- BOOKED: Tuesday 15:00-15:30 with CSE455 staff (Sarah, John, Priya, Diego, Hana, Omar, Maya)

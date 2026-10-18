@@ -1,0 +1,506 @@
+{
+  "sources": [
+    {
+      "snapshot": "../runs/E3-S2-N7-gpt-5-4/run-03/result/transcript.json",
+      "sha256": "668d48f0dd8361349eb125966f9534d95dec9b0cef73ef946b4f4ff1a29d48a0"
+    },
+    {
+      "snapshot": "../runs/E3-S2-N7-gpt-5-4/run-03/inputs/principal-messages.json",
+      "sha256": "ea2af72f555259f6df2a64d9ffd6a10ab597d3103dbc67793e0d8ffee67e23a9"
+    },
+    {
+      "snapshot": "../runs/E3-S2-N7-gpt-5-4/run-03/result/replies.json",
+      "sha256": "bf9f83fbbc59dd6d2a89ecabc63fc6ca4f4124fae49dabc6a2853e63b7efa99a"
+    },
+    {
+      "snapshot": "../runs/E3-S2-N7-gpt-5-4/run-03/inputs/personas/alvarez-agent.md",
+      "sha256": "52b48524971ddcb9bdd824f12a17b9b4e02504be90e19032b00f30906399d26a"
+    },
+    {
+      "snapshot": "../runs/E3-S2-N7-gpt-5-4/run-03/inputs/personas/diego-agent.md",
+      "sha256": "c523a9d8179468c6fca9454e05fb41dd112cc8392c2215f2d445243bedec769d"
+    },
+    {
+      "snapshot": "../runs/E3-S2-N7-gpt-5-4/run-03/inputs/personas/hana-agent.md",
+      "sha256": "e5fb5f678849ab624ab784fa5e49f4f54ff73e91cead6a5a339447b35bc71d1f"
+    },
+    {
+      "snapshot": "../runs/E3-S2-N7-gpt-5-4/run-03/inputs/personas/john-agent.md",
+      "sha256": "9f2d4765ba3d05306a7660c7c95108c01666187cb0093d92f3fdf758dd968e3b"
+    },
+    {
+      "snapshot": "../runs/E3-S2-N7-gpt-5-4/run-03/inputs/personas/maya-agent.md",
+      "sha256": "8979a4b39205de0db38e0b71578e0a0a101cdad3506b438221b131c53f26f8d2"
+    },
+    {
+      "snapshot": "../runs/E3-S2-N7-gpt-5-4/run-03/inputs/personas/omar-agent.md",
+      "sha256": "debf01a4ede86c36c94087f2d847b4bc33946015fb0518090fe6bad082059358"
+    },
+    {
+      "snapshot": "../runs/E3-S2-N7-gpt-5-4/run-03/inputs/personas/priya-agent.md",
+      "sha256": "809a4c831655a44e0f77e07e013f68de3903f2f2cb515bbffcce812b3beb0e47"
+    },
+    {
+      "snapshot": "../runs/E3-S2-N7-gpt-5-4/run-03/inputs/personas/sarah-agent.md",
+      "sha256": "30b37f277900cfac9df95188cdad3c97b13465001b523c682f4e5e9e65a6ec33"
+    },
+    {
+      "snapshot": "../runs/E3-S2-N7-gpt-5-4/run-03/inputs/calendars/alvarez-agent.md",
+      "sha256": "ae3d38919489b95473ef594f41ed6876d8af1ddd0c8d7559a1827f6ed8fc4e7c"
+    },
+    {
+      "snapshot": "../runs/E3-S2-N7-gpt-5-4/run-03/inputs/calendars/diego-agent.md",
+      "sha256": "2b3e3c9824b17a06a642bd024ea1d2b0756f268c29b9e51be5c2bbdf8439ff19"
+    },
+    {
+      "snapshot": "../runs/E3-S2-N7-gpt-5-4/run-03/inputs/calendars/hana-agent.md",
+      "sha256": "974a8a9d26fb053bb0aec33e3d9922bdbacdddf8d5594cc75ae5254c4256dd35"
+    },
+    {
+      "snapshot": "../runs/E3-S2-N7-gpt-5-4/run-03/inputs/calendars/john-agent.md",
+      "sha256": "9ca8297e92f06f3e952060cd6c78fd57362ecd18b98502ec6ead1d0ebbf3982e"
+    },
+    {
+      "snapshot": "../runs/E3-S2-N7-gpt-5-4/run-03/inputs/calendars/maya-agent.md",
+      "sha256": "4c43008480f2a6d24eecc162c4ad7e67f89ce42a1b986e3d5e5507d90869b593"
+    },
+    {
+      "snapshot": "../runs/E3-S2-N7-gpt-5-4/run-03/inputs/calendars/omar-agent.md",
+      "sha256": "89a4af2f80b4edd4af2ace3441bca30de5a025b4fa2699b457bde698d0ba0d17"
+    },
+    {
+      "snapshot": "../runs/E3-S2-N7-gpt-5-4/run-03/inputs/calendars/priya-agent.md",
+      "sha256": "6077fd71781f8d8595414361e82ba20f63eaa0d0843d21d2be3a3f577c04690e"
+    },
+    {
+      "snapshot": "../runs/E3-S2-N7-gpt-5-4/run-03/inputs/calendars/sarah-agent.md",
+      "sha256": "771a28e27cbd410d9cb5c2f9780fdb86c9f91a7d5114921926dbabc03f9ab2d5"
+    },
+    {
+      "snapshot": "../runs/E3-S2-N7-gpt-5-4/run-03/result/calendars/alvarez-agent.md",
+      "sha256": "e52fc95e0108d7387345e85bce5479e0961509e97960e2f1942bfb0a4610e561"
+    },
+    {
+      "snapshot": "../runs/E3-S2-N7-gpt-5-4/run-03/result/calendars/diego-agent.md",
+      "sha256": "f7c37555bc1858ed1c3789804ba84c3bbd0b306e46caea438cbab0c4a6d24bca"
+    },
+    {
+      "snapshot": "../runs/E3-S2-N7-gpt-5-4/run-03/result/calendars/hana-agent.md",
+      "sha256": "3e46c015a29d420fe1cefe33f887a099cde156cb57dbc79b12b19f4958aa2ca0"
+    },
+    {
+      "snapshot": "../runs/E3-S2-N7-gpt-5-4/run-03/result/calendars/john-agent.md",
+      "sha256": "56bb5549c489d8d3372c6f28ee1cd3b9b6681967661d6dd19303258fc5690814"
+    },
+    {
+      "snapshot": "../runs/E3-S2-N7-gpt-5-4/run-03/result/calendars/maya-agent.md",
+      "sha256": "ec301341daa4ba9f4b72bed0865db1b8a8af65afbe0d7ffb7fd2174f34df58d5"
+    },
+    {
+      "snapshot": "../runs/E3-S2-N7-gpt-5-4/run-03/result/calendars/omar-agent.md",
+      "sha256": "5b6052cd0db146a7f470e8b7311a82089d40892223878dbea6315e42496315ae"
+    },
+    {
+      "snapshot": "../runs/E3-S2-N7-gpt-5-4/run-03/result/calendars/priya-agent.md",
+      "sha256": "82294743232edd04bd24370db8dcf43af6625a171c3ab726ac8e13b17201880c"
+    },
+    {
+      "snapshot": "../runs/E3-S2-N7-gpt-5-4/run-03/result/calendars/sarah-agent.md",
+      "sha256": "fe6fde3f9bb1c2244ba580220232344a6caced1642a2a9691209b33926e3c2a3"
+    }
+  ],
+  "references": [
+    {
+      "kind": "run",
+      "label": "Run",
+      "viewerUrl": "../../../release/index.html#E3-S2-N7-gpt-5-4/run-03"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 0,
+      "label": "M1",
+      "messageId": "pst_exBKyIuLs5LJ7CeD_nXRJdj3JriNfyOdNb6esHvTZQ4",
+      "viewerUrl": "../../../release/index.html#E3-S2-N7-gpt-5-4/run-03/message-1"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 1,
+      "label": "M2",
+      "messageId": "pst_xHcoJruU7Y3Vielxxg5wEOcrPa_gzZ7Bt1UfYi3QM1c",
+      "viewerUrl": "../../../release/index.html#E3-S2-N7-gpt-5-4/run-03/message-2"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 2,
+      "label": "M3",
+      "messageId": "pst_NVudpoUN95Vd6E6j0-6FNlFNqAJk1jpp6OGJha3L64U",
+      "viewerUrl": "../../../release/index.html#E3-S2-N7-gpt-5-4/run-03/message-3"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 3,
+      "label": "M4",
+      "messageId": "pst_W7yyP_-pfZqQGQFbipJquVKPJB6jajhYf0nk9u_rtgs",
+      "viewerUrl": "../../../release/index.html#E3-S2-N7-gpt-5-4/run-03/message-4"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 4,
+      "label": "M5",
+      "messageId": "pst_tLEgyad7gwvtlOTA6MWV90g58tR8DWB62l0l9Yisby4",
+      "viewerUrl": "../../../release/index.html#E3-S2-N7-gpt-5-4/run-03/message-5"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 5,
+      "label": "M6",
+      "messageId": "pst_mA9jzPtWtCDO98oYx3PC18If23Pq-eRsSyUzlOzhmfw",
+      "viewerUrl": "../../../release/index.html#E3-S2-N7-gpt-5-4/run-03/message-6"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 6,
+      "label": "M7",
+      "messageId": "pst_qDZ2zzGSRriNarji8Ui-V4tSse--cnP9TzDCDaJBp1s",
+      "viewerUrl": "../../../release/index.html#E3-S2-N7-gpt-5-4/run-03/message-7"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 7,
+      "label": "M8",
+      "messageId": "pst_NRv9uAM_x9OXE4whroevkRsZlJyeURn1uaAcU2HdHkg",
+      "viewerUrl": "../../../release/index.html#E3-S2-N7-gpt-5-4/run-03/message-8"
+    },
+    {
+      "kind": "message",
+      "sourceIndex": 8,
+      "label": "M9",
+      "messageId": "pst_R79h589PjfN-YH2C8rskkC5L-MghhCl9aCsrOZpFumc",
+      "viewerUrl": "../../../release/index.html#E3-S2-N7-gpt-5-4/run-03/message-9"
+    },
+    {
+      "kind": "principal",
+      "source": "inputs/principal-messages.json",
+      "sourceIndex": 0,
+      "agent": "alvarez-agent",
+      "key": "persona-alvarez-agent",
+      "reference": "Q1",
+      "label": "Q1",
+      "viewerUrl": "../../../release/index.html#E3-S2-N7-gpt-5-4/run-03/message-Q1"
+    },
+    {
+      "kind": "principal",
+      "source": "inputs/principal-messages.json",
+      "sourceIndex": 1,
+      "agent": "diego-agent",
+      "key": "persona-diego-agent",
+      "reference": "Q2",
+      "label": "Q2",
+      "viewerUrl": "../../../release/index.html#E3-S2-N7-gpt-5-4/run-03/message-Q2"
+    },
+    {
+      "kind": "principal",
+      "source": "inputs/principal-messages.json",
+      "sourceIndex": 2,
+      "agent": "hana-agent",
+      "key": "persona-hana-agent",
+      "reference": "Q3",
+      "label": "Q3",
+      "viewerUrl": "../../../release/index.html#E3-S2-N7-gpt-5-4/run-03/message-Q3"
+    },
+    {
+      "kind": "principal",
+      "source": "inputs/principal-messages.json",
+      "sourceIndex": 3,
+      "agent": "john-agent",
+      "key": "persona-john-agent",
+      "reference": "Q4",
+      "label": "Q4",
+      "viewerUrl": "../../../release/index.html#E3-S2-N7-gpt-5-4/run-03/message-Q4"
+    },
+    {
+      "kind": "principal",
+      "source": "inputs/principal-messages.json",
+      "sourceIndex": 4,
+      "agent": "maya-agent",
+      "key": "persona-maya-agent",
+      "reference": "Q5",
+      "label": "Q5",
+      "viewerUrl": "../../../release/index.html#E3-S2-N7-gpt-5-4/run-03/message-Q5"
+    },
+    {
+      "kind": "principal",
+      "source": "inputs/principal-messages.json",
+      "sourceIndex": 5,
+      "agent": "omar-agent",
+      "key": "persona-omar-agent",
+      "reference": "Q6",
+      "label": "Q6",
+      "viewerUrl": "../../../release/index.html#E3-S2-N7-gpt-5-4/run-03/message-Q6"
+    },
+    {
+      "kind": "principal",
+      "source": "inputs/principal-messages.json",
+      "sourceIndex": 6,
+      "agent": "priya-agent",
+      "key": "persona-priya-agent",
+      "reference": "Q7",
+      "label": "Q7",
+      "viewerUrl": "../../../release/index.html#E3-S2-N7-gpt-5-4/run-03/message-Q7"
+    },
+    {
+      "kind": "principal",
+      "source": "inputs/principal-messages.json",
+      "sourceIndex": 7,
+      "agent": "sarah-agent",
+      "key": "persona-sarah-agent",
+      "reference": "Q8",
+      "label": "Q8",
+      "viewerUrl": "../../../release/index.html#E3-S2-N7-gpt-5-4/run-03/message-Q8"
+    },
+    {
+      "kind": "principal",
+      "source": "inputs/principal-messages.json",
+      "sourceIndex": 8,
+      "agent": "alvarez-agent",
+      "key": "seed-alvarez-agent-0",
+      "reference": "Q9",
+      "label": "Q9",
+      "viewerUrl": "../../../release/index.html#E3-S2-N7-gpt-5-4/run-03/message-Q9"
+    },
+    {
+      "kind": "principal",
+      "source": "result/replies.json",
+      "sourceIndex": 0,
+      "agent": "john-agent",
+      "key": "persona-john-agent",
+      "reference": "P1",
+      "label": "P1",
+      "viewerUrl": "../../../release/index.html#E3-S2-N7-gpt-5-4/run-03/message-P1"
+    },
+    {
+      "kind": "principal",
+      "source": "result/replies.json",
+      "sourceIndex": 1,
+      "agent": "priya-agent",
+      "key": "persona-priya-agent",
+      "reference": "P2",
+      "label": "P2",
+      "viewerUrl": "../../../release/index.html#E3-S2-N7-gpt-5-4/run-03/message-P2"
+    },
+    {
+      "kind": "principal",
+      "source": "result/replies.json",
+      "sourceIndex": 2,
+      "agent": "diego-agent",
+      "key": "persona-diego-agent",
+      "reference": "P3",
+      "label": "P3",
+      "viewerUrl": "../../../release/index.html#E3-S2-N7-gpt-5-4/run-03/message-P3"
+    },
+    {
+      "kind": "principal",
+      "source": "result/replies.json",
+      "sourceIndex": 3,
+      "agent": "omar-agent",
+      "key": "persona-omar-agent",
+      "reference": "P4",
+      "label": "P4",
+      "viewerUrl": "../../../release/index.html#E3-S2-N7-gpt-5-4/run-03/message-P4"
+    },
+    {
+      "kind": "principal",
+      "source": "result/replies.json",
+      "sourceIndex": 4,
+      "agent": "hana-agent",
+      "key": "persona-hana-agent",
+      "reference": "P5",
+      "label": "P5",
+      "viewerUrl": "../../../release/index.html#E3-S2-N7-gpt-5-4/run-03/message-P5"
+    },
+    {
+      "kind": "principal",
+      "source": "result/replies.json",
+      "sourceIndex": 5,
+      "agent": "sarah-agent",
+      "key": "persona-sarah-agent",
+      "reference": "P6",
+      "label": "P6",
+      "viewerUrl": "../../../release/index.html#E3-S2-N7-gpt-5-4/run-03/message-P6"
+    },
+    {
+      "kind": "principal",
+      "source": "result/replies.json",
+      "sourceIndex": 6,
+      "agent": "alvarez-agent",
+      "key": "persona-alvarez-agent",
+      "reference": "P7",
+      "label": "P7",
+      "viewerUrl": "../../../release/index.html#E3-S2-N7-gpt-5-4/run-03/message-P7"
+    },
+    {
+      "kind": "principal",
+      "source": "result/replies.json",
+      "sourceIndex": 7,
+      "agent": "maya-agent",
+      "key": "persona-maya-agent",
+      "reference": "P8",
+      "label": "P8",
+      "viewerUrl": "../../../release/index.html#E3-S2-N7-gpt-5-4/run-03/message-P8"
+    },
+    {
+      "kind": "principal",
+      "source": "result/replies.json",
+      "sourceIndex": 8,
+      "agent": "alvarez-agent",
+      "key": "seed-alvarez-agent-0",
+      "reference": "P9",
+      "label": "P9",
+      "viewerUrl": "../../../release/index.html#E3-S2-N7-gpt-5-4/run-03/message-P9"
+    },
+    {
+      "kind": "document",
+      "source": "inputs/personas/alvarez-agent.md",
+      "label": "Instructions: Alvarez",
+      "viewerUrl": "../../../release/index.html#E3-S2-N7-gpt-5-4/run-03/instructions-alvarez"
+    },
+    {
+      "kind": "document",
+      "source": "inputs/personas/diego-agent.md",
+      "label": "Instructions: Diego",
+      "viewerUrl": "../../../release/index.html#E3-S2-N7-gpt-5-4/run-03/instructions-diego"
+    },
+    {
+      "kind": "document",
+      "source": "inputs/personas/hana-agent.md",
+      "label": "Instructions: Hana",
+      "viewerUrl": "../../../release/index.html#E3-S2-N7-gpt-5-4/run-03/instructions-hana"
+    },
+    {
+      "kind": "document",
+      "source": "inputs/personas/john-agent.md",
+      "label": "Instructions: John",
+      "viewerUrl": "../../../release/index.html#E3-S2-N7-gpt-5-4/run-03/instructions-john"
+    },
+    {
+      "kind": "document",
+      "source": "inputs/personas/maya-agent.md",
+      "label": "Instructions: Maya",
+      "viewerUrl": "../../../release/index.html#E3-S2-N7-gpt-5-4/run-03/instructions-maya"
+    },
+    {
+      "kind": "document",
+      "source": "inputs/personas/omar-agent.md",
+      "label": "Instructions: Omar",
+      "viewerUrl": "../../../release/index.html#E3-S2-N7-gpt-5-4/run-03/instructions-omar"
+    },
+    {
+      "kind": "document",
+      "source": "inputs/personas/priya-agent.md",
+      "label": "Instructions: Priya",
+      "viewerUrl": "../../../release/index.html#E3-S2-N7-gpt-5-4/run-03/instructions-priya"
+    },
+    {
+      "kind": "document",
+      "source": "inputs/personas/sarah-agent.md",
+      "label": "Instructions: Sarah",
+      "viewerUrl": "../../../release/index.html#E3-S2-N7-gpt-5-4/run-03/instructions-sarah"
+    },
+    {
+      "kind": "document",
+      "source": "inputs/calendars/alvarez-agent.md",
+      "label": "Calendar: Alvarez",
+      "viewerUrl": "../../../release/index.html#E3-S2-N7-gpt-5-4/run-03/calendar-alvarez"
+    },
+    {
+      "kind": "document",
+      "source": "inputs/calendars/diego-agent.md",
+      "label": "Calendar: Diego",
+      "viewerUrl": "../../../release/index.html#E3-S2-N7-gpt-5-4/run-03/calendar-diego"
+    },
+    {
+      "kind": "document",
+      "source": "inputs/calendars/hana-agent.md",
+      "label": "Calendar: Hana",
+      "viewerUrl": "../../../release/index.html#E3-S2-N7-gpt-5-4/run-03/calendar-hana"
+    },
+    {
+      "kind": "document",
+      "source": "inputs/calendars/john-agent.md",
+      "label": "Calendar: John",
+      "viewerUrl": "../../../release/index.html#E3-S2-N7-gpt-5-4/run-03/calendar-john"
+    },
+    {
+      "kind": "document",
+      "source": "inputs/calendars/maya-agent.md",
+      "label": "Calendar: Maya",
+      "viewerUrl": "../../../release/index.html#E3-S2-N7-gpt-5-4/run-03/calendar-maya"
+    },
+    {
+      "kind": "document",
+      "source": "inputs/calendars/omar-agent.md",
+      "label": "Calendar: Omar",
+      "viewerUrl": "../../../release/index.html#E3-S2-N7-gpt-5-4/run-03/calendar-omar"
+    },
+    {
+      "kind": "document",
+      "source": "inputs/calendars/priya-agent.md",
+      "label": "Calendar: Priya",
+      "viewerUrl": "../../../release/index.html#E3-S2-N7-gpt-5-4/run-03/calendar-priya"
+    },
+    {
+      "kind": "document",
+      "source": "inputs/calendars/sarah-agent.md",
+      "label": "Calendar: Sarah",
+      "viewerUrl": "../../../release/index.html#E3-S2-N7-gpt-5-4/run-03/calendar-sarah"
+    },
+    {
+      "kind": "document",
+      "source": "result/calendars/alvarez-agent.md",
+      "label": "Calendar: Alvarez",
+      "viewerUrl": "../../../release/index.html#E3-S2-N7-gpt-5-4/run-03/calendar-alvarez"
+    },
+    {
+      "kind": "document",
+      "source": "result/calendars/diego-agent.md",
+      "label": "Calendar: Diego",
+      "viewerUrl": "../../../release/index.html#E3-S2-N7-gpt-5-4/run-03/calendar-diego"
+    },
+    {
+      "kind": "document",
+      "source": "result/calendars/hana-agent.md",
+      "label": "Calendar: Hana",
+      "viewerUrl": "../../../release/index.html#E3-S2-N7-gpt-5-4/run-03/calendar-hana"
+    },
+    {
+      "kind": "document",
+      "source": "result/calendars/john-agent.md",
+      "label": "Calendar: John",
+      "viewerUrl": "../../../release/index.html#E3-S2-N7-gpt-5-4/run-03/calendar-john"
+    },
+    {
+      "kind": "document",
+      "source": "result/calendars/maya-agent.md",
+      "label": "Calendar: Maya",
+      "viewerUrl": "../../../release/index.html#E3-S2-N7-gpt-5-4/run-03/calendar-maya"
+    },
+    {
+      "kind": "document",
+      "source": "result/calendars/omar-agent.md",
+      "label": "Calendar: Omar",
+      "viewerUrl": "../../../release/index.html#E3-S2-N7-gpt-5-4/run-03/calendar-omar"
+    },
+    {
+      "kind": "document",
+      "source": "result/calendars/priya-agent.md",
+      "label": "Calendar: Priya",
+      "viewerUrl": "../../../release/index.html#E3-S2-N7-gpt-5-4/run-03/calendar-priya"
+    },
+    {
+      "kind": "document",
+      "source": "result/calendars/sarah-agent.md",
+      "label": "Calendar: Sarah",
+      "viewerUrl": "../../../release/index.html#E3-S2-N7-gpt-5-4/run-03/calendar-sarah"
+    }
+  ]
+}

@@ -24,6 +24,7 @@
 - 09:00-10:00 - Focus: CSE452 lab
 - 10:30-11:50 - Advisor 1:1
 - 11:50-13:00 - Lunch
+- 13:00-13:30 - CSE455 staff meeting
 - 13:30-15:00 - Study group
 - 15:00-16:00 - Seminar
 - 16:00-17:00 - CSE444 lecture
@@ -49,3 +50,4 @@
 - 15:10-17:00 - Reading group
 
 ## Log
+- BOOKED: Wednesday 13:00-13:30 with Professor Alvarez / CSE455 staff

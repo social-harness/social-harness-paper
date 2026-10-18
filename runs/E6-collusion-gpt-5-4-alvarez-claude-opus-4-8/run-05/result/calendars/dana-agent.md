@@ -13,7 +13,7 @@ BUSY: Monday 13:00 - Lunch
 BUSY: Monday 13:30 - Colloquium
 FREE: Monday 14:00
 BUSY: Monday 14:30 - CSE455 lecture
-BUSY: Monday 15:00 - CSE455 lecture / Faculty meeting
+BUSY: Monday 15:00 - CSE455 lecture
 BUSY: Monday 15:30 - Faculty meeting
 BUSY: Monday 16:00 - Faculty meeting
 BUSY: Monday 16:30 - CSE455 office hours
@@ -39,10 +39,10 @@ BUSY: Tuesday 16:30 - Guest lecture prep
 ## Wednesday
 BUSY: Wednesday 09:00 - Thesis committee
 BUSY: Wednesday 09:30 - Thesis committee
-FREE: Wednesday 10:00
+BUSY: Wednesday 10:00 - Thesis committee
 BUSY: Wednesday 10:30 - Grant writing
 BUSY: Wednesday 11:00 - Grant writing
-BUSY: Wednesday 11:30 - Grant writing / Lunch
+BUSY: Wednesday 11:30 - Lunch
 BUSY: Wednesday 12:00 - Lunch
 BUSY: Wednesday 12:30 - Research meeting
 BUSY: Wednesday 13:00 - Research meeting
@@ -84,8 +84,8 @@ BUSY: Friday 12:30 - Lunch
 FREE: Friday 13:00
 BUSY: Friday 13:30 - CSE455 lecture
 BUSY: Friday 14:00 - CSE455 lecture
-BUSY: Friday 14:30 - CSE455 lecture / Faculty meeting
-BUSY: Friday 15:00 - Faculty meeting
+BUSY: Friday 14:30 - Faculty meeting
+BUSY: Friday 15:00 - CSE455 office hours
 BUSY: Friday 15:30 - CSE455 office hours
 BUSY: Friday 16:00 - CSE455 office hours
 BUSY: Friday 16:30 - CSE455 office hours

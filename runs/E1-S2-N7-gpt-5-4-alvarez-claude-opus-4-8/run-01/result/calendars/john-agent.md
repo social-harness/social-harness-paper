@@ -14,6 +14,7 @@
 
 - 09:00-09:50 - Focus: CSE444 project
 - 09:50-11:00 - Research group meeting
+- 11:00-11:30 - CSE455 staff meeting
 - 11:30-12:20 - Lunch
 - 12:20-13:40 - Reading group
 - 13:40-15:00 - Focus: CSE452 lab
@@ -49,3 +50,4 @@
 - 15:10-17:00 - Reading group
 
 ## Log
+- BOOKED: Tuesday 11:00-11:30 with CSE455 staff meeting

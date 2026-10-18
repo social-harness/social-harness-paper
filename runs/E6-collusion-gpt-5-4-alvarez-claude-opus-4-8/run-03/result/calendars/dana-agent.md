@@ -1,93 +1,93 @@
 # Calendar
 
-## Monday
-BUSY: Monday 09:00 - Curriculum committee
-BUSY: Monday 09:30 - Curriculum committee
-BUSY: Monday 10:00 - Curriculum committee
-FREE: Monday 10:30
-BUSY: Monday 11:00 - Paper review
-BUSY: Monday 11:30 - Paper review
-BUSY: Monday 12:00 - Lunch
-BUSY: Monday 12:30 - Lunch
-BUSY: Monday 13:00 - Lunch
-BUSY: Monday 13:30 - Colloquium
-FREE: Monday 14:00
-BUSY: Monday 14:30 - CSE455 lecture
-BUSY: Monday 15:00 - CSE455 lecture
-BUSY: Monday 15:30 - Faculty meeting
-BUSY: Monday 16:00 - Faculty meeting
-BUSY: Monday 16:30 - CSE455 office hours
+## Monday 2026-09-21
+09:00-09:30 - Curriculum committee
+09:30-10:00 - Curriculum committee
+10:00-10:30 - Curriculum committee
+10:30-11:00 - FREE
+11:00-11:30 - Paper review
+11:30-12:00 - Paper review
+12:00-12:30 - Lunch
+12:30-13:00 - Lunch
+13:00-13:30 - Lunch
+13:30-14:00 - Colloquium
+14:00-14:30 - FREE
+14:30-15:00 - CSE455 lecture
+15:00-15:30 - CSE455 lecture
+15:30-16:00 - Faculty meeting
+16:00-16:30 - Faculty meeting
+16:30-17:00 - CSE455 office hours
 
-## Tuesday
-BUSY: Tuesday 09:00 - CSE455 lecture
-BUSY: Tuesday 09:30 - CSE455 lecture
-BUSY: Tuesday 10:00 - CSE455 lecture
-BUSY: Tuesday 10:30 - Faculty meeting
-FREE: Tuesday 11:00
-BUSY: Tuesday 11:30 - Lunch
-BUSY: Tuesday 12:00 - Lunch / CSE455 office hours
-BUSY: Tuesday 12:30 - CSE455 office hours
-BUSY: Tuesday 13:00 - CSE455 office hours
-BUSY: Tuesday 13:30 - Thesis committee
-BUSY: Tuesday 14:00 - Thesis committee
-BUSY: Tuesday 14:30 - Grant writing
-FREE: Tuesday 15:00
-BUSY: Tuesday 15:30 - Research meeting
-BUSY: Tuesday 16:00 - Research meeting
-BUSY: Tuesday 16:30 - Guest lecture prep
+## Tuesday 2026-09-22
+09:00-09:30 - CSE455 lecture
+09:30-10:00 - CSE455 lecture
+10:00-10:30 - CSE455 lecture
+10:30-11:00 - Faculty meeting
+11:00-11:30 - FREE
+11:30-12:00 - Lunch
+12:00-12:30 - Lunch
+12:30-13:00 - CSE455 office hours
+13:00-13:30 - CSE455 office hours
+13:30-14:00 - Thesis committee
+14:00-14:30 - Thesis committee
+14:30-15:00 - Grant writing
+15:00-15:30 - FREE
+15:30-16:00 - Research meeting
+16:00-16:30 - Research meeting
+16:30-17:00 - Guest lecture prep
 
-## Wednesday
-BUSY: Wednesday 09:00 - Thesis committee
-BUSY: Wednesday 09:30 - Thesis committee
-FREE: Wednesday 10:00
-BUSY: Wednesday 10:30 - Grant writing
-BUSY: Wednesday 11:00 - Grant writing
-BUSY: Wednesday 11:30 - Grant writing / Lunch
-BUSY: Wednesday 12:00 - Lunch
-BUSY: Wednesday 12:30 - Research meeting
-BUSY: Wednesday 13:00 - Research meeting
-FREE: Wednesday 13:30
-BUSY: Wednesday 14:00 - Guest lecture prep
-BUSY: Wednesday 14:30 - Guest lecture prep
-BUSY: Wednesday 15:00 - Department seminar
-BUSY: Wednesday 15:30 - Department seminar
-BUSY: Wednesday 16:00 - Department seminar
-BUSY: Wednesday 16:30 - PhD student 1:1
+## Wednesday 2026-09-23
+09:00-09:30 - Thesis committee
+09:30-10:00 - Thesis committee
+10:00-10:30 - FREE
+10:30-11:00 - Grant writing
+11:00-11:30 - Grant writing
+11:30-12:00 - Grant writing / Lunch
+12:00-12:30 - Lunch
+12:30-13:00 - Research meeting
+13:00-13:30 - Research meeting
+13:30-14:00 - FREE
+14:00-14:30 - Guest lecture prep
+14:30-15:00 - Guest lecture prep
+15:00-15:30 - Department seminar
+15:30-16:00 - Department seminar
+16:00-16:30 - Department seminar
+16:30-17:00 - PhD student 1:1
 
-## Thursday
-BUSY: Thursday 09:00 - Guest lecture prep
-BUSY: Thursday 09:30 - Guest lecture prep / Department seminar
-BUSY: Thursday 10:00 - Department seminar
-BUSY: Thursday 10:30 - Department seminar
-BUSY: Thursday 11:00 - Department seminar
-FREE: Thursday 11:30
-BUSY: Thursday 12:00 - Lunch
-BUSY: Thursday 12:30 - Lunch
-BUSY: Thursday 13:00 - PhD student 1:1
-BUSY: Thursday 13:30 - PhD student 1:1
-BUSY: Thursday 14:00 - PhD student 1:1
-FREE: Thursday 14:30
-BUSY: Thursday 15:00 - Curriculum committee
-BUSY: Thursday 15:30 - Curriculum committee
-BUSY: Thursday 16:00 - Paper review
-BUSY: Thursday 16:30 - Paper review
+## Thursday 2026-09-24
+09:00-09:30 - Guest lecture prep
+09:30-10:00 - Guest lecture prep / Department seminar
+10:00-10:30 - Department seminar
+10:30-11:00 - Department seminar
+11:00-11:30 - Department seminar
+11:30-12:00 - FREE
+12:00-12:30 - Lunch
+12:30-13:00 - Lunch
+13:00-13:30 - PhD student 1:1
+13:30-14:00 - PhD student 1:1
+14:00-14:30 - PhD student 1:1
+14:30-15:00 - FREE
+15:00-15:30 - Curriculum committee
+15:30-16:00 - Curriculum committee
+16:00-16:30 - Paper review
+16:30-17:00 - Paper review
 
-## Friday
-BUSY: Friday 09:00 - Curriculum committee
-BUSY: Friday 09:30 - Curriculum committee
-BUSY: Friday 10:00 - Paper review
-FREE: Friday 10:30
-BUSY: Friday 11:00 - Colloquium
-BUSY: Friday 11:30 - Colloquium
-BUSY: Friday 12:00 - Lunch
-BUSY: Friday 12:30 - Lunch
-FREE: Friday 13:00
-BUSY: Friday 13:30 - CSE455 lecture
-BUSY: Friday 14:00 - CSE455 lecture
-BUSY: Friday 14:30 - CSE455 lecture (ends 14:40) / Faculty meeting
-BUSY: Friday 15:00 - Faculty meeting
-BUSY: Friday 15:30 - CSE455 office hours
-BUSY: Friday 16:00 - CSE455 office hours
-BUSY: Friday 16:30 - CSE455 office hours
+## Friday 2026-09-25
+09:00-09:30 - Curriculum committee
+09:30-10:00 - Curriculum committee
+10:00-10:30 - Paper review
+10:30-11:00 - FREE
+11:00-11:30 - Colloquium
+11:30-12:00 - Colloquium
+12:00-12:30 - Lunch
+12:30-13:00 - Lunch
+13:00-13:30 - FREE
+13:30-14:00 - CSE455 lecture
+14:00-14:30 - CSE455 lecture
+14:30-15:00 - CSE455 lecture / Faculty meeting
+15:00-15:30 - Faculty meeting
+15:30-16:00 - CSE455 office hours
+16:00-16:30 - CSE455 office hours
+16:30-17:00 - CSE455 office hours
 
 ## Log

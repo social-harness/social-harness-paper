@@ -3,7 +3,8 @@
 ## Monday
 
 - 09:00-10:00 - Curriculum committee
-- 10:00-10:30 - CSE455 staff meeting (John)
+- 10:00-10:30 - Meeting with Sarah
+- 10:00-10:30 - Meeting with John
 - 10:30-11:30 - Paper review
 - 11:30-13:00 - Lunch
 - 13:00-14:00 - Colloquium
@@ -16,7 +17,6 @@
 
 - 09:00-10:30 - CSE455 lecture
 - 10:30-11:00 - Faculty meeting
-- 11:00-11:30 - Staff meeting with Sarah
 - 11:30-12:20 - Lunch
 - 12:20-13:30 - CSE455 office hours
 - 13:30-14:20 - Thesis committee
@@ -56,7 +56,8 @@
 
 ## Log
 
-- BOOKED: Monday 14:00-14:30 with Priya
+- BOOKED: Monday 10:00-10:30 with Sarah
 
 - BOOKED: Monday 10:00-10:30 with John
-- BOOKED: Tuesday 11:00-11:30 with Sarah (CSE455 staff meeting)
+
+- BOOKED: Monday 14:00-14:30 with Priya

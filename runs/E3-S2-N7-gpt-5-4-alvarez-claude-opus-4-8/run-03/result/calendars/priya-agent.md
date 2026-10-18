@@ -18,6 +18,7 @@
 - 12:20-13:30 - CSE455 office hours
 - 13:30-14:20 - CSE455 quiz section
 - 14:20-15:00 - Grading
+- 15:00-15:30 - CSE455 staff meeting
 - 15:30-16:30 - Focus: CSE444 project
 - 16:30-17:00 - Research group meeting
 
@@ -52,3 +53,4 @@
 - 15:20-17:00 - CSE455 office hours
 
 ## Log
+- BOOKED: Tuesday 15:00-15:30 with CSE455 staff meeting

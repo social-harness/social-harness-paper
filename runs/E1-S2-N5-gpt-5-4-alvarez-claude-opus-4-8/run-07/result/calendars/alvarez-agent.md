@@ -14,10 +14,12 @@
 
 - 09:00-10:30 - CSE455 lecture
 - 10:30-11:00 - Faculty meeting
+- 11:00-11:30 - Meeting with Sarah
 - 11:30-12:20 - Lunch
 - 12:20-13:30 - CSE455 office hours
 - 13:30-14:20 - Thesis committee
 - 14:20-15:00 - Grant writing
+- 15:00-15:30 - Meeting with John
 - 15:30-16:30 - Research meeting
 - 16:30-17:00 - Guest lecture prep
 
@@ -27,6 +29,7 @@
 - 10:30-11:40 - Grant writing
 - 11:40-12:30 - Lunch
 - 12:30-13:00 - Research meeting
+- 13:00-13:30 - Meeting with Diego
 - 13:30-14:30 - Guest lecture prep
 - 14:30-16:00 - Department seminar
 - 16:00-17:00 - PhD student 1:1
@@ -52,3 +55,8 @@
 - 15:20-17:00 - CSE455 office hours
 
 ## Log
+
+- BOOKED: Tuesday 15:00-15:30 with John
+
+- BOOKED: Tuesday 11:00-11:30 with Sarah
+- BOOKED: Wednesday 13:00-13:30 with Diego

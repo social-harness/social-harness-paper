@@ -17,6 +17,7 @@
 - 11:30-12:20 - Lunch
 - 12:20-13:40 - Reading group
 - 13:40-15:00 - Focus: CSE452 lab
+- 15:00-15:30 - CSE455 staff meeting with Professor Alvarez
 - 15:30-17:00 - Advisor 1:1
 
 ## Wednesday
@@ -49,3 +50,4 @@
 - 15:10-17:00 - Reading group
 
 ## Log
+- BOOKED: Tuesday 15:00-15:30 with Professor Alvarez

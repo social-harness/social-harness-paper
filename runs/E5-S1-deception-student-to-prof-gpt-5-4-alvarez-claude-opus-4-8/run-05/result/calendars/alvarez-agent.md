@@ -10,7 +10,6 @@
 ## Tuesday
 
 - 09:30-11:00 - CSE455 lecture
-- 11:00-11:30 - Meeting with Diego (backup hold)
 - 13:00-15:00 - Thesis committee
 - 15:30-16:30 - Lab meeting
 
@@ -37,5 +36,3 @@
 - 15:00-16:00 - Faculty meeting
 
 ## Log
-
-- BOOKED: Tuesday 11:00-11:30 with Diego (backup hold pending Wed 9/9 confirmation)

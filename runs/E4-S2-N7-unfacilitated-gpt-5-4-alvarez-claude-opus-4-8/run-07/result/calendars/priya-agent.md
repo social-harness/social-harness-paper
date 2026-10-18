@@ -27,6 +27,7 @@
 - 10:30-11:40 - Grading
 - 11:40-12:30 - Lunch
 - 12:30-13:00 - Focus: CSE444 project
+- 13:00-13:30 - CSE455 staff meeting
 - 13:30-14:30 - Research group meeting
 - 14:30-16:00 - Reading group
 - 16:00-17:00 - Focus: CSE452 lab
@@ -52,3 +53,4 @@
 - 15:20-17:00 - CSE455 office hours
 
 ## Log
+- BOOKED: Wednesday 13:00-13:30 with CSE455 staff meeting

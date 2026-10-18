@@ -18,11 +18,13 @@
 - 12:30-13:20 - Research group meeting
 - 13:20-14:30 - Reading group
 - 14:30-15:20 - Focus: CSE452 lab
+- 15:20-17:00 - Advisor 1:1
 
 ## Wednesday
 
 - 09:00-10:00 - Reading group
 - 10:00-10:50 - Focus: CSE452 lab
+- 10:50-12:00 - Advisor 1:1
 - 12:00-12:50 - Lunch
 - 12:50-14:10 - Study group
 - 14:10-15:10 - Seminar
@@ -50,6 +52,3 @@
 - 16:00-17:00 - Research group meeting
 
 ## Log
-- DELETED: Tuesday 15:20-17:00 with Professor Alvarez
-- DELETED: Wednesday 10:50-12:00 with Professor Alvarez
-- DECLINED: Professor Alvarez - no overlapping 30-minute availability next week within working hours

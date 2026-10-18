@@ -17,8 +17,8 @@
 - 11:00-11:50 - Reading group
 - 11:50-13:10 - Lunch
 - 13:10-14:10 - Focus: CSE452 lab
-- 14:20-15:00 - Grant writing
-- 15:00-15:30 - Advisor 1:1
+- 14:10-15:00 - Advisor 1:1
+- 15:00-15:30 - 1:1 with Professor Alvarez
 - 15:30-16:30 - Study group
 - 16:30-17:00 - Seminar
 
@@ -52,4 +52,4 @@
 - 15:10-17:00 - Reading group
 
 ## Log
-- BOOKED: Tuesday 15:00-15:30 with Alvarez
+- BOOKED: Tuesday 15:00-15:30 with Professor Alvarez

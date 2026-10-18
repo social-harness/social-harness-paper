@@ -18,6 +18,7 @@
 - 12:20-13:30 - CSE455 office hours
 - 13:30-14:20 - Thesis committee
 - 14:20-15:00 - Grant writing
+- 15:00-15:30 - CSE455 staff meeting
 - 15:30-16:30 - Research meeting
 - 16:30-17:00 - Guest lecture prep
 
@@ -52,3 +53,7 @@
 - 15:20-17:00 - CSE455 office hours
 
 ## Log
+
+- BOOKED: Wednesday 13:00-13:30 with Mara, Sarah, John
+- DELETED: Wednesday 13:00-13:30 with Mara, Sarah, John
+- BOOKED: Tuesday 15:00-15:30 with Mara, Sarah, John

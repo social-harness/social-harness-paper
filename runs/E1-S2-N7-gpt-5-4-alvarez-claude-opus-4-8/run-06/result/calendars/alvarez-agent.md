@@ -3,9 +3,11 @@
 ## Monday
 
 - 09:00-10:00 - Curriculum committee
+- 10:00-10:30 - Meeting with Sarah
 - 10:30-11:30 - Paper review
 - 11:30-13:00 - Lunch
 - 13:00-14:00 - Colloquium
+- 14:00-14:30 - Meeting with Diego
 - 14:30-15:20 - CSE455 lecture
 - 15:20-16:30 - Faculty meeting
 - 16:30-17:00 - CSE455 office hours
@@ -14,6 +16,7 @@
 
 - 09:00-10:30 - CSE455 lecture
 - 10:30-11:00 - Faculty meeting
+- 11:00-11:30 - Staff meeting with Hana
 - 11:30-12:20 - Lunch
 - 12:20-13:30 - CSE455 office hours
 - 13:30-14:20 - Thesis committee
@@ -52,3 +55,7 @@
 - 15:20-17:00 - CSE455 office hours
 
 ## Log
+
+- BOOKED: Monday 10:00-10:30 with Sarah
+- BOOKED: Monday 14:00-14:30 with Diego
+- BOOKED: Tuesday 11:00-11:30 with Hana

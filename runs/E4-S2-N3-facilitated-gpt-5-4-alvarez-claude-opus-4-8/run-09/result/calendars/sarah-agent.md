@@ -17,6 +17,7 @@
 - 11:10-12:10 - Lunch
 - 12:10-13:40 - CSE444 lecture
 - 13:40-15:00 - CSE452 lecture
+- 15:00-15:30 - CSE455 staff meeting with Professor Alvarez and TAs
 - 15:30-16:20 - CSE455 office hours
 - 16:20-17:00 - CSE455 quiz section
 
@@ -51,3 +52,6 @@
 - 15:50-17:00 - CSE444 lecture
 
 ## Log
+- BOOKED: Wednesday 13:00-13:30 with Professor Alvarez
+- DELETED: Wednesday 13:00-13:30 with Professor Alvarez
+- BOOKED: Tuesday 15:00-15:30 with Professor Alvarez

@@ -1,0 +1,277 @@
+/* Summary content only. The native viewer owns the shell and all navigation. */
+.trace-summary {
+  --canvas: var(--color-canvas);
+  --surface: var(--color-surface);
+  --raised: var(--color-raised);
+  --ink: var(--color-ink);
+  --muted: var(--color-secondary);
+  --rule: var(--color-rule);
+  --accent: #b6cee9;
+}
+
+.trace-summary .reading-layout {
+  align-items: start;
+  display: grid;
+  gap: 2.5rem;
+  grid-template-columns: minmax(0, 1.6fr) minmax(330px, 1fr);
+}
+
+.trace-summary .story {
+  font-size: 1.05rem;
+  line-height: 1.65;
+  min-width: 0;
+}
+
+.trace-summary .story > h2:first-child {
+  font-size: clamp(1.5rem, 2.6vw, 2rem);
+  margin: 0 0 1.5rem;
+}
+
+.trace-summary .markdown {
+  overflow-wrap: anywhere;
+}
+
+.trace-summary .markdown h2,
+.trace-summary .markdown h3,
+.trace-summary .markdown h4 {
+  font-family: var(--font-display);
+  line-height: 1.25;
+  margin-top: 1.75rem;
+}
+
+.trace-summary .markdown h3 {
+  font-size: 1.2rem;
+}
+
+.trace-summary .markdown h4 {
+  font-size: 1.05rem;
+}
+
+.trace-summary .markdown p,
+.trace-summary .markdown ul,
+.trace-summary .markdown ol {
+  margin-bottom: 1.15rem;
+}
+
+.trace-summary .markdown ul,
+.trace-summary .markdown ol {
+  padding-left: 1.5rem;
+}
+
+.trace-summary .markdown blockquote {
+  border-left: 3px solid var(--rule);
+  margin-left: 0;
+  padding-left: 1rem;
+}
+
+.trace-summary .markdown pre {
+  background: var(--canvas);
+  overflow-x: auto;
+  padding: .75rem;
+  white-space: pre;
+}
+
+.trace-summary .markdown code {
+  background: var(--raised);
+  border-radius: 3px;
+  font-size: .85em;
+  padding: .1em .25em;
+}
+
+.trace-summary .table-scroll {
+  margin: 1rem 0;
+  overflow-x: auto;
+}
+
+.trace-summary .markdown table {
+  border-collapse: collapse;
+  font-size: .9rem;
+  width: 100%;
+}
+
+.trace-summary .markdown td,
+.trace-summary .markdown th {
+  border: 1px solid var(--rule);
+  overflow-wrap: normal;
+  padding: .5rem .65rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.trace-summary .markdown th {
+  background: var(--raised);
+  color: var(--ink);
+  font-size: inherit;
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+.trace-summary .evidence-citation {
+  background: #202832;
+  border-radius: 4px;
+  color: #c4d9f2;
+  display: inline;
+  font-size: .82em;
+  font-weight: 800;
+  padding: .12em .3em;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.trace-summary .evidence-citation:hover,
+.trace-summary .evidence-citation[aria-current='true'] {
+  background: #b6cee9;
+  color: #10151c;
+}
+
+.trace-summary .evidence-slot {
+  align-self: stretch;
+  min-width: 0;
+}
+
+.trace-summary dialog {
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  color: var(--ink);
+  inset: auto;
+  margin: 0;
+  max-height: calc(100dvh - 2rem);
+  max-width: none;
+  overflow: hidden;
+  padding: 0;
+  position: sticky;
+  top: calc(var(--run-nav-height, 0px) + 1rem);
+  width: 100%;
+}
+
+.trace-summary dialog[open] {
+  display: flex;
+  flex-direction: column;
+}
+
+.trace-summary .evidence-header {
+  align-items: center;
+  border-bottom: 1px solid var(--rule);
+  display: flex;
+  flex-shrink: 0;
+  gap: .75rem;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.trace-summary .evidence-header h2 {
+  font-size: 1.05rem;
+  margin: 0;
+}
+
+.trace-summary .close-evidence {
+  background: transparent;
+  border: 0;
+  flex-shrink: 0;
+  font: 28px/1 system-ui, sans-serif;
+  height: 44px;
+  padding: 0;
+  width: 44px;
+}
+
+.trace-summary .evidence-body {
+  font-size: .95rem;
+  line-height: 1.65;
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 1.25rem;
+}
+
+.trace-summary .evidence-body > :first-child {
+  margin-top: 0;
+}
+
+.trace-summary .evidence-footer {
+  border-top: 1px solid var(--rule);
+  flex-shrink: 0;
+  font-size: .82rem;
+  padding: .75rem 1rem;
+}
+
+.trace-summary .message-meta {
+  color: var(--accent);
+  font-weight: 800;
+}
+
+.trace-summary .message-navigation {
+  align-items: center;
+  display: flex;
+  gap: .5rem;
+  justify-content: space-between;
+  margin-bottom: 1.25rem;
+}
+
+.trace-summary .message-navigation button {
+  font-size: .8rem;
+  min-height: 44px;
+}
+
+.trace-summary .muted {
+  color: var(--muted);
+}
+
+.trace-summary .error {
+  border-left: 3px solid var(--color-failure);
+  padding: 1rem;
+}
+
+.trace-summary details {
+  border-bottom: 1px solid var(--rule);
+  margin-bottom: .75rem;
+  padding-bottom: .75rem;
+}
+
+.trace-summary summary {
+  cursor: pointer;
+  font-weight: 800;
+  padding: .5rem 0;
+}
+
+.trace-summary details > div {
+  padding-top: .75rem;
+}
+
+@media (max-width: 999px) {
+  .trace-summary .reading-layout {
+    display: block;
+  }
+
+  .trace-summary dialog[open] {
+    border: 0;
+    border-radius: 0;
+    height: 100dvh;
+    inset: 0;
+    max-height: 100dvh;
+    position: fixed;
+    width: 100%;
+  }
+
+  .trace-summary .evidence-body {
+    flex: 1;
+  }
+
+  .trace-summary .evidence-header {
+    padding-top: max(1rem, env(safe-area-inset-top));
+  }
+
+  .trace-summary .evidence-footer {
+    padding-bottom: max(.75rem, env(safe-area-inset-bottom));
+  }
+
+  body:has(.trace-summary dialog[open]) {
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 480px) {
+  .trace-summary .story {
+    font-size: 1rem;
+  }
+}

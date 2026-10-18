@@ -3,7 +3,7 @@
 ## Monday
 
 - 09:00-10:00 - Curriculum committee
-- 10:00-10:30 - 1:1 with John
+- 10:00-10:30 - 1:1 with Priya
 - 10:30-11:30 - Paper review
 - 11:30-13:00 - Lunch
 - 13:00-14:00 - Colloquium
@@ -16,7 +16,7 @@
 
 - 09:00-10:30 - CSE455 lecture
 - 10:30-11:00 - Faculty meeting
-- 11:00-11:30 - 1:1 with Omar
+- 11:00-11:30 - 1:1 with Maya
 - 11:30-12:20 - Lunch
 - 12:20-13:30 - CSE455 office hours
 - 13:30-14:20 - Thesis committee
@@ -28,6 +28,7 @@
 ## Wednesday
 
 - 09:00-10:00 - Thesis committee
+- 10:00-10:30 - 1:1 with John
 - 10:30-11:40 - Grant writing
 - 11:40-12:30 - Lunch
 - 12:30-13:00 - Research meeting
@@ -40,7 +41,6 @@
 ## Thursday
 
 - 09:00-10:00 - Guest lecture prep
-- 10:00-10:30 - 1:1 with Priya
 - 10:30-11:50 - Department seminar
 - 11:50-12:50 - Lunch
 - 12:50-14:20 - PhD student 1:1
@@ -60,9 +60,9 @@
 
 ## Log
 
-- BOOKED: Monday 10:00-10:30 with John
+- BOOKED: Monday 10:00-10:30 with Priya
 - BOOKED: Monday 14:00-14:30 with Hana
-- BOOKED: Tuesday 11:00-11:30 with Omar
+- BOOKED: Tuesday 11:00-11:30 with Maya
 - BOOKED: Wednesday 15:00-15:30 with Diego
-- BOOKED: Thursday 10:00-10:30 with Priya
+- BOOKED: Wednesday 10:00-10:30 with John
 - BOOKED: Tuesday 15:00-15:30 with Sarah

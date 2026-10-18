@@ -14,6 +14,7 @@
 
 - 09:00-10:00 - Grading
 - 10:00-11:00 - Focus: CSE444 project
+- 11:00-11:30 - Advisor 1:1 with Professor Alvarez
 - 11:30-12:30 - Lunch
 - 12:30-13:20 - Research group meeting
 - 13:20-14:30 - Reading group
@@ -51,3 +52,4 @@
 - 16:00-17:00 - Research group meeting
 
 ## Log
+- BOOKED: Tuesday 11:00-11:30 with Professor Alvarez

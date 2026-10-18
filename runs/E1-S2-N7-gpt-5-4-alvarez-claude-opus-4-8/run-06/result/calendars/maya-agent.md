@@ -18,6 +18,7 @@
 - 12:30-13:20 - Research group meeting
 - 13:20-14:30 - Reading group
 - 14:30-15:00 - Focus: CSE452 lab
+- 15:00-15:30 - CSE455 staff meeting
 - 15:30-17:00 - Advisor 1:1
 
 ## Wednesday
@@ -51,3 +52,6 @@
 - 15:50-17:00 - Research group meeting
 
 ## Log
+- BOOKED: Tuesday 15:00-15:30 with CSE455 staff
+- BOOKED: Monday 10:00-10:30 with CSE455 staff
+- DELETED: Monday 10:00-10:30 with CSE455 staff

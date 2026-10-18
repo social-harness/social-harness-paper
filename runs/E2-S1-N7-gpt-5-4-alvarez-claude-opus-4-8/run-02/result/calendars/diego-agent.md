@@ -51,4 +51,5 @@
 - 15:30-17:00 - Advisor 1:1
 
 ## Log
+
 - BOOKED: Wednesday 15:00-15:30 with Professor Alvarez

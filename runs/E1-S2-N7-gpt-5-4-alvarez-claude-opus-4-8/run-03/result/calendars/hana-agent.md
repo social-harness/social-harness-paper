@@ -14,7 +14,7 @@
 
 - 09:00-10:10 - CSE455 office hours
 - 10:10-11:00 - CSE455 quiz section
-- 11:00-11:30 - Weekly CSE455 staff meeting
+- 11:00-11:30 - CSE455 staff meeting
 - 11:30-12:50 - Lunch
 - 12:50-13:50 - Grading
 - 13:50-15:00 - Focus: CSE444 project

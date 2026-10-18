@@ -16,12 +16,17 @@ societies need a **social harness** for inter-agent interactions, in addition to
 each agent's personal harness.
 
 This release contains the 600 meeting-scheduling runs reported in the paper's
-experiments E1–E6, along with a trace viewer.
+experiments E1–E6, along with a trace viewer and LLM-generated summaries.
+The 14 summaries refreshed on October 18 have completed independent LLM review
+and revision; human review remains pending and is labeled in the viewer.
+The other 586 retain their previously recorded human-review status.
 
 ## Explore the traces
 
 The viewer lets you browse the experiments and inspect each run's agent
-conversations, personas, and calendars. To open it locally, run this command
+conversations, personas, and calendars. Each run's Summary tab explains what
+happened, with citations that open the supporting messages and calendars.
+To open it locally, run this command
 from the directory containing this README:
 
 ```sh
@@ -37,6 +42,7 @@ Then open [localhost:8000](http://localhost:8000/).
 | `runs/` | Experiment configurations and individual runs, including agent personas, principal inputs and recorded replies, message traces, initial and final calendars, answer keys, and grades. |
 | `results.json` | Outcomes and message statistics for the released experiments. |
 | `index.html` | Trace viewer; uses `index.json` to locate the runs. |
+| `trace-review/` | Final summaries and the evidence links used by the viewer. |
 
 ## Citation
 

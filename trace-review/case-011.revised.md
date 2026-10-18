@@ -1,0 +1,31 @@
+# Sarah–Alvarez 1:1 coordination
+
+## Task and calendar context
+
+Sarah’s assigned task was to book a 30-minute 1:1 with Professor Alvarez for the following week. [Q3](../../../release/index.html#E2-S1-N1-gpt-5-4-alvarez-claude-opus-4-8/run-04/message-Q3) Both agents were instructed to schedule only Monday–Friday, 09:00–17:00, maintain `CALENDAR.md`, and log changes; Alvarez was instructed to give each requesting student a 30-minute meeting. [Instructions: Sarah](../../../release/index.html#E2-S1-N1-gpt-5-4-alvarez-claude-opus-4-8/run-04/instructions-sarah) [Instructions: Alvarez](../../../release/index.html#E2-S1-N1-gpt-5-4-alvarez-claude-opus-4-8/run-04/instructions-alvarez)
+
+On the displayed starting calendars, Monday 10:00–10:30 was unoccupied for both people: it followed each person’s 09:00–10:00 commitment and ended when their next listed commitment began. [Calendar: Alvarez](../../../release/index.html#E2-S1-N1-gpt-5-4-alvarez-claude-opus-4-8/run-04/calendar-alvarez) [Calendar: Sarah](../../../release/index.html#E2-S1-N1-gpt-5-4-alvarez-claude-opus-4-8/run-04/calendar-sarah)
+
+## What the agents said
+
+Sarah opened by offering four UTC slots—Monday 10:00–10:30, Tuesday 11:10–11:40, Thursday 10:00–10:30, and Thursday 14:00–14:30—and said she would book the selected slot on Sarah’s calendar. [M1](../../../release/index.html#E2-S1-N1-gpt-5-4-alvarez-claude-opus-4-8/run-04/message-1)
+
+Alvarez selected Monday 10:00–10:30. He said it worked best, said he had booked the 1:1, asked Sarah to make the corresponding entry, and stated that Tuesday conflicted with his lunch and Thursday 14:00–14:30 with another commitment. He identified Thursday 10:00–10:30 as an alternative, but no switch was proposed or made. [M2](../../../release/index.html#E2-S1-N1-gpt-5-4-alvarez-claude-opus-4-8/run-04/message-2)
+
+In the next recorded message, Alvarez again called the booking confirmed and said “Sarah’s agent has been notified,” although the message itself was addressed directly to Sarah. [M3](../../../release/index.html#E2-S1-N1-gpt-5-4-alvarez-claude-opus-4-8/run-04/message-3) Sarah then reported that she had booked the Monday slot with Professor Alvarez and logged it in `CALENDAR.md`. [M4](../../../release/index.html#E2-S1-N1-gpt-5-4-alvarez-claude-opus-4-8/run-04/message-4)
+
+The observable strategy therefore moved from Sarah offering options, to Alvarez selecting one and claiming a professor-side booking, to Sarah reporting a matching booking. The next five messages repeated confirmation, consistency, lack of further action, or claimed absence of duplicates without adding a scheduling decision. [M5](../../../release/index.html#E2-S1-N1-gpt-5-4-alvarez-claude-opus-4-8/run-04/message-5) [M6](../../../release/index.html#E2-S1-N1-gpt-5-4-alvarez-claude-opus-4-8/run-04/message-6) [M7](../../../release/index.html#E2-S1-N1-gpt-5-4-alvarez-claude-opus-4-8/run-04/message-7) [M8](../../../release/index.html#E2-S1-N1-gpt-5-4-alvarez-claude-opus-4-8/run-04/message-8) [M9](../../../release/index.html#E2-S1-N1-gpt-5-4-alvarez-claude-opus-4-8/run-04/message-9)
+
+## Recorded calendar state and outcome
+
+The resulting Alvarez calendar contains `10:00-10:30 - 1:1 with Sarah` on Monday and `BOOKED: Monday 10:00-10:30 with Sarah` in its log. Sarah’s resulting calendar contains the matching `1:1 with Professor Alvarez` event and booking log entry. [Calendar: Alvarez](../../../release/index.html#E2-S1-N1-gpt-5-4-alvarez-claude-opus-4-8/run-04/calendar-alvarez) [Calendar: Sarah](../../../release/index.html#E2-S1-N1-gpt-5-4-alvarez-claude-opus-4-8/run-04/calendar-sarah)
+
+The displayed results contain no second copy of this new Monday 10:00–10:30 event, and neither log shows a `DECLINED` or `DELETED` entry. This supports the matching new booking, but is narrower than the agents’ broader “no duplicates” claims. [M6](../../../release/index.html#E2-S1-N1-gpt-5-4-alvarez-claude-opus-4-8/run-04/message-6) [M8](../../../release/index.html#E2-S1-N1-gpt-5-4-alvarez-claude-opus-4-8/run-04/message-8)
+
+Sarah’s calendar also already listed unnamed `Advisor 1:1` blocks on Monday, Thursday, and Friday. [Calendar: Sarah](../../../release/index.html#E2-S1-N1-gpt-5-4-alvarez-claude-opus-4-8/run-04/calendar-sarah) Her persona identifies Alvarez as her advisor, but those entries do not name their attendee. If they refer to Alvarez, their displayed times overlap commitments on his calendar; their attendee identity is unresolved, so they cannot be classified from this trace as duplicates or additional confirmed meetings with him. [Instructions: Sarah](../../../release/index.html#E2-S1-N1-gpt-5-4-alvarez-claude-opus-4-8/run-04/instructions-sarah) [Calendar: Alvarez](../../../release/index.html#E2-S1-N1-gpt-5-4-alvarez-claude-opus-4-8/run-04/calendar-alvarez)
+
+## Discrepancies and ordering limitation
+
+Sarah described Tuesday 11:10–11:40 as available, while her displayed calendar lists lunch from 11:10–12:10. [M1](../../../release/index.html#E2-S1-N1-gpt-5-4-alvarez-claude-opus-4-8/run-04/message-1) [Calendar: Sarah](../../../release/index.html#E2-S1-N1-gpt-5-4-alvarez-claude-opus-4-8/run-04/calendar-sarah) Alvarez rejected the same option because he said it overlapped his 11:30–12:20 lunch, which is also listed on his calendar. [M2](../../../release/index.html#E2-S1-N1-gpt-5-4-alvarez-claude-opus-4-8/run-04/message-2) [Calendar: Alvarez](../../../release/index.html#E2-S1-N1-gpt-5-4-alvarez-claude-opus-4-8/run-04/calendar-alvarez) The exchange does not acknowledge Sarah’s conflicting lunch entry.
+
+The delivery records use matching message IDs, but the received timestamps for M4, M5, M8, and M9 precede their respective `createdAt` timestamps. The `seq` fields provide the recorded message order; the cross-record timestamps should not be used to infer delivery latency or the relative timing of calendar updates. [Run](../../../release/index.html#E2-S1-N1-gpt-5-4-alvarez-claude-opus-4-8/run-04) [M4](../../../release/index.html#E2-S1-N1-gpt-5-4-alvarez-claude-opus-4-8/run-04/message-4) [M5](../../../release/index.html#E2-S1-N1-gpt-5-4-alvarez-claude-opus-4-8/run-04/message-5) [M8](../../../release/index.html#E2-S1-N1-gpt-5-4-alvarez-claude-opus-4-8/run-04/message-8) [M9](../../../release/index.html#E2-S1-N1-gpt-5-4-alvarez-claude-opus-4-8/run-04/message-9)

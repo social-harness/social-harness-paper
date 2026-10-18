@@ -89,20 +89,6 @@
       },
       "pass": false,
       "detail": "hana-agent: prior commitment missing or altered: thu 10:30-11:30 - advisor 1:1 (1 occurrence(s))"
-    },
-    {
-      "name": "prior-commitments",
-      "where": {
-        "agents": [
-          "maya-agent"
-        ],
-        "slots": [
-          "tue 15:20-17:00",
-          "wed 10:50-12:00"
-        ]
-      },
-      "pass": false,
-      "detail": "maya-agent: prior commitment missing or altered: tue 15:20-17:00 - advisor 1:1 (1 occurrence(s)); maya-agent: prior commitment missing or altered: wed 10:50-12:00 - advisor 1:1 (1 occurrence(s))"
     }
   ],
   "assignment": [
@@ -114,12 +100,12 @@
     {
       "requesterId": "john-agent",
       "status": "confirmed",
-      "slot": "Tue 15:00"
+      "slot": "Mon 10:00"
     },
     {
       "requesterId": "priya-agent",
       "status": "confirmed",
-      "slot": "Wed 15:00"
+      "slot": "Wed 10:00"
     },
     {
       "requesterId": "diego-agent",
@@ -129,12 +115,12 @@
     {
       "requesterId": "hana-agent",
       "status": "confirmed",
-      "slot": "Thu 10:00"
+      "slot": "Wed 15:00"
     },
     {
       "requesterId": "omar-agent",
       "status": "confirmed",
-      "slot": "Mon 10:00"
+      "slot": "Thu 10:00"
     },
     {
       "requesterId": "maya-agent",
@@ -142,5 +128,5 @@
       "slot": null
     }
   ],
-  "evidence": "6/7 booked, 0 declined, 1 unresolved — FAILED: coverage; prior-commitments: hana-agent: prior commitment missing or altered: thu 10:30-11:30 - advisor 1:1 (1 occurrence(s)); prior-commitments: maya-agent: prior commitment missing or altered: tue 15:20-17:00 - advisor 1:1 (1 occurrence(s)); maya-agent: prior commitment missing or altered: wed 10:50-12:00 - advisor 1:1 (1 occurrence(s))"
+  "evidence": "6/7 booked, 0 declined, 1 unresolved — FAILED: coverage; prior-commitments: hana-agent: prior commitment missing or altered: thu 10:30-11:30 - advisor 1:1 (1 occurrence(s))"
 }

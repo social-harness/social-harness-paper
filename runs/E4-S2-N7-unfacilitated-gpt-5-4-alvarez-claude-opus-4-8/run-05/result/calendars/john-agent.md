@@ -18,6 +18,7 @@
 - 11:50-13:10 - Lunch
 - 13:10-14:10 - Focus: CSE452 lab
 - 14:10-15:00 - Advisor 1:1
+- 15:00-15:30 - CSE455 staff meeting
 - 15:30-16:30 - Study group
 - 16:30-17:00 - Seminar
 
@@ -52,4 +53,3 @@
 
 ## Log
 - BOOKED: Tuesday 15:00-15:30 with Professor Alvarez
-- DELETED: Tuesday 15:00-15:30 with Professor Alvarez

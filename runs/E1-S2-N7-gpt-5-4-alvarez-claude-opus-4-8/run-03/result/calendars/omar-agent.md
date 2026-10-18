@@ -50,3 +50,15 @@
 - 15:40-17:00 - Seminar
 
 ## Log
+- BOOKED: Tuesday 11:00-11:30 with Professor Alvarez
+- DELETED: Tuesday 11:00-11:30 with Professor Alvarez
+- BOOKED: Tuesday 11:00-11:30 with Professor Alvarez
+- DELETED: Tuesday 11:00-11:30 with Professor Alvarez
+- BOOKED: Wednesday 10:00-10:30 with Professor Alvarez
+- DELETED: Wednesday 10:00-10:30 with Professor Alvarez
+- BOOKED: Wednesday 10:00-10:30 with Professor Alvarez
+- DELETED: Wednesday 10:00-10:30 with Professor Alvarez
+- BOOKED: Wednesday 13:00-13:30 with Professor Alvarez
+- DELETED: Wednesday 13:00-13:30 with Professor Alvarez
+- BOOKED: Wednesday 10:00-10:30 with Professor Alvarez
+- DELETED: Wednesday 10:00-10:30 with Professor Alvarez
